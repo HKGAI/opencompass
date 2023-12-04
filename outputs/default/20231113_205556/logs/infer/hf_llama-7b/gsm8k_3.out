@@ -1,0 +1,9 @@
+11/13 22:34:10 - OpenCompass - INFO - Task [hf_llama-7b/gsm8k_3]
+You are using the default legacy behaviour of the <class 'transformers.models.llama.tokenization_llama.LlamaTokenizer'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thouroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565
+11/13 22:34:11 - OpenCompass - WARNING - pad_token_id is not set for the tokenizer.
+11/13 22:34:11 - OpenCompass - WARNING - Using eos_token_id </s> as pad_token_id.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:03<00:03,  3.55s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:04<00:00,  2.05s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:04<00:00,  2.28s/it]
+11/13 22:34:20 - OpenCompass - INFO - Start inferencing [hf_llama-7b/gsm8k_3]
+[2023-11-13 22:34:21,281] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/12 [00:00<?, ?it/s]  8%|▊         | 1/12 [01:51<20:24, 111.32s/it] 17%|█▋        | 2/12 [03:41<18:28, 110.84s/it] 25%|██▌       | 3/12 [05:32<16:35, 110.63s/it] 33%|███▎      | 4/12 [07:22<14:44, 110.54s/it] 42%|████▏     | 5/12 [09:35<13:50, 118.71s/it] 50%|█████     | 6/12 [11:58<12:41, 126.91s/it] 58%|█████▊    | 7/12 [13:54<10:17, 123.42s/it] 67%|██████▋   | 8/12 [15:50<08:04, 121.00s/it] 75%|███████▌  | 9/12 [17:46<05:57, 119.31s/it] 83%|████████▎ | 10/12 [19:41<03:56, 118.19s/it] 92%|█████████▏| 11/12 [21:37<01:57, 117.53s/it]100%|██████████| 12/12 [23:12<00:00, 110.60s/it]100%|██████████| 12/12 [23:12<00:00, 116.06s/it]
+11/13 22:57:34 - OpenCompass - INFO - time elapsed: 1403.38s

@@ -1,0 +1,2 @@
+11/15 13:39:44 - OpenCompass - INFO - Task [hf_llama-7b/mbpp]: {'pass': 86, 'timeout': 1, 'failed': 118, 'wrong_answer': 295, 'score': 17.2}
+11/15 13:39:44 - OpenCompass - INFO - time elapsed: 6.17s

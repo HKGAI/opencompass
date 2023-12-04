@@ -1,0 +1,2 @@
+11/13 20:30:12 - OpenCompass - ERROR - /home/hkustadmin/evaluation/opencompass/opencompass/tasks/openicl_eval.py - _score - 201 - Task [hf_llama-7b/commonsense_qa]: No predictions found.
+11/13 20:30:12 - OpenCompass - INFO - time elapsed: 3.59s

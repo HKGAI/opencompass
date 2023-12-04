@@ -1,0 +1,4 @@
+Parameter 'function'=<function OpenICLEvalTask._score.<locals>.postprocess at 0x7f4d9fd4dfc0> of the transform datasets.arrow_dataset.Dataset._map_single couldn't be hashed properly, a random hash was used instead. Make sure your transforms and parameters are serializable with pickle or dill for the dataset fingerprinting and caching to work. If you reuse this transform, the caching mechanism will consider it to be different from the previous calls and recompute everything. This warning is only showed once. Subsequent hashing failures won't be showed.
+Map:   0%|          | 0/1319 [00:00<?, ? examples/s]Map: 100%|██████████| 1319/1319 [00:00<00:00, 46635.98 examples/s]
+11/13 20:31:32 - OpenCompass - INFO - Task [hf_llama-7b/gsm8k]: {'accuracy': 10.614101592115238}
+11/13 20:31:32 - OpenCompass - INFO - time elapsed: 3.89s

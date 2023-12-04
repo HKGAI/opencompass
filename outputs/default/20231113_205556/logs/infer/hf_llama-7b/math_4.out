@@ -1,0 +1,10 @@
+11/13 20:56:09 - OpenCompass - INFO - Task [hf_llama-7b/math_4]
+You are using the default legacy behaviour of the <class 'transformers.models.llama.tokenization_llama.LlamaTokenizer'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thouroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565
+11/13 20:56:11 - OpenCompass - WARNING - pad_token_id is not set for the tokenizer.
+11/13 20:56:11 - OpenCompass - WARNING - Using eos_token_id </s> as pad_token_id.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:03<00:03,  3.17s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:04<00:00,  1.87s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:04<00:00,  2.06s/it]
+11/13 20:56:18 - OpenCompass - INFO - Start inferencing [hf_llama-7b/math_4]
+Token indices sequence length is longer than the specified maximum sequence length for this model (2129 > 2048). Running this sequence through the model will result in indexing errors
+[2023-11-13 20:56:18,915] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/13 [00:00<?, ?it/s]  8%|▊         | 1/13 [01:45<21:07, 105.63s/it] 15%|█▌        | 2/13 [03:28<19:06, 104.20s/it] 23%|██▎       | 3/13 [05:12<17:19, 104.00s/it] 31%|███       | 4/13 [06:56<15:34, 103.87s/it] 38%|███▊      | 5/13 [08:39<13:50, 103.81s/it] 46%|████▌     | 6/13 [10:23<12:05, 103.66s/it] 54%|█████▍    | 7/13 [12:06<10:21, 103.54s/it] 62%|██████▏   | 8/13 [13:49<08:37, 103.47s/it] 69%|██████▉   | 9/13 [15:33<06:53, 103.46s/it] 77%|███████▋  | 10/13 [17:17<05:10, 103.52s/it] 85%|████████▍ | 11/13 [19:00<03:26, 103.44s/it] 92%|█████████▏| 12/13 [20:43<01:43, 103.39s/it]100%|██████████| 13/13 [21:35<00:00, 87.71s/it] 100%|██████████| 13/13 [21:35<00:00, 99.63s/it]
+11/13 21:17:54 - OpenCompass - INFO - time elapsed: 1304.45s

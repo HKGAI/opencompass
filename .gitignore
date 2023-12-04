@@ -1,6 +1,6 @@
 
 output_*/
-outputs/
+# outputs/
 icl_inference_output/
 .vscode/
 tmp/
@@ -9,7 +9,7 @@ configs/secrets.py
 configs/datasets/log.json
 configs/eval_debug*.py
 configs/viz_*.py
-data
+# data
 work_dirs
 configs/internal/
 # Byte-compiled / optimized / DLL files

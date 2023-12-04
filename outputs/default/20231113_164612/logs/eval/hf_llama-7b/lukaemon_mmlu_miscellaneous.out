@@ -1,0 +1,2 @@
+11/13 20:31:20 - OpenCompass - ERROR - /home/hkustadmin/evaluation/opencompass/opencompass/tasks/openicl_eval.py - _score - 201 - Task [hf_llama-7b/lukaemon_mmlu_miscellaneous]: No predictions found.
+11/13 20:31:20 - OpenCompass - INFO - time elapsed: 1.39s

@@ -1,0 +1,43 @@
+dataset,version,metric,mode,hf_llama-7b
+------- MMLU details -------,-,-,-,-
+mmlu-humanities,-,naive_average,ppl,38.66
+mmlu-stem,-,naive_average,ppl,31.12
+mmlu-social-science,-,naive_average,ppl,37.73
+mmlu-other,-,naive_average,ppl,36.98
+mmlu,-,naive_average,ppl,35.57
+---- Standard Benchmarks ---,-,-,-,-
+BoolQ,314797,accuracy,ppl,75.50
+piqa,0cfff2,accuracy,ppl,78.56
+siqa,e8d8c5,accuracy,ppl,40.84
+hellaswag,a6e128,accuracy,ppl,74.29
+winogrande,55a66e,accuracy,ppl,62.04
+ARC-e,2ef631,accuracy,ppl,34.74
+ARC-c,2ef631,accuracy,ppl,32.20
+openbookqa_fact,6aac9e,accuracy,ppl,29.80
+commonsense_qa,5545e2,accuracy,ppl,64.62
+mmlu,-,naive_average,ppl,35.57
+------ Code Generation -----,-,-,-,-
+openai_humaneval,a82cae,humaneval_pass@1,gen,12.80
+mbpp,1e1056,score,gen,17.20
+------ World Knowledge -----,-,-,-,-
+nq,2121ce,score,gen,11.75
+triviaqa,2121ce,score,gen,44.26
+--- Reading Comprehension --,-,-,-,-
+squad2.0,1710bc,score,gen,35.00
+---------- Exams -----------,-,-,-,-
+math,265cce,accuracy,gen,2.88
+gsm8k,1d7fe4,accuracy,gen,10.61
+TheoremQA,ef26ca,accuracy,gen,1.25
+--------- Chinese ----------,-,-,-,-
+ceval,-,naive_average,ppl,27.38
+ceval-stem,-,naive_average,ppl,26.90
+ceval-social-science,-,naive_average,ppl,29.68
+ceval-humanities,-,naive_average,ppl,24.18
+ceval-other,-,naive_average,ppl,29.36
+ceval-hard,-,naive_average,ppl,27.68
+cmmlu,-,naive_average,ppl,26.77
+cmmlu-humanities,-,naive_average,ppl,26.74
+cmmlu-stem,-,naive_average,ppl,25.34
+cmmlu-social-science,-,naive_average,ppl,27.31
+cmmlu-other,-,naive_average,ppl,27.62
+cmmlu-china-specific,-,naive_average,ppl,25.62

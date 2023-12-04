@@ -1,0 +1,318 @@
+20231113_164612
+tabulate format
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+dataset                       version    metric         mode    hf_llama-7b
+----------------------------  ---------  -------------  ------  -------------
+------- MMLU details -------  -          -              -       -
+mmlu-humanities               -          -              -       -
+mmlu-stem                     -          naive_average  ppl     31.12
+mmlu-social-science           -          -              -       -
+mmlu-other                    -          -              -       -
+mmlu                          -          -              -       -
+---- Standard Benchmarks ---  -          -              -       -
+BoolQ                         314797     accuracy       ppl     75.50
+piqa                          -          -              -       -
+siqa                          -          -              -       -
+hellaswag                     a6e128     accuracy       ppl     74.29
+winogrande                    -          -              -       -
+ARC-e                         -          -              -       -
+ARC-c                         2ef631     accuracy       ppl     32.20
+openbookqa_fact               6aac9e     accuracy       ppl     29.80
+commonsense_qa                -          -              -       -
+mmlu                          -          -              -       -
+------ Code Generation -----  -          -              -       -
+openai_humaneval              -          -              -       -
+mbpp                          1e1056     score          gen     17.20
+------ World Knowledge -----  -          -              -       -
+triviaqa                      2121ce     score          gen     44.26
+--- Reading Comprehension --  -          -              -       -
+squad2.0                      1710bc     score          gen     35.00
+---------- Exams -----------  -          -              -       -
+math                          265cce     accuracy       gen     2.88
+gsm8k                         1d7fe4     accuracy       gen     10.61
+TheoremQA                     ef26ca     accuracy       gen     1.25
+--------- Chinese ----------  -          -              -       -
+ceval                         -          naive_average  ppl     27.38
+ceval-stem                    -          naive_average  ppl     26.90
+ceval-social-science          -          naive_average  ppl     29.68
+ceval-humanities              -          naive_average  ppl     24.18
+ceval-other                   -          naive_average  ppl     29.36
+ceval-hard                    -          naive_average  ppl     27.68
+ceval-test-stem               -          -              -       -
+ceval-test-social-science     -          -              -       -
+ceval-test-humanities         -          -              -       -
+ceval-test-other              -          -              -       -
+ceval-test-hard               -          -              -       -
+ceval-test                    -          -              -       -
+cmmlu                         -          naive_average  ppl     26.77
+cmmlu-humanities              -          naive_average  ppl     26.74
+cmmlu-stem                    -          naive_average  ppl     25.34
+cmmlu-social-science          -          naive_average  ppl     27.31
+cmmlu-other                   -          naive_average  ppl     27.62
+cmmlu-china-specific          -          naive_average  ppl     25.62
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+-------------------------------------------------------------------------------------------------------------------------------- THIS IS A DIVIDER --------------------------------------------------------------------------------------------------------------------------------
+
+csv format
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+dataset,version,metric,mode,hf_llama-7b
+------- MMLU details -------,-,-,-,-
+mmlu-humanities,-,-,-,-
+mmlu-stem,-,naive_average,ppl,31.12
+mmlu-social-science,-,-,-,-
+mmlu-other,-,-,-,-
+mmlu,-,-,-,-
+---- Standard Benchmarks ---,-,-,-,-
+BoolQ,314797,accuracy,ppl,75.50
+piqa,-,-,-,-
+siqa,-,-,-,-
+hellaswag,a6e128,accuracy,ppl,74.29
+winogrande,-,-,-,-
+ARC-e,-,-,-,-
+ARC-c,2ef631,accuracy,ppl,32.20
+openbookqa_fact,6aac9e,accuracy,ppl,29.80
+commonsense_qa,-,-,-,-
+mmlu,-,-,-,-
+------ Code Generation -----,-,-,-,-
+openai_humaneval,-,-,-,-
+mbpp,1e1056,score,gen,17.20
+------ World Knowledge -----,-,-,-,-
+triviaqa,2121ce,score,gen,44.26
+--- Reading Comprehension --,-,-,-,-
+squad2.0,1710bc,score,gen,35.00
+---------- Exams -----------,-,-,-,-
+math,265cce,accuracy,gen,2.88
+gsm8k,1d7fe4,accuracy,gen,10.61
+TheoremQA,ef26ca,accuracy,gen,1.25
+--------- Chinese ----------,-,-,-,-
+ceval,-,naive_average,ppl,27.38
+ceval-stem,-,naive_average,ppl,26.90
+ceval-social-science,-,naive_average,ppl,29.68
+ceval-humanities,-,naive_average,ppl,24.18
+ceval-other,-,naive_average,ppl,29.36
+ceval-hard,-,naive_average,ppl,27.68
+ceval-test-stem,-,-,-,-
+ceval-test-social-science,-,-,-,-
+ceval-test-humanities,-,-,-,-
+ceval-test-other,-,-,-,-
+ceval-test-hard,-,-,-,-
+ceval-test,-,-,-,-
+cmmlu,-,naive_average,ppl,26.77
+cmmlu-humanities,-,naive_average,ppl,26.74
+cmmlu-stem,-,naive_average,ppl,25.34
+cmmlu-social-science,-,naive_average,ppl,27.31
+cmmlu-other,-,naive_average,ppl,27.62
+cmmlu-china-specific,-,naive_average,ppl,25.62
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+-------------------------------------------------------------------------------------------------------------------------------- THIS IS A DIVIDER --------------------------------------------------------------------------------------------------------------------------------
+
+raw format
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------------------------
+Model: hf_llama-7b
+BoolQ: {'accuracy': 75.50458715596329}
+hellaswag: {'accuracy': 74.28799044015136}
+ARC-c: {'accuracy': 32.20338983050847}
+openbookqa_fact: {'accuracy': 29.799999999999997}
+lukaemon_mmlu_college_biology: {'accuracy': 38.19444444444444}
+lukaemon_mmlu_college_chemistry: {'accuracy': 28.999999999999996}
+lukaemon_mmlu_college_computer_science: {'accuracy': 28.999999999999996}
+lukaemon_mmlu_college_mathematics: {'accuracy': 33.0}
+lukaemon_mmlu_college_physics: {'accuracy': 23.52941176470588}
+lukaemon_mmlu_electrical_engineering: {'accuracy': 22.758620689655174}
+lukaemon_mmlu_astronomy: {'accuracy': 34.868421052631575}
+lukaemon_mmlu_anatomy: {'accuracy': 37.77777777777778}
+lukaemon_mmlu_abstract_algebra: {'accuracy': 26.0}
+lukaemon_mmlu_machine_learning: {'accuracy': 27.67857142857143}
+lukaemon_mmlu_clinical_knowledge: {'accuracy': 34.33962264150943}
+lukaemon_mmlu_global_facts: {'accuracy': 31.0}
+lukaemon_mmlu_management: {'accuracy': 33.00970873786408}
+lukaemon_mmlu_nutrition: {'accuracy': 39.21568627450981}
+lukaemon_mmlu_marketing: {'accuracy': 45.2991452991453}
+lukaemon_mmlu_professional_accounting: {'accuracy': 26.595744680851062}
+lukaemon_mmlu_high_school_geography: {'accuracy': 32.82828282828283}
+lukaemon_mmlu_international_law: {'accuracy': 51.2396694214876}
+lukaemon_mmlu_computer_security: {'accuracy': 45.0}
+lukaemon_mmlu_high_school_microeconomics: {'accuracy': 31.932773109243694}
+lukaemon_mmlu_professional_law: {'accuracy': 29.791395045632335}
+lukaemon_mmlu_medical_genetics: {'accuracy': 38.0}
+lukaemon_mmlu_jurisprudence: {'accuracy': 41.66666666666667}
+lukaemon_mmlu_world_religions: {'accuracy': 49.707602339181285}
+lukaemon_mmlu_philosophy: {'accuracy': 39.87138263665595}
+lukaemon_mmlu_virology: {'accuracy': 34.33734939759036}
+lukaemon_mmlu_high_school_chemistry: {'accuracy': 28.078817733990146}
+lukaemon_mmlu_public_relations: {'accuracy': 40.909090909090914}
+lukaemon_mmlu_high_school_macroeconomics: {'accuracy': 33.589743589743584}
+lukaemon_mmlu_human_sexuality: {'accuracy': 35.11450381679389}
+lukaemon_mmlu_elementary_mathematics: {'accuracy': 26.71957671957672}
+lukaemon_mmlu_high_school_physics: {'accuracy': 29.13907284768212}
+lukaemon_mmlu_high_school_computer_science: {'accuracy': 33.0}
+lukaemon_mmlu_high_school_european_history: {'accuracy': 41.81818181818181}
+lukaemon_mmlu_business_ethics: {'accuracy': 41.0}
+lukaemon_mmlu_moral_disputes: {'accuracy': 39.884393063583815}
+lukaemon_mmlu_high_school_statistics: {'accuracy': 32.407407407407405}
+lukaemon_mmlu_formal_logic: {'accuracy': 25.396825396825395}
+lukaemon_mmlu_high_school_government_and_politics: {'accuracy': 45.59585492227979}
+lukaemon_mmlu_prehistory: {'accuracy': 33.95061728395062}
+lukaemon_mmlu_security_studies: {'accuracy': 34.285714285714285}
+lukaemon_mmlu_high_school_biology: {'accuracy': 32.903225806451616}
+lukaemon_mmlu_logical_fallacies: {'accuracy': 42.331288343558285}
+lukaemon_mmlu_high_school_world_history: {'accuracy': 43.459915611814345}
+lukaemon_mmlu_professional_medicine: {'accuracy': 44.11764705882353}
+lukaemon_mmlu_high_school_mathematics: {'accuracy': 25.185185185185183}
+lukaemon_mmlu_college_medicine: {'accuracy': 32.947976878612714}
+lukaemon_mmlu_high_school_us_history: {'accuracy': 39.21568627450981}
+lukaemon_mmlu_sociology: {'accuracy': 44.776119402985074}
+lukaemon_mmlu_econometrics: {'accuracy': 27.192982456140353}
+lukaemon_mmlu_high_school_psychology: {'accuracy': 47.522935779816514}
+lukaemon_mmlu_human_aging: {'accuracy': 38.56502242152467}
+lukaemon_mmlu_us_foreign_policy: {'accuracy': 44.0}
+lukaemon_mmlu_conceptual_physics: {'accuracy': 37.02127659574468}
+mbpp: {'pass': 86, 'timeout': 1, 'failed': 118, 'wrong_answer': 295, 'score': 17.2}
+triviaqa: {'score': 44.2571008260722}
+triviaqa_1shot: {'score': 56.18422541586511}
+triviaqa_5shot: {'score': 57.836369808758626}
+squad2.0: {'score': 34.99536764086583}
+gsm8k: {'accuracy': 10.614101592115238}
+math: {'accuracy': 2.88}
+TheoremQA: {'accuracy': 1.25}
+ceval-computer_network: {'accuracy': 36.84210526315789}
+ceval-operating_system: {'accuracy': 15.789473684210526}
+ceval-computer_architecture: {'accuracy': 33.33333333333333}
+ceval-college_programming: {'accuracy': 18.91891891891892}
+ceval-college_physics: {'accuracy': 31.57894736842105}
+ceval-college_chemistry: {'accuracy': 29.166666666666668}
+ceval-advanced_mathematics: {'accuracy': 15.789473684210526}
+ceval-probability_and_statistics: {'accuracy': 38.88888888888889}
+ceval-discrete_mathematics: {'accuracy': 25.0}
+ceval-electrical_engineer: {'accuracy': 21.62162162162162}
+ceval-metrology_engineer: {'accuracy': 29.166666666666668}
+ceval-high_school_mathematics: {'accuracy': 38.88888888888889}
+ceval-high_school_physics: {'accuracy': 26.31578947368421}
+ceval-high_school_chemistry: {'accuracy': 15.789473684210526}
+ceval-high_school_biology: {'accuracy': 10.526315789473683}
+ceval-middle_school_mathematics: {'accuracy': 21.052631578947366}
+ceval-middle_school_biology: {'accuracy': 28.57142857142857}
+ceval-middle_school_physics: {'accuracy': 31.57894736842105}
+ceval-middle_school_chemistry: {'accuracy': 30.0}
+ceval-veterinary_medicine: {'accuracy': 39.130434782608695}
+ceval-college_economics: {'accuracy': 27.27272727272727}
+ceval-business_administration: {'accuracy': 27.27272727272727}
+ceval-marxism: {'accuracy': 36.84210526315789}
+ceval-mao_zedong_thought: {'accuracy': 29.166666666666668}
+ceval-education_science: {'accuracy': 10.344827586206897}
+ceval-teacher_qualification: {'accuracy': 25.0}
+ceval-high_school_politics: {'accuracy': 57.89473684210527}
+ceval-high_school_geography: {'accuracy': 21.052631578947366}
+ceval-middle_school_politics: {'accuracy': 28.57142857142857}
+ceval-middle_school_geography: {'accuracy': 33.33333333333333}
+ceval-modern_chinese_history: {'accuracy': 21.73913043478261}
+ceval-ideological_and_moral_cultivation: {'accuracy': 21.052631578947366}
+ceval-logic: {'accuracy': 22.727272727272727}
+ceval-law: {'accuracy': 20.833333333333336}
+ceval-chinese_language_and_literature: {'accuracy': 21.73913043478261}
+ceval-art_studies: {'accuracy': 21.21212121212121}
+ceval-professional_tour_guide: {'accuracy': 31.03448275862069}
+ceval-legal_professional: {'accuracy': 30.434782608695656}
+ceval-high_school_chinese: {'accuracy': 31.57894736842105}
+ceval-high_school_history: {'accuracy': 30.0}
+ceval-middle_school_history: {'accuracy': 13.636363636363635}
+ceval-civil_servant: {'accuracy': 34.04255319148936}
+ceval-sports_science: {'accuracy': 52.63157894736842}
+ceval-plant_protection: {'accuracy': 36.36363636363637}
+ceval-basic_medicine: {'accuracy': 21.052631578947366}
+ceval-clinical_medicine: {'accuracy': 27.27272727272727}
+ceval-urban_and_rural_planner: {'accuracy': 21.73913043478261}
+ceval-accountant: {'accuracy': 24.489795918367346}
+ceval-fire_engineer: {'accuracy': 25.806451612903224}
+ceval-environmental_impact_assessment_engineer: {'accuracy': 38.70967741935484}
+ceval-tax_accountant: {'accuracy': 18.367346938775512}
+ceval-physician: {'accuracy': 22.448979591836736}
+cmmlu-agronomy: {'accuracy': 28.402366863905325}
+cmmlu-anatomy: {'accuracy': 25.0}
+cmmlu-ancient_chinese: {'accuracy': 24.390243902439025}
+cmmlu-arts: {'accuracy': 25.0}
+cmmlu-astronomy: {'accuracy': 20.0}
+cmmlu-business_ethics: {'accuracy': 29.1866028708134}
+cmmlu-chinese_civil_service_exam: {'accuracy': 25.0}
+cmmlu-chinese_driving_rule: {'accuracy': 34.35114503816794}
+cmmlu-chinese_food_culture: {'accuracy': 22.058823529411764}
+cmmlu-chinese_foreign_policy: {'accuracy': 27.102803738317753}
+cmmlu-chinese_history: {'accuracy': 27.24458204334365}
+cmmlu-chinese_literature: {'accuracy': 22.058823529411764}
+cmmlu-chinese_teacher_qualification: {'accuracy': 31.843575418994412}
+cmmlu-clinical_knowledge: {'accuracy': 23.628691983122362}
+cmmlu-college_actuarial_science: {'accuracy': 20.754716981132077}
+cmmlu-college_education: {'accuracy': 21.49532710280374}
+cmmlu-college_engineering_hydrology: {'accuracy': 31.132075471698112}
+cmmlu-college_law: {'accuracy': 26.851851851851855}
+cmmlu-college_mathematics: {'accuracy': 21.904761904761905}
+cmmlu-college_medical_statistics: {'accuracy': 30.18867924528302}
+cmmlu-college_medicine: {'accuracy': 27.472527472527474}
+cmmlu-computer_science: {'accuracy': 32.35294117647059}
+cmmlu-computer_security: {'accuracy': 26.31578947368421}
+cmmlu-conceptual_physics: {'accuracy': 23.12925170068027}
+cmmlu-construction_project_management: {'accuracy': 27.33812949640288}
+cmmlu-economics: {'accuracy': 29.559748427672954}
+cmmlu-education: {'accuracy': 28.834355828220858}
+cmmlu-electrical_engineering: {'accuracy': 27.906976744186046}
+cmmlu-elementary_chinese: {'accuracy': 21.825396825396826}
+cmmlu-elementary_commonsense: {'accuracy': 22.727272727272727}
+cmmlu-elementary_information_and_technology: {'accuracy': 29.411764705882355}
+cmmlu-elementary_mathematics: {'accuracy': 24.347826086956523}
+cmmlu-ethnology: {'accuracy': 25.185185185185183}
+cmmlu-food_science: {'accuracy': 29.37062937062937}
+cmmlu-genetics: {'accuracy': 23.295454545454543}
+cmmlu-global_facts: {'accuracy': 25.503355704697988}
+cmmlu-high_school_biology: {'accuracy': 28.994082840236686}
+cmmlu-high_school_chemistry: {'accuracy': 28.78787878787879}
+cmmlu-high_school_geography: {'accuracy': 34.74576271186441}
+cmmlu-high_school_mathematics: {'accuracy': 22.5609756097561}
+cmmlu-high_school_physics: {'accuracy': 22.727272727272727}
+cmmlu-high_school_politics: {'accuracy': 18.181818181818183}
+cmmlu-human_sexuality: {'accuracy': 29.365079365079367}
+cmmlu-international_law: {'accuracy': 29.72972972972973}
+cmmlu-journalism: {'accuracy': 35.46511627906977}
+cmmlu-jurisprudence: {'accuracy': 26.520681265206814}
+cmmlu-legal_and_moral_basis: {'accuracy': 32.71028037383177}
+cmmlu-logical: {'accuracy': 24.390243902439025}
+cmmlu-machine_learning: {'accuracy': 24.59016393442623}
+cmmlu-management: {'accuracy': 26.190476190476193}
+cmmlu-marketing: {'accuracy': 30.0}
+cmmlu-marxist_theory: {'accuracy': 32.804232804232804}
+cmmlu-modern_chinese: {'accuracy': 28.448275862068968}
+cmmlu-nutrition: {'accuracy': 24.82758620689655}
+cmmlu-philosophy: {'accuracy': 24.761904761904763}
+cmmlu-professional_accounting: {'accuracy': 24.0}
+cmmlu-professional_law: {'accuracy': 27.96208530805687}
+cmmlu-professional_medicine: {'accuracy': 23.404255319148938}
+cmmlu-professional_psychology: {'accuracy': 30.603448275862068}
+cmmlu-public_relations: {'accuracy': 31.60919540229885}
+cmmlu-security_study: {'accuracy': 25.925925925925924}
+cmmlu-sociology: {'accuracy': 29.20353982300885}
+cmmlu-sports_science: {'accuracy': 28.484848484848484}
+cmmlu-traditional_chinese_medicine: {'accuracy': 26.486486486486488}
+cmmlu-virology: {'accuracy': 23.076923076923077}
+cmmlu-world_history: {'accuracy': 28.57142857142857}
+cmmlu-world_religions: {'accuracy': 26.25}
+mmlu-humanities: {'error': "missing datasets: {'lukaemon_mmlu_moral_scenarios'}"}
+mmlu-stem: {'lukaemon_mmlu_abstract_algebra': 26.0, 'lukaemon_mmlu_anatomy': 37.77777777777778, 'lukaemon_mmlu_astronomy': 34.868421052631575, 'lukaemon_mmlu_college_biology': 38.19444444444444, 'lukaemon_mmlu_college_chemistry': 28.999999999999996, 'lukaemon_mmlu_college_computer_science': 28.999999999999996, 'lukaemon_mmlu_college_mathematics': 33.0, 'lukaemon_mmlu_college_physics': 23.52941176470588, 'lukaemon_mmlu_computer_security': 45.0, 'lukaemon_mmlu_conceptual_physics': 37.02127659574468, 'lukaemon_mmlu_electrical_engineering': 22.758620689655174, 'lukaemon_mmlu_elementary_mathematics': 26.71957671957672, 'lukaemon_mmlu_high_school_biology': 32.903225806451616, 'lukaemon_mmlu_high_school_chemistry': 28.078817733990146, 'lukaemon_mmlu_high_school_computer_science': 33.0, 'lukaemon_mmlu_high_school_mathematics': 25.185185185185183, 'lukaemon_mmlu_high_school_physics': 29.13907284768212, 'lukaemon_mmlu_high_school_statistics': 32.407407407407405, 'lukaemon_mmlu_machine_learning': 27.67857142857143, 'naive_average': 31.119042602832852}
+mmlu-social-science: {'error': "missing datasets: {'lukaemon_mmlu_professional_psychology'}"}
+mmlu-other: {'error': "missing datasets: {'lukaemon_mmlu_miscellaneous'}"}
+mmlu: {'error': "missing datasets: {'lukaemon_mmlu_miscellaneous', 'lukaemon_mmlu_professional_psychology', 'lukaemon_mmlu_moral_scenarios'}"}
+mmlu-weighted: {'error': "missing datasets: {'lukaemon_mmlu_miscellaneous', 'lukaemon_mmlu_professional_psychology', 'lukaemon_mmlu_moral_scenarios'}"}
+cmmlu-humanities: {'cmmlu-arts': 25.0, 'cmmlu-chinese_history': 27.24458204334365, 'cmmlu-chinese_literature': 22.058823529411764, 'cmmlu-college_law': 26.851851851851855, 'cmmlu-global_facts': 25.503355704697988, 'cmmlu-international_law': 29.72972972972973, 'cmmlu-jurisprudence': 26.520681265206814, 'cmmlu-logical': 24.390243902439025, 'cmmlu-marxist_theory': 32.804232804232804, 'cmmlu-philosophy': 24.761904761904763, 'cmmlu-professional_law': 27.96208530805687, 'cmmlu-world_history': 28.57142857142857, 'cmmlu-world_religions': 26.25, 'naive_average': 26.7422245747926}
+cmmlu-stem: {'cmmlu-anatomy': 25.0, 'cmmlu-astronomy': 20.0, 'cmmlu-college_actuarial_science': 20.754716981132077, 'cmmlu-college_engineering_hydrology': 31.132075471698112, 'cmmlu-college_mathematics': 21.904761904761905, 'cmmlu-college_medical_statistics': 30.18867924528302, 'cmmlu-computer_science': 32.35294117647059, 'cmmlu-conceptual_physics': 23.12925170068027, 'cmmlu-electrical_engineering': 27.906976744186046, 'cmmlu-elementary_mathematics': 24.347826086956523, 'cmmlu-genetics': 23.295454545454543, 'cmmlu-high_school_biology': 28.994082840236686, 'cmmlu-high_school_chemistry': 28.78787878787879, 'cmmlu-high_school_mathematics': 22.5609756097561, 'cmmlu-high_school_physics': 22.727272727272727, 'cmmlu-machine_learning': 24.59016393442623, 'cmmlu-virology': 23.076923076923077, 'naive_average': 25.338234166653926}
+cmmlu-social-science: {'cmmlu-ancient_chinese': 24.390243902439025, 'cmmlu-business_ethics': 29.1866028708134, 'cmmlu-chinese_civil_service_exam': 25.0, 'cmmlu-chinese_food_culture': 22.058823529411764, 'cmmlu-chinese_foreign_policy': 27.102803738317753, 'cmmlu-chinese_teacher_qualification': 31.843575418994412, 'cmmlu-college_education': 21.49532710280374, 'cmmlu-economics': 29.559748427672954, 'cmmlu-education': 28.834355828220858, 'cmmlu-elementary_chinese': 21.825396825396826, 'cmmlu-ethnology': 25.185185185185183, 'cmmlu-high_school_geography': 34.74576271186441, 'cmmlu-high_school_politics': 18.181818181818183, 'cmmlu-journalism': 35.46511627906977, 'cmmlu-management': 26.190476190476193, 'cmmlu-marketing': 30.0, 'cmmlu-modern_chinese': 28.448275862068968, 'cmmlu-professional_accounting': 24.0, 'cmmlu-professional_psychology': 30.603448275862068, 'cmmlu-public_relations': 31.60919540229885, 'cmmlu-security_study': 25.925925925925924, 'cmmlu-sociology': 29.20353982300885, 'naive_average': 27.311619158256782}
+cmmlu-other: {'cmmlu-agronomy': 28.402366863905325, 'cmmlu-chinese_driving_rule': 34.35114503816794, 'cmmlu-clinical_knowledge': 23.628691983122362, 'cmmlu-college_medicine': 27.472527472527474, 'cmmlu-computer_security': 26.31578947368421, 'cmmlu-construction_project_management': 27.33812949640288, 'cmmlu-elementary_commonsense': 22.727272727272727, 'cmmlu-elementary_information_and_technology': 29.411764705882355, 'cmmlu-food_science': 29.37062937062937, 'cmmlu-human_sexuality': 29.365079365079367, 'cmmlu-legal_and_moral_basis': 32.71028037383177, 'cmmlu-nutrition': 24.82758620689655, 'cmmlu-professional_medicine': 23.404255319148938, 'cmmlu-sports_science': 28.484848484848484, 'cmmlu-traditional_chinese_medicine': 26.486486486486488, 'naive_average': 27.61979022452575}
+cmmlu-china-specific: {'cmmlu-ancient_chinese': 24.390243902439025, 'cmmlu-chinese_civil_service_exam': 25.0, 'cmmlu-chinese_driving_rule': 34.35114503816794, 'cmmlu-chinese_food_culture': 22.058823529411764, 'cmmlu-chinese_foreign_policy': 27.102803738317753, 'cmmlu-chinese_history': 27.24458204334365, 'cmmlu-chinese_literature': 22.058823529411764, 'cmmlu-chinese_teacher_qualification': 31.843575418994412, 'cmmlu-construction_project_management': 27.33812949640288, 'cmmlu-elementary_chinese': 21.825396825396826, 'cmmlu-elementary_commonsense': 22.727272727272727, 'cmmlu-ethnology': 25.185185185185183, 'cmmlu-high_school_politics': 18.181818181818183, 'cmmlu-modern_chinese': 28.448275862068968, 'cmmlu-traditional_chinese_medicine': 26.486486486486488, 'naive_average': 25.61617079764784}
+cmmlu: {'cmmlu-agronomy': 28.402366863905325, 'cmmlu-anatomy': 25.0, 'cmmlu-ancient_chinese': 24.390243902439025, 'cmmlu-arts': 25.0, 'cmmlu-astronomy': 20.0, 'cmmlu-business_ethics': 29.1866028708134, 'cmmlu-chinese_civil_service_exam': 25.0, 'cmmlu-chinese_driving_rule': 34.35114503816794, 'cmmlu-chinese_food_culture': 22.058823529411764, 'cmmlu-chinese_foreign_policy': 27.102803738317753, 'cmmlu-chinese_history': 27.24458204334365, 'cmmlu-chinese_literature': 22.058823529411764, 'cmmlu-chinese_teacher_qualification': 31.843575418994412, 'cmmlu-college_actuarial_science': 20.754716981132077, 'cmmlu-college_education': 21.49532710280374, 'cmmlu-college_engineering_hydrology': 31.132075471698112, 'cmmlu-college_law': 26.851851851851855, 'cmmlu-college_mathematics': 21.904761904761905, 'cmmlu-college_medical_statistics': 30.18867924528302, 'cmmlu-clinical_knowledge': 23.628691983122362, 'cmmlu-college_medicine': 27.472527472527474, 'cmmlu-computer_science': 32.35294117647059, 'cmmlu-computer_security': 26.31578947368421, 'cmmlu-conceptual_physics': 23.12925170068027, 'cmmlu-construction_project_management': 27.33812949640288, 'cmmlu-economics': 29.559748427672954, 'cmmlu-education': 28.834355828220858, 'cmmlu-elementary_chinese': 21.825396825396826, 'cmmlu-elementary_commonsense': 22.727272727272727, 'cmmlu-elementary_information_and_technology': 29.411764705882355, 'cmmlu-electrical_engineering': 27.906976744186046, 'cmmlu-elementary_mathematics': 24.347826086956523, 'cmmlu-ethnology': 25.185185185185183, 'cmmlu-food_science': 29.37062937062937, 'cmmlu-genetics': 23.295454545454543, 'cmmlu-global_facts': 25.503355704697988, 'cmmlu-high_school_biology': 28.994082840236686, 'cmmlu-high_school_chemistry': 28.78787878787879, 'cmmlu-high_school_geography': 34.74576271186441, 'cmmlu-high_school_mathematics': 22.5609756097561, 'cmmlu-high_school_physics': 22.727272727272727, 'cmmlu-high_school_politics': 18.181818181818183, 'cmmlu-human_sexuality': 29.365079365079367, 'cmmlu-international_law': 29.72972972972973, 'cmmlu-journalism': 35.46511627906977, 'cmmlu-jurisprudence': 26.520681265206814, 'cmmlu-legal_and_moral_basis': 32.71028037383177, 'cmmlu-logical': 24.390243902439025, 'cmmlu-machine_learning': 24.59016393442623, 'cmmlu-management': 26.190476190476193, 'cmmlu-marketing': 30.0, 'cmmlu-marxist_theory': 32.804232804232804, 'cmmlu-modern_chinese': 28.448275862068968, 'cmmlu-nutrition': 24.82758620689655, 'cmmlu-philosophy': 24.761904761904763, 'cmmlu-professional_accounting': 24.0, 'cmmlu-professional_law': 27.96208530805687, 'cmmlu-professional_medicine': 23.404255319148938, 'cmmlu-professional_psychology': 30.603448275862068, 'cmmlu-public_relations': 31.60919540229885, 'cmmlu-security_study': 25.925925925925924, 'cmmlu-sociology': 29.20353982300885, 'cmmlu-sports_science': 28.484848484848484, 'cmmlu-traditional_chinese_medicine': 26.486486486486488, 'cmmlu-virology': 23.076923076923077, 'cmmlu-world_history': 28.57142857142857, 'cmmlu-world_religions': 26.25, 'naive_average': 26.76942350977546}
+ceval-stem: {'ceval-computer_network': 36.84210526315789, 'ceval-operating_system': 15.789473684210526, 'ceval-computer_architecture': 33.33333333333333, 'ceval-college_programming': 18.91891891891892, 'ceval-college_physics': 31.57894736842105, 'ceval-college_chemistry': 29.166666666666668, 'ceval-advanced_mathematics': 15.789473684210526, 'ceval-probability_and_statistics': 38.88888888888889, 'ceval-discrete_mathematics': 25.0, 'ceval-electrical_engineer': 21.62162162162162, 'ceval-metrology_engineer': 29.166666666666668, 'ceval-high_school_mathematics': 38.88888888888889, 'ceval-high_school_physics': 26.31578947368421, 'ceval-high_school_chemistry': 15.789473684210526, 'ceval-high_school_biology': 10.526315789473683, 'ceval-middle_school_mathematics': 21.052631578947366, 'ceval-middle_school_biology': 28.57142857142857, 'ceval-middle_school_physics': 31.57894736842105, 'ceval-middle_school_chemistry': 30.0, 'ceval-veterinary_medicine': 39.130434782608695, 'naive_average': 26.897500311687956}
+ceval-social-science: {'ceval-college_economics': 27.27272727272727, 'ceval-business_administration': 27.27272727272727, 'ceval-marxism': 36.84210526315789, 'ceval-mao_zedong_thought': 29.166666666666668, 'ceval-education_science': 10.344827586206897, 'ceval-teacher_qualification': 25.0, 'ceval-high_school_politics': 57.89473684210527, 'ceval-high_school_geography': 21.052631578947366, 'ceval-middle_school_politics': 28.57142857142857, 'ceval-middle_school_geography': 33.33333333333333, 'naive_average': 29.67511843873005}
+ceval-humanities: {'ceval-modern_chinese_history': 21.73913043478261, 'ceval-ideological_and_moral_cultivation': 21.052631578947366, 'ceval-logic': 22.727272727272727, 'ceval-law': 20.833333333333336, 'ceval-chinese_language_and_literature': 21.73913043478261, 'ceval-art_studies': 21.21212121212121, 'ceval-professional_tour_guide': 31.03448275862069, 'ceval-legal_professional': 30.434782608695656, 'ceval-high_school_chinese': 31.57894736842105, 'ceval-high_school_history': 30.0, 'ceval-middle_school_history': 13.636363636363635, 'naive_average': 24.180745099394628}
+ceval-other: {'ceval-civil_servant': 34.04255319148936, 'ceval-sports_science': 52.63157894736842, 'ceval-plant_protection': 36.36363636363637, 'ceval-basic_medicine': 21.052631578947366, 'ceval-clinical_medicine': 27.27272727272727, 'ceval-urban_and_rural_planner': 21.73913043478261, 'ceval-accountant': 24.489795918367346, 'ceval-fire_engineer': 25.806451612903224, 'ceval-environmental_impact_assessment_engineer': 38.70967741935484, 'ceval-tax_accountant': 18.367346938775512, 'ceval-physician': 22.448979591836736, 'naive_average': 29.356773570017193}
+ceval-hard: {'ceval-advanced_mathematics': 15.789473684210526, 'ceval-discrete_mathematics': 25.0, 'ceval-probability_and_statistics': 38.88888888888889, 'ceval-college_chemistry': 29.166666666666668, 'ceval-college_physics': 31.57894736842105, 'ceval-high_school_mathematics': 38.88888888888889, 'ceval-high_school_chemistry': 15.789473684210526, 'ceval-high_school_physics': 26.31578947368421, 'naive_average': 27.677266081871345}
+ceval: {'ceval-computer_network': 36.84210526315789, 'ceval-operating_system': 15.789473684210526, 'ceval-computer_architecture': 33.33333333333333, 'ceval-college_programming': 18.91891891891892, 'ceval-college_physics': 31.57894736842105, 'ceval-college_chemistry': 29.166666666666668, 'ceval-advanced_mathematics': 15.789473684210526, 'ceval-probability_and_statistics': 38.88888888888889, 'ceval-discrete_mathematics': 25.0, 'ceval-electrical_engineer': 21.62162162162162, 'ceval-metrology_engineer': 29.166666666666668, 'ceval-high_school_mathematics': 38.88888888888889, 'ceval-high_school_physics': 26.31578947368421, 'ceval-high_school_chemistry': 15.789473684210526, 'ceval-high_school_biology': 10.526315789473683, 'ceval-middle_school_mathematics': 21.052631578947366, 'ceval-middle_school_biology': 28.57142857142857, 'ceval-middle_school_physics': 31.57894736842105, 'ceval-middle_school_chemistry': 30.0, 'ceval-veterinary_medicine': 39.130434782608695, 'ceval-college_economics': 27.27272727272727, 'ceval-business_administration': 27.27272727272727, 'ceval-marxism': 36.84210526315789, 'ceval-mao_zedong_thought': 29.166666666666668, 'ceval-education_science': 10.344827586206897, 'ceval-teacher_qualification': 25.0, 'ceval-high_school_politics': 57.89473684210527, 'ceval-high_school_geography': 21.052631578947366, 'ceval-middle_school_politics': 28.57142857142857, 'ceval-middle_school_geography': 33.33333333333333, 'ceval-modern_chinese_history': 21.73913043478261, 'ceval-ideological_and_moral_cultivation': 21.052631578947366, 'ceval-logic': 22.727272727272727, 'ceval-law': 20.833333333333336, 'ceval-chinese_language_and_literature': 21.73913043478261, 'ceval-art_studies': 21.21212121212121, 'ceval-professional_tour_guide': 31.03448275862069, 'ceval-legal_professional': 30.434782608695656, 'ceval-high_school_chinese': 31.57894736842105, 'ceval-high_school_history': 30.0, 'ceval-middle_school_history': 13.636363636363635, 'ceval-civil_servant': 34.04255319148936, 'ceval-sports_science': 52.63157894736842, 'ceval-plant_protection': 36.36363636363637, 'ceval-basic_medicine': 21.052631578947366, 'ceval-clinical_medicine': 27.27272727272727, 'ceval-urban_and_rural_planner': 21.73913043478261, 'ceval-accountant': 24.489795918367346, 'ceval-fire_engineer': 25.806451612903224, 'ceval-environmental_impact_assessment_engineer': 38.70967741935484, 'ceval-tax_accountant': 18.367346938775512, 'ceval-physician': 22.448979591836736, 'naive_average': 27.377190307395946}
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$

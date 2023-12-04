@@ -1,0 +1,777 @@
+11/13 18:08:09 - OpenCompass - INFO - Task [hf_llama-7b/lukaemon_mmlu_econometrics,hf_llama-7b/lukaemon_mmlu_machine_learning,hf_llama-7b/lukaemon_mmlu_public_relations,hf_llama-7b/cmmlu-high_school_physics,hf_llama-7b/lukaemon_mmlu_jurisprudence,hf_llama-7b/cmmlu-college_law,hf_llama-7b/cmmlu-chinese_foreign_policy,hf_llama-7b/cmmlu-college_education,hf_llama-7b/cmmlu-college_actuarial_science,hf_llama-7b/cmmlu-college_engineering_hydrology,hf_llama-7b/cmmlu-college_medical_statistics,hf_llama-7b/cmmlu-college_mathematics,hf_llama-7b/cmmlu-philosophy,hf_llama-7b/lukaemon_mmlu_management,hf_llama-7b/lukaemon_mmlu_college_physics,hf_llama-7b/lukaemon_mmlu_college_chemistry,hf_llama-7b/lukaemon_mmlu_college_computer_science,hf_llama-7b/lukaemon_mmlu_college_mathematics,hf_llama-7b/lukaemon_mmlu_abstract_algebra,hf_llama-7b/lukaemon_mmlu_global_facts,hf_llama-7b/lukaemon_mmlu_computer_security,hf_llama-7b/lukaemon_mmlu_medical_genetics,hf_llama-7b/lukaemon_mmlu_high_school_computer_science,hf_llama-7b/lukaemon_mmlu_business_ethics,hf_llama-7b/lukaemon_mmlu_us_foreign_policy,hf_llama-7b/ceval-college_economics,hf_llama-7b/ceval-accountant,hf_llama-7b/ceval-tax_accountant,hf_llama-7b/ceval-physician,hf_llama-7b/ceval-civil_servant,hf_llama-7b/ceval-urban_and_rural_planner,hf_llama-7b/ceval-teacher_qualification,hf_llama-7b/ceval-college_programming,hf_llama-7b/ceval-electrical_engineer,hf_llama-7b/ceval-business_administration,hf_llama-7b/ceval-art_studies,hf_llama-7b/ceval-fire_engineer,hf_llama-7b/ceval-environmental_impact_assessment_engineer,hf_llama-7b/ceval-education_science,hf_llama-7b/ceval-professional_tour_guide,hf_llama-7b/ceval-college_chemistry,hf_llama-7b/ceval-metrology_engineer,hf_llama-7b/ceval-mao_zedong_thought,hf_llama-7b/ceval-law,hf_llama-7b/ceval-veterinary_medicine,hf_llama-7b/ceval-modern_chinese_history,hf_llama-7b/ceval-chinese_language_and_literature,hf_llama-7b/ceval-legal_professional,hf_llama-7b/ceval-logic,hf_llama-7b/ceval-middle_school_history,hf_llama-7b/ceval-plant_protection,hf_llama-7b/ceval-clinical_medicine,hf_llama-7b/ceval-computer_architecture,hf_llama-7b/ceval-middle_school_biology,hf_llama-7b/ceval-middle_school_politics,hf_llama-7b/ceval-middle_school_chemistry,hf_llama-7b/ceval-high_school_history,hf_llama-7b/ceval-computer_network,hf_llama-7b/ceval-operating_system,hf_llama-7b/ceval-college_physics,hf_llama-7b/ceval-advanced_mathematics,hf_llama-7b/ceval-high_school_physics,hf_llama-7b/ceval-high_school_chemistry,hf_llama-7b/ceval-high_school_biology,hf_llama-7b/ceval-middle_school_mathematics,hf_llama-7b/ceval-middle_school_physics,hf_llama-7b/ceval-marxism,hf_llama-7b/ceval-high_school_politics,hf_llama-7b/ceval-high_school_geography,hf_llama-7b/ceval-ideological_and_moral_cultivation,hf_llama-7b/ceval-high_school_chinese,hf_llama-7b/ceval-sports_science,hf_llama-7b/ceval-basic_medicine,hf_llama-7b/ceval-probability_and_statistics,hf_llama-7b/ceval-high_school_mathematics,hf_llama-7b/ceval-discrete_mathematics,hf_llama-7b/ceval-middle_school_geography]
+You are using the default legacy behaviour of the <class 'transformers.models.llama.tokenization_llama.LlamaTokenizer'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thouroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565
+11/13 18:08:10 - OpenCompass - WARNING - pad_token_id is not set for the tokenizer.
+11/13 18:08:10 - OpenCompass - WARNING - Using eos_token_id </s> as pad_token_id.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:03<00:03,  3.35s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:05<00:00,  2.44s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:05<00:00,  2.57s/it]
+11/13 18:08:17 - OpenCompass - INFO - Start inferencing [hf_llama-7b/lukaemon_mmlu_econometrics]
+  0%|          | 0/114 [00:00<?, ?it/s]100%|██████████| 114/114 [00:00<00:00, 3045545.58it/s]
+[2023-11-13 18:08:18,165] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/8 [00:00<?, ?it/s] 12%|█▎        | 1/8 [00:01<00:09,  1.42s/it] 25%|██▌       | 2/8 [00:02<00:05,  1.07it/s] 38%|███▊      | 3/8 [00:02<00:03,  1.28it/s] 50%|█████     | 4/8 [00:03<00:02,  1.40it/s] 62%|██████▎   | 5/8 [00:03<00:02,  1.49it/s] 75%|███████▌  | 6/8 [00:04<00:01,  1.55it/s] 88%|████████▊ | 7/8 [00:05<00:00,  1.57it/s]100%|██████████| 8/8 [00:05<00:00,  1.57it/s]
+[2023-11-13 18:08:23,446] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/8 [00:00<?, ?it/s] 12%|█▎        | 1/8 [00:00<00:04,  1.64it/s] 25%|██▌       | 2/8 [00:01<00:03,  1.65it/s] 38%|███▊      | 3/8 [00:01<00:03,  1.65it/s] 50%|█████     | 4/8 [00:02<00:02,  1.66it/s] 62%|██████▎   | 5/8 [00:03<00:01,  1.66it/s] 75%|███████▌  | 6/8 [00:03<00:01,  1.66it/s] 88%|████████▊ | 7/8 [00:04<00:00,  1.65it/s]100%|██████████| 8/8 [00:04<00:00,  1.86it/s]
+[2023-11-13 18:08:27,929] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/8 [00:00<?, ?it/s] 12%|█▎        | 1/8 [00:00<00:04,  1.63it/s] 25%|██▌       | 2/8 [00:01<00:03,  1.65it/s] 38%|███▊      | 3/8 [00:01<00:03,  1.66it/s] 50%|█████     | 4/8 [00:02<00:02,  1.66it/s] 62%|██████▎   | 5/8 [00:03<00:01,  1.66it/s] 75%|███████▌  | 6/8 [00:03<00:01,  1.66it/s] 88%|████████▊ | 7/8 [00:04<00:00,  1.65it/s]100%|██████████| 8/8 [00:04<00:00,  1.86it/s]
+[2023-11-13 18:08:32,412] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/8 [00:00<?, ?it/s] 12%|█▎        | 1/8 [00:00<00:04,  1.63it/s] 25%|██▌       | 2/8 [00:01<00:03,  1.65it/s] 38%|███▊      | 3/8 [00:01<00:03,  1.65it/s] 50%|█████     | 4/8 [00:02<00:02,  1.66it/s] 62%|██████▎   | 5/8 [00:03<00:01,  1.65it/s] 75%|███████▌  | 6/8 [00:03<00:01,  1.66it/s] 88%|████████▊ | 7/8 [00:04<00:00,  1.65it/s]100%|██████████| 8/8 [00:04<00:00,  1.86it/s]
+11/13 18:08:36 - OpenCompass - INFO - Start inferencing [hf_llama-7b/lukaemon_mmlu_machine_learning]
+  0%|          | 0/112 [00:00<?, ?it/s]100%|██████████| 112/112 [00:00<00:00, 3308183.44it/s]
+[2023-11-13 18:08:36,991] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:03,  1.59it/s] 29%|██▊       | 2/7 [00:01<00:03,  1.59it/s] 43%|████▎     | 3/7 [00:01<00:02,  1.58it/s] 57%|█████▋    | 4/7 [00:02<00:01,  1.57it/s] 71%|███████▏  | 5/7 [00:03<00:01,  1.57it/s] 86%|████████▌ | 6/7 [00:03<00:00,  1.57it/s]100%|██████████| 7/7 [00:04<00:00,  1.38it/s]100%|██████████| 7/7 [00:04<00:00,  1.48it/s]
+[2023-11-13 18:08:41,922] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:03,  1.59it/s] 29%|██▊       | 2/7 [00:01<00:03,  1.59it/s] 43%|████▎     | 3/7 [00:01<00:02,  1.58it/s] 57%|█████▋    | 4/7 [00:02<00:01,  1.58it/s] 71%|███████▏  | 5/7 [00:03<00:01,  1.57it/s] 86%|████████▌ | 6/7 [00:03<00:00,  1.57it/s]100%|██████████| 7/7 [00:04<00:00,  1.55it/s]100%|██████████| 7/7 [00:04<00:00,  1.56it/s]
+[2023-11-13 18:08:46,609] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:03,  1.59it/s] 29%|██▊       | 2/7 [00:01<00:03,  1.59it/s] 43%|████▎     | 3/7 [00:01<00:02,  1.58it/s] 57%|█████▋    | 4/7 [00:02<00:01,  1.58it/s] 71%|███████▏  | 5/7 [00:03<00:01,  1.57it/s] 86%|████████▌ | 6/7 [00:03<00:00,  1.57it/s]100%|██████████| 7/7 [00:04<00:00,  1.55it/s]100%|██████████| 7/7 [00:04<00:00,  1.56it/s]
+[2023-11-13 18:08:51,296] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:03,  1.59it/s] 29%|██▊       | 2/7 [00:01<00:03,  1.59it/s] 43%|████▎     | 3/7 [00:01<00:02,  1.59it/s] 57%|█████▋    | 4/7 [00:02<00:01,  1.58it/s] 71%|███████▏  | 5/7 [00:03<00:01,  1.57it/s] 86%|████████▌ | 6/7 [00:03<00:00,  1.57it/s]100%|██████████| 7/7 [00:04<00:00,  1.55it/s]100%|██████████| 7/7 [00:04<00:00,  1.56it/s]
+11/13 18:08:55 - OpenCompass - INFO - Start inferencing [hf_llama-7b/lukaemon_mmlu_public_relations]
+  0%|          | 0/110 [00:00<?, ?it/s]100%|██████████| 110/110 [00:00<00:00, 3181885.79it/s]
+[2023-11-13 18:08:55,974] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:02,  2.24it/s] 29%|██▊       | 2/7 [00:00<00:02,  2.26it/s] 43%|████▎     | 3/7 [00:01<00:01,  2.23it/s] 57%|█████▋    | 4/7 [00:01<00:01,  2.27it/s] 71%|███████▏  | 5/7 [00:02<00:00,  2.31it/s] 86%|████████▌ | 6/7 [00:02<00:00,  2.29it/s]100%|██████████| 7/7 [00:03<00:00,  2.41it/s]100%|██████████| 7/7 [00:03<00:00,  2.33it/s]
+[2023-11-13 18:08:59,119] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:02,  2.25it/s] 29%|██▊       | 2/7 [00:00<00:02,  2.26it/s] 43%|████▎     | 3/7 [00:01<00:01,  2.26it/s] 57%|█████▋    | 4/7 [00:01<00:01,  2.29it/s] 71%|███████▏  | 5/7 [00:02<00:00,  2.32it/s] 86%|████████▌ | 6/7 [00:02<00:00,  2.30it/s]100%|██████████| 7/7 [00:02<00:00,  2.42it/s]100%|██████████| 7/7 [00:02<00:00,  2.34it/s]
+[2023-11-13 18:09:02,248] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:02,  2.24it/s] 29%|██▊       | 2/7 [00:00<00:02,  2.26it/s] 43%|████▎     | 3/7 [00:01<00:01,  2.26it/s] 57%|█████▋    | 4/7 [00:01<00:01,  2.29it/s] 71%|███████▏  | 5/7 [00:02<00:00,  2.32it/s] 86%|████████▌ | 6/7 [00:02<00:00,  2.30it/s]100%|██████████| 7/7 [00:02<00:00,  2.42it/s]100%|██████████| 7/7 [00:02<00:00,  2.34it/s]
+[2023-11-13 18:09:05,377] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:02,  2.25it/s] 29%|██▊       | 2/7 [00:00<00:02,  2.26it/s] 43%|████▎     | 3/7 [00:01<00:01,  2.26it/s] 57%|█████▋    | 4/7 [00:01<00:01,  2.29it/s] 71%|███████▏  | 5/7 [00:02<00:00,  2.32it/s] 86%|████████▌ | 6/7 [00:02<00:00,  2.30it/s]100%|██████████| 7/7 [00:02<00:00,  2.42it/s]100%|██████████| 7/7 [00:02<00:00,  2.34it/s]
+11/13 18:09:08 - OpenCompass - INFO - Start inferencing [hf_llama-7b/cmmlu-high_school_physics]
+  0%|          | 0/110 [00:00<?, ?it/s]100%|██████████| 110/110 [00:00<00:00, 3319233.38it/s]
+[2023-11-13 18:09:08,592] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:05,  1.02it/s] 29%|██▊       | 2/7 [00:01<00:04,  1.01it/s] 43%|████▎     | 3/7 [00:02<00:03,  1.01it/s] 57%|█████▋    | 4/7 [00:04<00:03,  1.09s/it] 71%|███████▏  | 5/7 [00:05<00:02,  1.08s/it] 86%|████████▌ | 6/7 [00:06<00:01,  1.05s/it]100%|██████████| 7/7 [00:07<00:00,  1.09s/it]100%|██████████| 7/7 [00:07<00:00,  1.06s/it]
+[2023-11-13 18:09:16,300] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:05,  1.04it/s] 29%|██▊       | 2/7 [00:01<00:04,  1.02it/s] 43%|████▎     | 3/7 [00:02<00:03,  1.01it/s] 57%|█████▋    | 4/7 [00:03<00:02,  1.01it/s] 71%|███████▏  | 5/7 [00:05<00:02,  1.02s/it] 86%|████████▌ | 6/7 [00:06<00:01,  1.01s/it]100%|██████████| 7/7 [00:06<00:00,  1.02it/s]100%|██████████| 7/7 [00:06<00:00,  1.01it/s]
+[2023-11-13 18:09:23,404] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:05,  1.04it/s] 29%|██▊       | 2/7 [00:01<00:04,  1.02it/s] 43%|████▎     | 3/7 [00:02<00:03,  1.02it/s] 57%|█████▋    | 4/7 [00:03<00:02,  1.01it/s] 71%|███████▏  | 5/7 [00:05<00:02,  1.02s/it] 86%|████████▌ | 6/7 [00:06<00:01,  1.01s/it]100%|██████████| 7/7 [00:06<00:00,  1.02it/s]100%|██████████| 7/7 [00:06<00:00,  1.01it/s]
+[2023-11-13 18:09:30,494] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:05,  1.04it/s] 29%|██▊       | 2/7 [00:01<00:04,  1.01it/s] 43%|████▎     | 3/7 [00:02<00:03,  1.01it/s] 57%|█████▋    | 4/7 [00:03<00:02,  1.01it/s] 71%|███████▏  | 5/7 [00:05<00:02,  1.02s/it] 86%|████████▌ | 6/7 [00:06<00:01,  1.01s/it]100%|██████████| 7/7 [00:06<00:00,  1.02it/s]100%|██████████| 7/7 [00:06<00:00,  1.01it/s]
+11/13 18:09:37 - OpenCompass - INFO - Start inferencing [hf_llama-7b/lukaemon_mmlu_jurisprudence]
+  0%|          | 0/108 [00:00<?, ?it/s]100%|██████████| 108/108 [00:00<00:00, 2696338.29it/s]
+[2023-11-13 18:09:37,625] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:02,  2.34it/s] 29%|██▊       | 2/7 [00:00<00:02,  2.36it/s] 43%|████▎     | 3/7 [00:01<00:01,  2.36it/s] 57%|█████▋    | 4/7 [00:01<00:01,  2.37it/s] 71%|███████▏  | 5/7 [00:02<00:00,  2.36it/s] 86%|████████▌ | 6/7 [00:02<00:00,  2.38it/s]100%|██████████| 7/7 [00:02<00:00,  2.60it/s]100%|██████████| 7/7 [00:02<00:00,  2.46it/s]
+[2023-11-13 18:09:40,600] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:02,  2.34it/s] 29%|██▊       | 2/7 [00:00<00:02,  2.37it/s] 43%|████▎     | 3/7 [00:01<00:01,  2.36it/s] 57%|█████▋    | 4/7 [00:01<00:01,  2.37it/s] 71%|███████▏  | 5/7 [00:02<00:00,  2.36it/s] 86%|████████▌ | 6/7 [00:02<00:00,  2.38it/s]100%|██████████| 7/7 [00:02<00:00,  2.60it/s]100%|██████████| 7/7 [00:02<00:00,  2.46it/s]
+[2023-11-13 18:09:43,573] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:02,  2.34it/s] 29%|██▊       | 2/7 [00:00<00:02,  2.36it/s] 43%|████▎     | 3/7 [00:01<00:01,  2.36it/s] 57%|█████▋    | 4/7 [00:01<00:01,  2.37it/s] 71%|███████▏  | 5/7 [00:02<00:00,  2.36it/s] 86%|████████▌ | 6/7 [00:02<00:00,  2.38it/s]100%|██████████| 7/7 [00:02<00:00,  2.60it/s]100%|██████████| 7/7 [00:02<00:00,  2.46it/s]
+[2023-11-13 18:09:46,546] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:02,  2.33it/s] 29%|██▊       | 2/7 [00:00<00:02,  2.36it/s] 43%|████▎     | 3/7 [00:01<00:01,  2.36it/s] 57%|█████▋    | 4/7 [00:01<00:01,  2.37it/s] 71%|███████▏  | 5/7 [00:02<00:00,  2.36it/s] 86%|████████▌ | 6/7 [00:02<00:00,  2.38it/s]100%|██████████| 7/7 [00:02<00:00,  2.60it/s]100%|██████████| 7/7 [00:02<00:00,  2.46it/s]
+11/13 18:09:49 - OpenCompass - INFO - Start inferencing [hf_llama-7b/cmmlu-college_law]
+  0%|          | 0/108 [00:00<?, ?it/s]100%|██████████| 108/108 [00:00<00:00, 3258883.68it/s]
+[2023-11-13 18:09:49,603] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:04,  1.26it/s] 29%|██▊       | 2/7 [00:01<00:03,  1.30it/s] 43%|████▎     | 3/7 [00:02<00:03,  1.27it/s] 57%|█████▋    | 4/7 [00:03<00:02,  1.27it/s] 71%|███████▏  | 5/7 [00:03<00:01,  1.27it/s] 86%|████████▌ | 6/7 [00:04<00:00,  1.27it/s]100%|██████████| 7/7 [00:05<00:00,  1.40it/s]100%|██████████| 7/7 [00:05<00:00,  1.32it/s]
+[2023-11-13 18:09:55,019] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:04,  1.26it/s] 29%|██▊       | 2/7 [00:01<00:03,  1.30it/s] 43%|████▎     | 3/7 [00:02<00:03,  1.27it/s] 57%|█████▋    | 4/7 [00:03<00:02,  1.27it/s] 71%|███████▏  | 5/7 [00:03<00:01,  1.27it/s] 86%|████████▌ | 6/7 [00:04<00:00,  1.27it/s]100%|██████████| 7/7 [00:05<00:00,  1.39it/s]100%|██████████| 7/7 [00:05<00:00,  1.32it/s]
+[2023-11-13 18:10:00,444] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:04,  1.27it/s] 29%|██▊       | 2/7 [00:01<00:03,  1.30it/s] 43%|████▎     | 3/7 [00:02<00:03,  1.26it/s] 57%|█████▋    | 4/7 [00:03<00:02,  1.27it/s] 71%|███████▏  | 5/7 [00:03<00:01,  1.27it/s] 86%|████████▌ | 6/7 [00:04<00:00,  1.27it/s]100%|██████████| 7/7 [00:05<00:00,  1.39it/s]100%|██████████| 7/7 [00:05<00:00,  1.32it/s]
+[2023-11-13 18:10:05,868] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:04,  1.26it/s] 29%|██▊       | 2/7 [00:01<00:03,  1.30it/s] 43%|████▎     | 3/7 [00:02<00:03,  1.27it/s] 57%|█████▋    | 4/7 [00:03<00:02,  1.27it/s] 71%|███████▏  | 5/7 [00:03<00:01,  1.27it/s] 86%|████████▌ | 6/7 [00:04<00:00,  1.27it/s]100%|██████████| 7/7 [00:05<00:00,  1.39it/s]100%|██████████| 7/7 [00:05<00:00,  1.32it/s]
+11/13 18:10:11 - OpenCompass - INFO - Start inferencing [hf_llama-7b/cmmlu-chinese_foreign_policy]
+  0%|          | 0/107 [00:00<?, ?it/s]100%|██████████| 107/107 [00:00<00:00, 3182911.55it/s]
+[2023-11-13 18:10:11,385] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:01<00:06,  1.03s/it] 29%|██▊       | 2/7 [00:01<00:04,  1.03it/s] 43%|████▎     | 3/7 [00:02<00:03,  1.04it/s] 57%|█████▋    | 4/7 [00:03<00:02,  1.00it/s] 71%|███████▏  | 5/7 [00:04<00:02,  1.00s/it] 86%|████████▌ | 6/7 [00:05<00:00,  1.01it/s]100%|██████████| 7/7 [00:06<00:00,  1.12it/s]100%|██████████| 7/7 [00:06<00:00,  1.05it/s]
+[2023-11-13 18:10:18,180] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:01<00:06,  1.03s/it] 29%|██▊       | 2/7 [00:01<00:04,  1.03it/s] 43%|████▎     | 3/7 [00:02<00:03,  1.04it/s] 57%|█████▋    | 4/7 [00:03<00:02,  1.00it/s] 71%|███████▏  | 5/7 [00:04<00:02,  1.00s/it] 86%|████████▌ | 6/7 [00:05<00:00,  1.01it/s]100%|██████████| 7/7 [00:06<00:00,  1.12it/s]100%|██████████| 7/7 [00:06<00:00,  1.05it/s]
+[2023-11-13 18:10:24,970] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:01<00:06,  1.03s/it] 29%|██▊       | 2/7 [00:01<00:04,  1.03it/s] 43%|████▎     | 3/7 [00:02<00:03,  1.03it/s] 57%|█████▋    | 4/7 [00:03<00:02,  1.00it/s] 71%|███████▏  | 5/7 [00:04<00:02,  1.01s/it] 86%|████████▌ | 6/7 [00:05<00:00,  1.01it/s]100%|██████████| 7/7 [00:06<00:00,  1.11it/s]100%|██████████| 7/7 [00:06<00:00,  1.05it/s]
+[2023-11-13 18:10:31,774] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:01<00:06,  1.03s/it] 29%|██▊       | 2/7 [00:01<00:04,  1.03it/s] 43%|████▎     | 3/7 [00:02<00:03,  1.03it/s] 57%|█████▋    | 4/7 [00:03<00:02,  1.00it/s] 71%|███████▏  | 5/7 [00:04<00:02,  1.01s/it] 86%|████████▌ | 6/7 [00:05<00:00,  1.01it/s]100%|██████████| 7/7 [00:06<00:00,  1.11it/s]100%|██████████| 7/7 [00:06<00:00,  1.05it/s]
+11/13 18:10:38 - OpenCompass - INFO - Start inferencing [hf_llama-7b/cmmlu-college_education]
+  0%|          | 0/107 [00:00<?, ?it/s]100%|██████████| 107/107 [00:00<00:00, 3073907.73it/s]
+[2023-11-13 18:10:38,622] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:03,  1.57it/s] 29%|██▊       | 2/7 [00:01<00:03,  1.59it/s] 43%|████▎     | 3/7 [00:01<00:02,  1.58it/s] 57%|█████▋    | 4/7 [00:02<00:01,  1.61it/s] 71%|███████▏  | 5/7 [00:03<00:01,  1.61it/s] 86%|████████▌ | 6/7 [00:03<00:00,  1.58it/s]100%|██████████| 7/7 [00:04<00:00,  1.77it/s]100%|██████████| 7/7 [00:04<00:00,  1.66it/s]
+[2023-11-13 18:10:42,939] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:03,  1.57it/s] 29%|██▊       | 2/7 [00:01<00:03,  1.59it/s] 43%|████▎     | 3/7 [00:01<00:02,  1.58it/s] 57%|█████▋    | 4/7 [00:02<00:01,  1.61it/s] 71%|███████▏  | 5/7 [00:03<00:01,  1.61it/s] 86%|████████▌ | 6/7 [00:03<00:00,  1.58it/s]100%|██████████| 7/7 [00:04<00:00,  1.77it/s]100%|██████████| 7/7 [00:04<00:00,  1.67it/s]
+[2023-11-13 18:10:47,249] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:03,  1.56it/s] 29%|██▊       | 2/7 [00:01<00:03,  1.59it/s] 43%|████▎     | 3/7 [00:01<00:02,  1.58it/s] 57%|█████▋    | 4/7 [00:02<00:01,  1.61it/s] 71%|███████▏  | 5/7 [00:03<00:01,  1.61it/s] 86%|████████▌ | 6/7 [00:03<00:00,  1.58it/s]100%|██████████| 7/7 [00:04<00:00,  1.77it/s]100%|██████████| 7/7 [00:04<00:00,  1.67it/s]
+[2023-11-13 18:10:51,562] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:03,  1.57it/s] 29%|██▊       | 2/7 [00:01<00:03,  1.58it/s] 43%|████▎     | 3/7 [00:01<00:02,  1.58it/s] 57%|█████▋    | 4/7 [00:02<00:01,  1.61it/s] 71%|███████▏  | 5/7 [00:03<00:01,  1.61it/s] 86%|████████▌ | 6/7 [00:03<00:00,  1.58it/s]100%|██████████| 7/7 [00:04<00:00,  1.77it/s]100%|██████████| 7/7 [00:04<00:00,  1.66it/s]
+11/13 18:10:55 - OpenCompass - INFO - Start inferencing [hf_llama-7b/cmmlu-college_actuarial_science]
+  0%|          | 0/106 [00:00<?, ?it/s]100%|██████████| 106/106 [00:00<00:00, 3153164.71it/s]
+[2023-11-13 18:10:55,991] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:04,  1.26it/s] 29%|██▊       | 2/7 [00:01<00:04,  1.20it/s] 43%|████▎     | 3/7 [00:02<00:03,  1.21it/s] 57%|█████▋    | 4/7 [00:03<00:02,  1.20it/s] 71%|███████▏  | 5/7 [00:04<00:01,  1.20it/s] 86%|████████▌ | 6/7 [00:04<00:00,  1.20it/s]100%|██████████| 7/7 [00:05<00:00,  1.34it/s]100%|██████████| 7/7 [00:05<00:00,  1.26it/s]
+[2023-11-13 18:11:01,690] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:04,  1.26it/s] 29%|██▊       | 2/7 [00:01<00:04,  1.20it/s] 43%|████▎     | 3/7 [00:02<00:03,  1.20it/s] 57%|█████▋    | 4/7 [00:03<00:02,  1.20it/s] 71%|███████▏  | 5/7 [00:04<00:01,  1.20it/s] 86%|████████▌ | 6/7 [00:05<00:00,  1.19it/s]100%|██████████| 7/7 [00:05<00:00,  1.34it/s]100%|██████████| 7/7 [00:05<00:00,  1.26it/s]
+[2023-11-13 18:11:07,395] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:04,  1.26it/s] 29%|██▊       | 2/7 [00:01<00:04,  1.20it/s] 43%|████▎     | 3/7 [00:02<00:03,  1.21it/s] 57%|█████▋    | 4/7 [00:03<00:02,  1.20it/s] 71%|███████▏  | 5/7 [00:04<00:01,  1.20it/s] 86%|████████▌ | 6/7 [00:04<00:00,  1.20it/s]100%|██████████| 7/7 [00:05<00:00,  1.34it/s]100%|██████████| 7/7 [00:05<00:00,  1.26it/s]
+[2023-11-13 18:11:13,086] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:04,  1.26it/s] 29%|██▊       | 2/7 [00:01<00:04,  1.20it/s] 43%|████▎     | 3/7 [00:02<00:03,  1.21it/s] 57%|█████▋    | 4/7 [00:03<00:02,  1.20it/s] 71%|███████▏  | 5/7 [00:04<00:01,  1.20it/s] 86%|████████▌ | 6/7 [00:04<00:00,  1.20it/s]100%|██████████| 7/7 [00:05<00:00,  1.34it/s]100%|██████████| 7/7 [00:05<00:00,  1.26it/s]
+11/13 18:11:18 - OpenCompass - INFO - Start inferencing [hf_llama-7b/cmmlu-college_engineering_hydrology]
+  0%|          | 0/106 [00:00<?, ?it/s]100%|██████████| 106/106 [00:00<00:00, 3342828.75it/s]
+[2023-11-13 18:11:18,820] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:03,  1.58it/s] 29%|██▊       | 2/7 [00:01<00:03,  1.59it/s] 43%|████▎     | 3/7 [00:01<00:02,  1.57it/s] 57%|█████▋    | 4/7 [00:02<00:01,  1.57it/s] 71%|███████▏  | 5/7 [00:03<00:01,  1.57it/s] 86%|████████▌ | 6/7 [00:03<00:00,  1.56it/s]100%|██████████| 7/7 [00:04<00:00,  1.77it/s]100%|██████████| 7/7 [00:04<00:00,  1.65it/s]
+[2023-11-13 18:11:23,163] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:03,  1.58it/s] 29%|██▊       | 2/7 [00:01<00:03,  1.59it/s] 43%|████▎     | 3/7 [00:01<00:02,  1.57it/s] 57%|█████▋    | 4/7 [00:02<00:01,  1.57it/s] 71%|███████▏  | 5/7 [00:03<00:01,  1.57it/s] 86%|████████▌ | 6/7 [00:03<00:00,  1.56it/s]100%|██████████| 7/7 [00:04<00:00,  1.78it/s]100%|██████████| 7/7 [00:04<00:00,  1.66it/s]
+[2023-11-13 18:11:27,501] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:03,  1.57it/s] 29%|██▊       | 2/7 [00:01<00:03,  1.59it/s] 43%|████▎     | 3/7 [00:01<00:02,  1.57it/s] 57%|█████▋    | 4/7 [00:02<00:01,  1.57it/s] 71%|███████▏  | 5/7 [00:03<00:01,  1.57it/s] 86%|████████▌ | 6/7 [00:03<00:00,  1.56it/s]100%|██████████| 7/7 [00:04<00:00,  1.78it/s]100%|██████████| 7/7 [00:04<00:00,  1.65it/s]
+[2023-11-13 18:11:31,841] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:03,  1.58it/s] 29%|██▊       | 2/7 [00:01<00:03,  1.59it/s] 43%|████▎     | 3/7 [00:01<00:02,  1.57it/s] 57%|█████▋    | 4/7 [00:02<00:01,  1.57it/s] 71%|███████▏  | 5/7 [00:03<00:01,  1.57it/s] 86%|████████▌ | 6/7 [00:03<00:00,  1.57it/s]100%|██████████| 7/7 [00:04<00:00,  1.78it/s]100%|██████████| 7/7 [00:04<00:00,  1.66it/s]
+11/13 18:11:36 - OpenCompass - INFO - Start inferencing [hf_llama-7b/cmmlu-college_medical_statistics]
+  0%|          | 0/106 [00:00<?, ?it/s]100%|██████████| 106/106 [00:00<00:00, 3393864.31it/s]
+[2023-11-13 18:11:36,268] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:04,  1.39it/s] 29%|██▊       | 2/7 [00:01<00:03,  1.37it/s] 43%|████▎     | 3/7 [00:02<00:02,  1.39it/s] 57%|█████▋    | 4/7 [00:02<00:02,  1.41it/s] 71%|███████▏  | 5/7 [00:03<00:01,  1.40it/s] 86%|████████▌ | 6/7 [00:04<00:00,  1.40it/s]100%|██████████| 7/7 [00:04<00:00,  1.60it/s]100%|██████████| 7/7 [00:04<00:00,  1.48it/s]
+[2023-11-13 18:11:41,132] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:04,  1.39it/s] 29%|██▊       | 2/7 [00:01<00:03,  1.37it/s] 43%|████▎     | 3/7 [00:02<00:02,  1.39it/s] 57%|█████▋    | 4/7 [00:02<00:02,  1.41it/s] 71%|███████▏  | 5/7 [00:03<00:01,  1.41it/s] 86%|████████▌ | 6/7 [00:04<00:00,  1.40it/s]100%|██████████| 7/7 [00:04<00:00,  1.60it/s]100%|██████████| 7/7 [00:04<00:00,  1.48it/s]
+[2023-11-13 18:11:45,990] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:04,  1.39it/s] 29%|██▊       | 2/7 [00:01<00:03,  1.37it/s] 43%|████▎     | 3/7 [00:02<00:02,  1.39it/s] 57%|█████▋    | 4/7 [00:02<00:02,  1.41it/s] 71%|███████▏  | 5/7 [00:03<00:01,  1.40it/s] 86%|████████▌ | 6/7 [00:04<00:00,  1.40it/s]100%|██████████| 7/7 [00:04<00:00,  1.60it/s]100%|██████████| 7/7 [00:04<00:00,  1.48it/s]
+[2023-11-13 18:11:50,853] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:04,  1.39it/s] 29%|██▊       | 2/7 [00:01<00:03,  1.37it/s] 43%|████▎     | 3/7 [00:02<00:02,  1.39it/s] 57%|█████▋    | 4/7 [00:02<00:02,  1.41it/s] 71%|███████▏  | 5/7 [00:03<00:01,  1.40it/s] 86%|████████▌ | 6/7 [00:04<00:00,  1.40it/s]100%|██████████| 7/7 [00:04<00:00,  1.60it/s]100%|██████████| 7/7 [00:04<00:00,  1.48it/s]
+11/13 18:11:55 - OpenCompass - INFO - Start inferencing [hf_llama-7b/cmmlu-college_mathematics]
+  0%|          | 0/105 [00:00<?, ?it/s]100%|██████████| 105/105 [00:00<00:00, 3413968.37it/s]
+[2023-11-13 18:11:55,808] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:04,  1.29it/s] 29%|██▊       | 2/7 [00:01<00:03,  1.33it/s] 43%|████▎     | 3/7 [00:02<00:03,  1.32it/s] 57%|█████▋    | 4/7 [00:03<00:02,  1.32it/s] 71%|███████▏  | 5/7 [00:03<00:01,  1.26it/s] 86%|████████▌ | 6/7 [00:04<00:00,  1.28it/s]100%|██████████| 7/7 [00:05<00:00,  1.50it/s]100%|██████████| 7/7 [00:05<00:00,  1.38it/s]
+[2023-11-13 18:12:01,023] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:04,  1.29it/s] 29%|██▊       | 2/7 [00:01<00:03,  1.33it/s] 43%|████▎     | 3/7 [00:02<00:03,  1.32it/s] 57%|█████▋    | 4/7 [00:03<00:02,  1.32it/s] 71%|███████▏  | 5/7 [00:03<00:01,  1.26it/s] 86%|████████▌ | 6/7 [00:04<00:00,  1.28it/s]100%|██████████| 7/7 [00:05<00:00,  1.50it/s]100%|██████████| 7/7 [00:05<00:00,  1.38it/s]
+[2023-11-13 18:12:06,238] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:04,  1.29it/s] 29%|██▊       | 2/7 [00:01<00:03,  1.33it/s] 43%|████▎     | 3/7 [00:02<00:03,  1.32it/s] 57%|█████▋    | 4/7 [00:03<00:02,  1.32it/s] 71%|███████▏  | 5/7 [00:03<00:01,  1.26it/s] 86%|████████▌ | 6/7 [00:04<00:00,  1.28it/s]100%|██████████| 7/7 [00:05<00:00,  1.50it/s]100%|██████████| 7/7 [00:05<00:00,  1.38it/s]
+[2023-11-13 18:12:11,454] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:04,  1.29it/s] 29%|██▊       | 2/7 [00:01<00:03,  1.33it/s] 43%|████▎     | 3/7 [00:02<00:03,  1.32it/s] 57%|█████▋    | 4/7 [00:03<00:02,  1.32it/s] 71%|███████▏  | 5/7 [00:03<00:01,  1.26it/s] 86%|████████▌ | 6/7 [00:04<00:00,  1.28it/s]100%|██████████| 7/7 [00:05<00:00,  1.50it/s]100%|██████████| 7/7 [00:05<00:00,  1.38it/s]
+11/13 18:12:16 - OpenCompass - INFO - Start inferencing [hf_llama-7b/cmmlu-philosophy]
+  0%|          | 0/105 [00:00<?, ?it/s]100%|██████████| 105/105 [00:00<00:00, 3286581.49it/s]
+[2023-11-13 18:12:16,708] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:03,  1.63it/s] 29%|██▊       | 2/7 [00:01<00:03,  1.61it/s] 43%|████▎     | 3/7 [00:01<00:02,  1.61it/s] 57%|█████▋    | 4/7 [00:02<00:01,  1.63it/s] 71%|███████▏  | 5/7 [00:03<00:01,  1.63it/s] 86%|████████▌ | 6/7 [00:03<00:00,  1.64it/s]100%|██████████| 7/7 [00:04<00:00,  1.92it/s]100%|██████████| 7/7 [00:04<00:00,  1.74it/s]
+[2023-11-13 18:12:20,832] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:03,  1.63it/s] 29%|██▊       | 2/7 [00:01<00:03,  1.62it/s] 43%|████▎     | 3/7 [00:01<00:02,  1.61it/s] 57%|█████▋    | 4/7 [00:02<00:01,  1.63it/s] 71%|███████▏  | 5/7 [00:03<00:01,  1.63it/s] 86%|████████▌ | 6/7 [00:03<00:00,  1.64it/s]100%|██████████| 7/7 [00:04<00:00,  1.92it/s]100%|██████████| 7/7 [00:04<00:00,  1.74it/s]
+[2023-11-13 18:12:24,956] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:03,  1.63it/s] 29%|██▊       | 2/7 [00:01<00:03,  1.62it/s] 43%|████▎     | 3/7 [00:01<00:02,  1.61it/s] 57%|█████▋    | 4/7 [00:02<00:01,  1.63it/s] 71%|███████▏  | 5/7 [00:03<00:01,  1.63it/s] 86%|████████▌ | 6/7 [00:03<00:00,  1.64it/s]100%|██████████| 7/7 [00:04<00:00,  1.92it/s]100%|██████████| 7/7 [00:04<00:00,  1.74it/s]
+[2023-11-13 18:12:29,079] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:03,  1.63it/s] 29%|██▊       | 2/7 [00:01<00:03,  1.62it/s] 43%|████▎     | 3/7 [00:01<00:02,  1.61it/s] 57%|█████▋    | 4/7 [00:02<00:01,  1.63it/s] 71%|███████▏  | 5/7 [00:03<00:01,  1.63it/s] 86%|████████▌ | 6/7 [00:03<00:00,  1.64it/s]100%|██████████| 7/7 [00:04<00:00,  1.92it/s]100%|██████████| 7/7 [00:04<00:00,  1.74it/s]
+11/13 18:12:33 - OpenCompass - INFO - Start inferencing [hf_llama-7b/lukaemon_mmlu_management]
+  0%|          | 0/103 [00:00<?, ?it/s]100%|██████████| 103/103 [00:00<00:00, 3297811.54it/s]
+[2023-11-13 18:12:33,233] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:02,  2.96it/s] 29%|██▊       | 2/7 [00:00<00:01,  2.96it/s] 43%|████▎     | 3/7 [00:01<00:01,  2.95it/s] 57%|█████▋    | 4/7 [00:01<00:01,  2.96it/s] 71%|███████▏  | 5/7 [00:01<00:00,  2.96it/s] 86%|████████▌ | 6/7 [00:02<00:00,  2.95it/s]100%|██████████| 7/7 [00:02<00:00,  3.61it/s]100%|██████████| 7/7 [00:02<00:00,  3.21it/s]
+[2023-11-13 18:12:35,501] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:02,  2.97it/s] 29%|██▊       | 2/7 [00:00<00:01,  2.97it/s] 43%|████▎     | 3/7 [00:01<00:01,  2.95it/s] 57%|█████▋    | 4/7 [00:01<00:01,  2.97it/s] 71%|███████▏  | 5/7 [00:01<00:00,  2.96it/s] 86%|████████▌ | 6/7 [00:02<00:00,  2.95it/s]100%|██████████| 7/7 [00:02<00:00,  3.61it/s]100%|██████████| 7/7 [00:02<00:00,  3.21it/s]
+[2023-11-13 18:12:37,766] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:02,  2.97it/s] 29%|██▊       | 2/7 [00:00<00:01,  2.97it/s] 43%|████▎     | 3/7 [00:01<00:01,  2.96it/s] 57%|█████▋    | 4/7 [00:01<00:01,  2.97it/s] 71%|███████▏  | 5/7 [00:01<00:00,  2.96it/s] 86%|████████▌ | 6/7 [00:02<00:00,  2.95it/s]100%|██████████| 7/7 [00:02<00:00,  3.62it/s]100%|██████████| 7/7 [00:02<00:00,  3.22it/s]
+[2023-11-13 18:12:40,030] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:02,  2.96it/s] 29%|██▊       | 2/7 [00:00<00:01,  2.97it/s] 43%|████▎     | 3/7 [00:01<00:01,  2.95it/s] 57%|█████▋    | 4/7 [00:01<00:01,  2.96it/s] 71%|███████▏  | 5/7 [00:01<00:00,  2.95it/s] 86%|████████▌ | 6/7 [00:02<00:00,  2.94it/s]100%|██████████| 7/7 [00:02<00:00,  3.61it/s]100%|██████████| 7/7 [00:02<00:00,  3.21it/s]
+11/13 18:12:42 - OpenCompass - INFO - Start inferencing [hf_llama-7b/lukaemon_mmlu_college_physics]
+  0%|          | 0/102 [00:00<?, ?it/s]100%|██████████| 102/102 [00:00<00:00, 3290915.45it/s]
+[2023-11-13 18:12:42,390] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:03,  1.93it/s] 29%|██▊       | 2/7 [00:01<00:02,  1.91it/s] 43%|████▎     | 3/7 [00:01<00:02,  1.89it/s] 57%|█████▋    | 4/7 [00:02<00:01,  1.91it/s] 71%|███████▏  | 5/7 [00:02<00:01,  1.89it/s] 86%|████████▌ | 6/7 [00:03<00:00,  1.88it/s]100%|██████████| 7/7 [00:03<00:00,  2.35it/s]100%|██████████| 7/7 [00:03<00:00,  2.07it/s]
+[2023-11-13 18:12:45,896] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:03,  1.93it/s] 29%|██▊       | 2/7 [00:01<00:02,  1.91it/s] 43%|████▎     | 3/7 [00:01<00:02,  1.89it/s] 57%|█████▋    | 4/7 [00:02<00:01,  1.91it/s] 71%|███████▏  | 5/7 [00:02<00:01,  1.89it/s] 86%|████████▌ | 6/7 [00:03<00:00,  1.88it/s]100%|██████████| 7/7 [00:03<00:00,  2.35it/s]100%|██████████| 7/7 [00:03<00:00,  2.07it/s]
+[2023-11-13 18:12:49,403] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:03,  1.93it/s] 29%|██▊       | 2/7 [00:01<00:02,  1.91it/s] 43%|████▎     | 3/7 [00:01<00:02,  1.89it/s] 57%|█████▋    | 4/7 [00:02<00:01,  1.91it/s] 71%|███████▏  | 5/7 [00:02<00:01,  1.89it/s] 86%|████████▌ | 6/7 [00:03<00:00,  1.88it/s]100%|██████████| 7/7 [00:03<00:00,  2.35it/s]100%|██████████| 7/7 [00:03<00:00,  2.07it/s]
+[2023-11-13 18:12:52,910] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:03,  1.93it/s] 29%|██▊       | 2/7 [00:01<00:02,  1.91it/s] 43%|████▎     | 3/7 [00:01<00:02,  1.89it/s] 57%|█████▋    | 4/7 [00:02<00:01,  1.91it/s] 71%|███████▏  | 5/7 [00:02<00:01,  1.89it/s] 86%|████████▌ | 6/7 [00:03<00:00,  1.88it/s]100%|██████████| 7/7 [00:03<00:00,  2.35it/s]100%|██████████| 7/7 [00:03<00:00,  2.07it/s]
+11/13 18:12:56 - OpenCompass - INFO - Start inferencing [hf_llama-7b/lukaemon_mmlu_college_chemistry]
+  0%|          | 0/100 [00:00<?, ?it/s]100%|██████████| 100/100 [00:00<00:00, 3201758.78it/s]
+[2023-11-13 18:12:56,464] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:03,  1.76it/s] 29%|██▊       | 2/7 [00:01<00:02,  1.75it/s] 43%|████▎     | 3/7 [00:01<00:02,  1.75it/s] 57%|█████▋    | 4/7 [00:02<00:01,  1.75it/s] 71%|███████▏  | 5/7 [00:02<00:01,  1.77it/s] 86%|████████▌ | 6/7 [00:03<00:00,  1.76it/s]100%|██████████| 7/7 [00:03<00:00,  2.33it/s]100%|██████████| 7/7 [00:03<00:00,  1.97it/s]
+[2023-11-13 18:13:00,146] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:03,  1.76it/s] 29%|██▊       | 2/7 [00:01<00:02,  1.75it/s] 43%|████▎     | 3/7 [00:01<00:02,  1.76it/s] 57%|█████▋    | 4/7 [00:02<00:01,  1.75it/s] 71%|███████▏  | 5/7 [00:02<00:01,  1.77it/s] 86%|████████▌ | 6/7 [00:03<00:00,  1.76it/s]100%|██████████| 7/7 [00:03<00:00,  2.33it/s]100%|██████████| 7/7 [00:03<00:00,  1.97it/s]
+[2023-11-13 18:13:03,828] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:03,  1.76it/s] 29%|██▊       | 2/7 [00:01<00:02,  1.75it/s] 43%|████▎     | 3/7 [00:01<00:02,  1.75it/s] 57%|█████▋    | 4/7 [00:02<00:01,  1.75it/s] 71%|███████▏  | 5/7 [00:02<00:01,  1.77it/s] 86%|████████▌ | 6/7 [00:03<00:00,  1.76it/s]100%|██████████| 7/7 [00:03<00:00,  2.33it/s]100%|██████████| 7/7 [00:03<00:00,  1.97it/s]
+[2023-11-13 18:13:07,510] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:03,  1.76it/s] 29%|██▊       | 2/7 [00:01<00:02,  1.76it/s] 43%|████▎     | 3/7 [00:01<00:02,  1.76it/s] 57%|█████▋    | 4/7 [00:02<00:01,  1.76it/s] 71%|███████▏  | 5/7 [00:02<00:01,  1.77it/s] 86%|████████▌ | 6/7 [00:03<00:00,  1.76it/s]100%|██████████| 7/7 [00:03<00:00,  2.34it/s]100%|██████████| 7/7 [00:03<00:00,  1.97it/s]
+11/13 18:13:11 - OpenCompass - INFO - Start inferencing [hf_llama-7b/lukaemon_mmlu_college_computer_science]
+  0%|          | 0/100 [00:00<?, ?it/s]100%|██████████| 100/100 [00:00<00:00, 3328812.70it/s]
+[2023-11-13 18:13:11,337] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:04,  1.32it/s] 29%|██▊       | 2/7 [00:01<00:03,  1.33it/s] 43%|████▎     | 3/7 [00:02<00:03,  1.33it/s] 57%|█████▋    | 4/7 [00:03<00:02,  1.33it/s] 71%|███████▏  | 5/7 [00:03<00:01,  1.32it/s] 86%|████████▌ | 6/7 [00:04<00:00,  1.32it/s]100%|██████████| 7/7 [00:04<00:00,  1.75it/s]100%|██████████| 7/7 [00:04<00:00,  1.48it/s]
+[2023-11-13 18:13:16,295] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:04,  1.32it/s] 29%|██▊       | 2/7 [00:01<00:03,  1.33it/s] 43%|████▎     | 3/7 [00:02<00:03,  1.33it/s] 57%|█████▋    | 4/7 [00:03<00:02,  1.33it/s] 71%|███████▏  | 5/7 [00:03<00:01,  1.32it/s] 86%|████████▌ | 6/7 [00:04<00:00,  1.32it/s]100%|██████████| 7/7 [00:04<00:00,  1.75it/s]100%|██████████| 7/7 [00:04<00:00,  1.48it/s]
+[2023-11-13 18:13:21,250] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:04,  1.31it/s] 29%|██▊       | 2/7 [00:01<00:03,  1.33it/s] 43%|████▎     | 3/7 [00:02<00:03,  1.33it/s] 57%|█████▋    | 4/7 [00:03<00:02,  1.33it/s] 71%|███████▏  | 5/7 [00:03<00:01,  1.32it/s] 86%|████████▌ | 6/7 [00:04<00:00,  1.32it/s]100%|██████████| 7/7 [00:04<00:00,  1.75it/s]100%|██████████| 7/7 [00:04<00:00,  1.48it/s]
+[2023-11-13 18:13:26,205] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:04,  1.32it/s] 29%|██▊       | 2/7 [00:01<00:03,  1.33it/s] 43%|████▎     | 3/7 [00:02<00:03,  1.33it/s] 57%|█████▋    | 4/7 [00:03<00:02,  1.33it/s] 71%|███████▏  | 5/7 [00:03<00:01,  1.33it/s] 86%|████████▌ | 6/7 [00:04<00:00,  1.32it/s]100%|██████████| 7/7 [00:04<00:00,  1.75it/s]100%|██████████| 7/7 [00:04<00:00,  1.48it/s]
+11/13 18:13:30 - OpenCompass - INFO - Start inferencing [hf_llama-7b/lukaemon_mmlu_college_mathematics]
+  0%|          | 0/100 [00:00<?, ?it/s]100%|██████████| 100/100 [00:00<00:00, 3177503.03it/s]
+[2023-11-13 18:13:31,115] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:03,  1.70it/s] 29%|██▊       | 2/7 [00:01<00:02,  1.69it/s] 43%|████▎     | 3/7 [00:01<00:02,  1.71it/s] 57%|█████▋    | 4/7 [00:02<00:01,  1.72it/s] 71%|███████▏  | 5/7 [00:02<00:01,  1.73it/s] 86%|████████▌ | 6/7 [00:03<00:00,  1.74it/s]100%|██████████| 7/7 [00:03<00:00,  2.30it/s]100%|██████████| 7/7 [00:03<00:00,  1.93it/s]
+[2023-11-13 18:13:34,875] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:03,  1.70it/s] 29%|██▊       | 2/7 [00:01<00:02,  1.69it/s] 43%|████▎     | 3/7 [00:01<00:02,  1.71it/s] 57%|█████▋    | 4/7 [00:02<00:01,  1.72it/s] 71%|███████▏  | 5/7 [00:02<00:01,  1.72it/s] 86%|████████▌ | 6/7 [00:03<00:00,  1.73it/s]100%|██████████| 7/7 [00:03<00:00,  2.30it/s]100%|██████████| 7/7 [00:03<00:00,  1.93it/s]
+[2023-11-13 18:13:38,640] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:03,  1.70it/s] 29%|██▊       | 2/7 [00:01<00:02,  1.69it/s] 43%|████▎     | 3/7 [00:01<00:02,  1.71it/s] 57%|█████▋    | 4/7 [00:02<00:01,  1.72it/s] 71%|███████▏  | 5/7 [00:02<00:01,  1.72it/s] 86%|████████▌ | 6/7 [00:03<00:00,  1.73it/s]100%|██████████| 7/7 [00:03<00:00,  2.30it/s]100%|██████████| 7/7 [00:03<00:00,  1.93it/s]
+[2023-11-13 18:13:42,407] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:03,  1.70it/s] 29%|██▊       | 2/7 [00:01<00:02,  1.69it/s] 43%|████▎     | 3/7 [00:01<00:02,  1.71it/s] 57%|█████▋    | 4/7 [00:02<00:01,  1.72it/s] 71%|███████▏  | 5/7 [00:02<00:01,  1.72it/s] 86%|████████▌ | 6/7 [00:03<00:00,  1.73it/s]100%|██████████| 7/7 [00:03<00:00,  2.30it/s]100%|██████████| 7/7 [00:03<00:00,  1.93it/s]
+11/13 18:13:46 - OpenCompass - INFO - Start inferencing [hf_llama-7b/lukaemon_mmlu_abstract_algebra]
+  0%|          | 0/100 [00:00<?, ?it/s]100%|██████████| 100/100 [00:00<00:00, 3276800.00it/s]
+[2023-11-13 18:13:46,166] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:02,  2.65it/s] 29%|██▊       | 2/7 [00:00<00:01,  2.62it/s] 43%|████▎     | 3/7 [00:01<00:01,  2.65it/s] 57%|█████▋    | 4/7 [00:01<00:01,  2.67it/s] 71%|███████▏  | 5/7 [00:01<00:00,  2.65it/s] 86%|████████▌ | 6/7 [00:02<00:00,  2.63it/s]100%|██████████| 7/7 [00:02<00:00,  2.96it/s]
+[2023-11-13 18:13:48,612] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:02,  2.65it/s] 29%|██▊       | 2/7 [00:00<00:01,  2.62it/s] 43%|████▎     | 3/7 [00:01<00:01,  2.65it/s] 57%|█████▋    | 4/7 [00:01<00:01,  2.67it/s] 71%|███████▏  | 5/7 [00:01<00:00,  2.65it/s] 86%|████████▌ | 6/7 [00:02<00:00,  2.63it/s]100%|██████████| 7/7 [00:02<00:00,  2.96it/s]
+[2023-11-13 18:13:51,056] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:02,  2.65it/s] 29%|██▊       | 2/7 [00:00<00:01,  2.62it/s] 43%|████▎     | 3/7 [00:01<00:01,  2.65it/s] 57%|█████▋    | 4/7 [00:01<00:01,  2.67it/s] 71%|███████▏  | 5/7 [00:01<00:00,  2.65it/s] 86%|████████▌ | 6/7 [00:02<00:00,  2.63it/s]100%|██████████| 7/7 [00:02<00:00,  2.96it/s]
+[2023-11-13 18:13:53,501] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:02,  2.65it/s] 29%|██▊       | 2/7 [00:00<00:01,  2.62it/s] 43%|████▎     | 3/7 [00:01<00:01,  2.65it/s] 57%|█████▋    | 4/7 [00:01<00:01,  2.67it/s] 71%|███████▏  | 5/7 [00:01<00:00,  2.65it/s] 86%|████████▌ | 6/7 [00:02<00:00,  2.63it/s]100%|██████████| 7/7 [00:02<00:00,  2.96it/s]
+11/13 18:13:55 - OpenCompass - INFO - Start inferencing [hf_llama-7b/lukaemon_mmlu_global_facts]
+  0%|          | 0/100 [00:00<?, ?it/s]100%|██████████| 100/100 [00:00<00:00, 3251398.45it/s]
+[2023-11-13 18:13:56,021] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:02,  2.40it/s] 29%|██▊       | 2/7 [00:00<00:02,  2.36it/s] 43%|████▎     | 3/7 [00:01<00:01,  2.37it/s] 57%|█████▋    | 4/7 [00:01<00:01,  2.34it/s] 71%|███████▏  | 5/7 [00:02<00:00,  2.35it/s] 86%|████████▌ | 6/7 [00:02<00:00,  2.37it/s]100%|██████████| 7/7 [00:02<00:00,  3.13it/s]100%|██████████| 7/7 [00:02<00:00,  2.64it/s]
+[2023-11-13 18:13:58,776] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:02,  2.40it/s] 29%|██▊       | 2/7 [00:00<00:02,  2.36it/s] 43%|████▎     | 3/7 [00:01<00:01,  2.37it/s] 57%|█████▋    | 4/7 [00:01<00:01,  2.34it/s] 71%|███████▏  | 5/7 [00:02<00:00,  2.35it/s] 86%|████████▌ | 6/7 [00:02<00:00,  2.37it/s]100%|██████████| 7/7 [00:02<00:00,  3.13it/s]100%|██████████| 7/7 [00:02<00:00,  2.64it/s]
+[2023-11-13 18:14:01,531] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:02,  2.39it/s] 29%|██▊       | 2/7 [00:00<00:02,  2.36it/s] 43%|████▎     | 3/7 [00:01<00:01,  2.37it/s] 57%|█████▋    | 4/7 [00:01<00:01,  2.34it/s] 71%|███████▏  | 5/7 [00:02<00:00,  2.35it/s] 86%|████████▌ | 6/7 [00:02<00:00,  2.37it/s]100%|██████████| 7/7 [00:02<00:00,  3.13it/s]100%|██████████| 7/7 [00:02<00:00,  2.64it/s]
+[2023-11-13 18:14:04,286] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:02,  2.39it/s] 29%|██▊       | 2/7 [00:00<00:02,  2.36it/s] 43%|████▎     | 3/7 [00:01<00:01,  2.37it/s] 57%|█████▋    | 4/7 [00:01<00:01,  2.34it/s] 71%|███████▏  | 5/7 [00:02<00:00,  2.35it/s] 86%|████████▌ | 6/7 [00:02<00:00,  2.37it/s]100%|██████████| 7/7 [00:02<00:00,  3.13it/s]100%|██████████| 7/7 [00:02<00:00,  2.64it/s]
+11/13 18:14:06 - OpenCompass - INFO - Start inferencing [hf_llama-7b/lukaemon_mmlu_computer_security]
+  0%|          | 0/100 [00:00<?, ?it/s]100%|██████████| 100/100 [00:00<00:00, 3302601.57it/s]
+[2023-11-13 18:14:07,090] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:02,  2.26it/s] 29%|██▊       | 2/7 [00:00<00:02,  2.38it/s] 43%|████▎     | 3/7 [00:01<00:01,  2.45it/s] 57%|█████▋    | 4/7 [00:01<00:01,  2.43it/s] 71%|███████▏  | 5/7 [00:02<00:00,  2.42it/s] 86%|████████▌ | 6/7 [00:02<00:00,  2.44it/s]100%|██████████| 7/7 [00:02<00:00,  3.23it/s]100%|██████████| 7/7 [00:02<00:00,  2.71it/s]
+[2023-11-13 18:14:09,778] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:02,  2.26it/s] 29%|██▊       | 2/7 [00:00<00:02,  2.38it/s] 43%|████▎     | 3/7 [00:01<00:01,  2.45it/s] 57%|█████▋    | 4/7 [00:01<00:01,  2.43it/s] 71%|███████▏  | 5/7 [00:02<00:00,  2.42it/s] 86%|████████▌ | 6/7 [00:02<00:00,  2.44it/s]100%|██████████| 7/7 [00:02<00:00,  3.23it/s]100%|██████████| 7/7 [00:02<00:00,  2.71it/s]
+[2023-11-13 18:14:12,464] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:02,  2.26it/s] 29%|██▊       | 2/7 [00:00<00:02,  2.38it/s] 43%|████▎     | 3/7 [00:01<00:01,  2.45it/s] 57%|█████▋    | 4/7 [00:01<00:01,  2.43it/s] 71%|███████▏  | 5/7 [00:02<00:00,  2.42it/s] 86%|████████▌ | 6/7 [00:02<00:00,  2.43it/s]100%|██████████| 7/7 [00:02<00:00,  3.23it/s]100%|██████████| 7/7 [00:02<00:00,  2.71it/s]
+[2023-11-13 18:14:15,153] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:02,  2.26it/s] 29%|██▊       | 2/7 [00:00<00:02,  2.38it/s] 43%|████▎     | 3/7 [00:01<00:01,  2.45it/s] 57%|█████▋    | 4/7 [00:01<00:01,  2.43it/s] 71%|███████▏  | 5/7 [00:02<00:00,  2.42it/s] 86%|████████▌ | 6/7 [00:02<00:00,  2.44it/s]100%|██████████| 7/7 [00:02<00:00,  3.23it/s]100%|██████████| 7/7 [00:02<00:00,  2.71it/s]
+11/13 18:14:17 - OpenCompass - INFO - Start inferencing [hf_llama-7b/lukaemon_mmlu_medical_genetics]
+  0%|          | 0/100 [00:00<?, ?it/s]100%|██████████| 100/100 [00:00<00:00, 3328812.70it/s]
+[2023-11-13 18:14:17,884] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:02,  2.52it/s] 29%|██▊       | 2/7 [00:00<00:02,  2.50it/s] 43%|████▎     | 3/7 [00:01<00:01,  2.48it/s] 57%|█████▋    | 4/7 [00:01<00:01,  2.48it/s] 71%|███████▏  | 5/7 [00:02<00:00,  2.49it/s] 86%|████████▌ | 6/7 [00:02<00:00,  2.47it/s]100%|██████████| 7/7 [00:02<00:00,  3.27it/s]100%|██████████| 7/7 [00:02<00:00,  2.78it/s]
+[2023-11-13 18:14:20,507] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:02,  2.52it/s] 29%|██▊       | 2/7 [00:00<00:02,  2.50it/s] 43%|████▎     | 3/7 [00:01<00:01,  2.48it/s] 57%|█████▋    | 4/7 [00:01<00:01,  2.48it/s] 71%|███████▏  | 5/7 [00:02<00:00,  2.49it/s] 86%|████████▌ | 6/7 [00:02<00:00,  2.47it/s]100%|██████████| 7/7 [00:02<00:00,  3.27it/s]100%|██████████| 7/7 [00:02<00:00,  2.78it/s]
+[2023-11-13 18:14:23,129] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:02,  2.52it/s] 29%|██▊       | 2/7 [00:00<00:02,  2.50it/s] 43%|████▎     | 3/7 [00:01<00:01,  2.48it/s] 57%|█████▋    | 4/7 [00:01<00:01,  2.48it/s] 71%|███████▏  | 5/7 [00:02<00:00,  2.49it/s] 86%|████████▌ | 6/7 [00:02<00:00,  2.47it/s]100%|██████████| 7/7 [00:02<00:00,  3.27it/s]100%|██████████| 7/7 [00:02<00:00,  2.78it/s]
+[2023-11-13 18:14:25,751] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:02,  2.52it/s] 29%|██▊       | 2/7 [00:00<00:02,  2.50it/s] 43%|████▎     | 3/7 [00:01<00:01,  2.48it/s] 57%|█████▋    | 4/7 [00:01<00:01,  2.48it/s] 71%|███████▏  | 5/7 [00:02<00:00,  2.49it/s] 86%|████████▌ | 6/7 [00:02<00:00,  2.47it/s]100%|██████████| 7/7 [00:02<00:00,  3.27it/s]100%|██████████| 7/7 [00:02<00:00,  2.78it/s]
+11/13 18:14:28 - OpenCompass - INFO - Start inferencing [hf_llama-7b/lukaemon_mmlu_high_school_computer_science]
+  0%|          | 0/100 [00:00<?, ?it/s]100%|██████████| 100/100 [00:00<00:00, 3276800.00it/s]
+[2023-11-13 18:14:28,562] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:05,  1.16it/s] 29%|██▊       | 2/7 [00:01<00:04,  1.18it/s] 43%|████▎     | 3/7 [00:02<00:03,  1.19it/s] 57%|█████▋    | 4/7 [00:03<00:02,  1.19it/s] 71%|███████▏  | 5/7 [00:04<00:01,  1.15it/s] 86%|████████▌ | 6/7 [00:05<00:00,  1.18it/s]100%|██████████| 7/7 [00:05<00:00,  1.58it/s]100%|██████████| 7/7 [00:05<00:00,  1.32it/s]
+[2023-11-13 18:14:34,096] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:05,  1.16it/s] 29%|██▊       | 2/7 [00:01<00:04,  1.18it/s] 43%|████▎     | 3/7 [00:02<00:03,  1.19it/s] 57%|█████▋    | 4/7 [00:03<00:02,  1.19it/s] 71%|███████▏  | 5/7 [00:04<00:01,  1.15it/s] 86%|████████▌ | 6/7 [00:05<00:00,  1.18it/s]100%|██████████| 7/7 [00:05<00:00,  1.58it/s]100%|██████████| 7/7 [00:05<00:00,  1.32it/s]
+[2023-11-13 18:14:39,629] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:05,  1.16it/s] 29%|██▊       | 2/7 [00:01<00:04,  1.18it/s] 43%|████▎     | 3/7 [00:02<00:03,  1.19it/s] 57%|█████▋    | 4/7 [00:03<00:02,  1.19it/s] 71%|███████▏  | 5/7 [00:04<00:01,  1.15it/s] 86%|████████▌ | 6/7 [00:05<00:00,  1.18it/s]100%|██████████| 7/7 [00:05<00:00,  1.58it/s]100%|██████████| 7/7 [00:05<00:00,  1.32it/s]
+[2023-11-13 18:14:45,162] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:05,  1.16it/s] 29%|██▊       | 2/7 [00:01<00:04,  1.18it/s] 43%|████▎     | 3/7 [00:02<00:03,  1.19it/s] 57%|█████▋    | 4/7 [00:03<00:02,  1.19it/s] 71%|███████▏  | 5/7 [00:04<00:01,  1.15it/s] 86%|████████▌ | 6/7 [00:05<00:00,  1.18it/s]100%|██████████| 7/7 [00:05<00:00,  1.58it/s]100%|██████████| 7/7 [00:05<00:00,  1.32it/s]
+11/13 18:14:50 - OpenCompass - INFO - Start inferencing [hf_llama-7b/lukaemon_mmlu_business_ethics]
+  0%|          | 0/100 [00:00<?, ?it/s]100%|██████████| 100/100 [00:00<00:00, 2933079.72it/s]
+[2023-11-13 18:14:50,694] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:03,  1.67it/s] 29%|██▊       | 2/7 [00:01<00:03,  1.65it/s] 43%|████▎     | 3/7 [00:01<00:02,  1.65it/s] 57%|█████▋    | 4/7 [00:02<00:01,  1.64it/s] 71%|███████▏  | 5/7 [00:03<00:01,  1.64it/s] 86%|████████▌ | 6/7 [00:03<00:00,  1.65it/s]100%|██████████| 7/7 [00:03<00:00,  2.18it/s]100%|██████████| 7/7 [00:03<00:00,  1.84it/s]
+[2023-11-13 18:14:54,679] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:03,  1.67it/s] 29%|██▊       | 2/7 [00:01<00:03,  1.66it/s] 43%|████▎     | 3/7 [00:01<00:02,  1.65it/s] 57%|█████▋    | 4/7 [00:02<00:01,  1.64it/s] 71%|███████▏  | 5/7 [00:03<00:01,  1.64it/s] 86%|████████▌ | 6/7 [00:03<00:00,  1.65it/s]100%|██████████| 7/7 [00:03<00:00,  2.18it/s]100%|██████████| 7/7 [00:03<00:00,  1.85it/s]
+[2023-11-13 18:14:58,652] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:03,  1.67it/s] 29%|██▊       | 2/7 [00:01<00:03,  1.65it/s] 43%|████▎     | 3/7 [00:01<00:02,  1.65it/s] 57%|█████▋    | 4/7 [00:02<00:01,  1.64it/s] 71%|███████▏  | 5/7 [00:03<00:01,  1.64it/s] 86%|████████▌ | 6/7 [00:03<00:00,  1.65it/s]100%|██████████| 7/7 [00:03<00:00,  2.18it/s]100%|██████████| 7/7 [00:03<00:00,  1.84it/s]
+[2023-11-13 18:15:02,634] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:03,  1.67it/s] 29%|██▊       | 2/7 [00:01<00:03,  1.65it/s] 43%|████▎     | 3/7 [00:01<00:02,  1.65it/s] 57%|█████▋    | 4/7 [00:02<00:01,  1.64it/s] 71%|███████▏  | 5/7 [00:03<00:01,  1.64it/s] 86%|████████▌ | 6/7 [00:03<00:00,  1.65it/s]100%|██████████| 7/7 [00:03<00:00,  2.18it/s]100%|██████████| 7/7 [00:03<00:00,  1.84it/s]
+11/13 18:15:06 - OpenCompass - INFO - Start inferencing [hf_llama-7b/lukaemon_mmlu_us_foreign_policy]
+  0%|          | 0/100 [00:00<?, ?it/s]100%|██████████| 100/100 [00:00<00:00, 3355443.20it/s]
+[2023-11-13 18:15:06,622] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:02,  2.37it/s] 29%|██▊       | 2/7 [00:00<00:02,  2.32it/s] 43%|████▎     | 3/7 [00:01<00:01,  2.31it/s] 57%|█████▋    | 4/7 [00:01<00:01,  2.30it/s] 71%|███████▏  | 5/7 [00:02<00:00,  2.32it/s] 86%|████████▌ | 6/7 [00:02<00:00,  2.33it/s]100%|██████████| 7/7 [00:02<00:00,  3.08it/s]100%|██████████| 7/7 [00:02<00:00,  2.60it/s]
+[2023-11-13 18:15:09,450] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:02,  2.37it/s] 29%|██▊       | 2/7 [00:00<00:02,  2.32it/s] 43%|████▎     | 3/7 [00:01<00:01,  2.31it/s] 57%|█████▋    | 4/7 [00:01<00:01,  2.30it/s] 71%|███████▏  | 5/7 [00:02<00:00,  2.32it/s] 86%|████████▌ | 6/7 [00:02<00:00,  2.33it/s]100%|██████████| 7/7 [00:02<00:00,  3.08it/s]100%|██████████| 7/7 [00:02<00:00,  2.60it/s]
+[2023-11-13 18:15:12,279] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:02,  2.37it/s] 29%|██▊       | 2/7 [00:00<00:02,  2.32it/s] 43%|████▎     | 3/7 [00:01<00:01,  2.31it/s] 57%|█████▋    | 4/7 [00:01<00:01,  2.30it/s] 71%|███████▏  | 5/7 [00:02<00:00,  2.32it/s] 86%|████████▌ | 6/7 [00:02<00:00,  2.33it/s]100%|██████████| 7/7 [00:02<00:00,  3.08it/s]100%|██████████| 7/7 [00:02<00:00,  2.60it/s]
+[2023-11-13 18:15:15,107] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:00<00:02,  2.37it/s] 29%|██▊       | 2/7 [00:00<00:02,  2.32it/s] 43%|████▎     | 3/7 [00:01<00:01,  2.31it/s] 57%|█████▋    | 4/7 [00:01<00:01,  2.30it/s] 71%|███████▏  | 5/7 [00:02<00:00,  2.32it/s] 86%|████████▌ | 6/7 [00:02<00:00,  2.33it/s]100%|██████████| 7/7 [00:02<00:00,  3.08it/s]100%|██████████| 7/7 [00:02<00:00,  2.60it/s]
+11/13 18:15:17 - OpenCompass - INFO - Start inferencing [hf_llama-7b/ceval-college_economics]
+  0%|          | 0/55 [00:00<?, ?it/s]100%|██████████| 55/55 [00:00<00:00, 2239676.89it/s]
+[2023-11-13 18:15:17,926] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:02,  1.10it/s] 50%|█████     | 2/4 [00:01<00:01,  1.16it/s] 75%|███████▌  | 3/4 [00:02<00:00,  1.10it/s]100%|██████████| 4/4 [00:03<00:00,  1.43it/s]100%|██████████| 4/4 [00:03<00:00,  1.30it/s]
+[2023-11-13 18:15:21,091] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:02,  1.10it/s] 50%|█████     | 2/4 [00:01<00:01,  1.16it/s] 75%|███████▌  | 3/4 [00:02<00:00,  1.10it/s]100%|██████████| 4/4 [00:03<00:00,  1.42it/s]100%|██████████| 4/4 [00:03<00:00,  1.29it/s]
+[2023-11-13 18:15:24,258] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:02,  1.10it/s] 50%|█████     | 2/4 [00:01<00:01,  1.16it/s] 75%|███████▌  | 3/4 [00:02<00:00,  1.09it/s]100%|██████████| 4/4 [00:03<00:00,  1.42it/s]100%|██████████| 4/4 [00:03<00:00,  1.29it/s]
+[2023-11-13 18:15:27,426] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:02,  1.10it/s] 50%|█████     | 2/4 [00:01<00:01,  1.16it/s] 75%|███████▌  | 3/4 [00:02<00:00,  1.09it/s]100%|██████████| 4/4 [00:03<00:00,  1.42it/s]100%|██████████| 4/4 [00:03<00:00,  1.29it/s]
+11/13 18:15:30 - OpenCompass - INFO - Start inferencing [hf_llama-7b/ceval-accountant]
+  0%|          | 0/49 [00:00<?, ?it/s]100%|██████████| 49/49 [00:00<00:00, 1957341.87it/s]
+[2023-11-13 18:15:30,653] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:04,  1.44s/it] 50%|█████     | 2/4 [00:02<00:02,  1.47s/it] 75%|███████▌  | 3/4 [00:04<00:01,  1.44s/it]100%|██████████| 4/4 [00:04<00:00,  1.11s/it]
+[2023-11-13 18:15:35,171] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:04,  1.40s/it] 50%|█████     | 2/4 [00:02<00:02,  1.43s/it] 75%|███████▌  | 3/4 [00:04<00:01,  1.42s/it]100%|██████████| 4/4 [00:04<00:00,  1.09s/it]
+[2023-11-13 18:15:39,613] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:04,  1.40s/it] 50%|█████     | 2/4 [00:02<00:02,  1.43s/it] 75%|███████▌  | 3/4 [00:04<00:01,  1.42s/it]100%|██████████| 4/4 [00:04<00:00,  1.09s/it]
+[2023-11-13 18:15:44,052] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:04,  1.40s/it] 50%|█████     | 2/4 [00:02<00:02,  1.43s/it] 75%|███████▌  | 3/4 [00:04<00:01,  1.42s/it]100%|██████████| 4/4 [00:04<00:00,  1.09s/it]
+11/13 18:15:48 - OpenCompass - INFO - Start inferencing [hf_llama-7b/ceval-tax_accountant]
+  0%|          | 0/49 [00:00<?, ?it/s]100%|██████████| 49/49 [00:00<00:00, 2014910.75it/s]
+[2023-11-13 18:15:48,542] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:04,  1.52s/it] 50%|█████     | 2/4 [00:03<00:03,  1.54s/it] 75%|███████▌  | 3/4 [00:04<00:01,  1.54s/it]100%|██████████| 4/4 [00:04<00:00,  1.03it/s]100%|██████████| 4/4 [00:04<00:00,  1.18s/it]
+[2023-11-13 18:15:53,345] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:04,  1.52s/it] 50%|█████     | 2/4 [00:03<00:03,  1.54s/it] 75%|███████▌  | 3/4 [00:04<00:01,  1.54s/it]100%|██████████| 4/4 [00:04<00:00,  1.03it/s]100%|██████████| 4/4 [00:04<00:00,  1.18s/it]
+[2023-11-13 18:15:58,147] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:04,  1.52s/it] 50%|█████     | 2/4 [00:03<00:03,  1.54s/it] 75%|███████▌  | 3/4 [00:04<00:01,  1.54s/it]100%|██████████| 4/4 [00:04<00:00,  1.03it/s]100%|██████████| 4/4 [00:04<00:00,  1.18s/it]
+[2023-11-13 18:16:02,950] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:04,  1.52s/it] 50%|█████     | 2/4 [00:03<00:03,  1.54s/it] 75%|███████▌  | 3/4 [00:04<00:01,  1.53s/it]100%|██████████| 4/4 [00:04<00:00,  1.03it/s]100%|██████████| 4/4 [00:04<00:00,  1.18s/it]
+11/13 18:16:07 - OpenCompass - INFO - Start inferencing [hf_llama-7b/ceval-physician]
+  0%|          | 0/49 [00:00<?, ?it/s]100%|██████████| 49/49 [00:00<00:00, 2034860.36it/s]
+[2023-11-13 18:16:07,764] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:02,  1.26it/s] 50%|█████     | 2/4 [00:01<00:01,  1.21it/s] 75%|███████▌  | 3/4 [00:02<00:00,  1.19it/s]100%|██████████| 4/4 [00:02<00:00,  1.57it/s]
+[2023-11-13 18:16:10,373] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:02,  1.26it/s] 50%|█████     | 2/4 [00:01<00:01,  1.21it/s] 75%|███████▌  | 3/4 [00:02<00:00,  1.19it/s]100%|██████████| 4/4 [00:02<00:00,  1.57it/s]
+[2023-11-13 18:16:12,987] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:02,  1.26it/s] 50%|█████     | 2/4 [00:01<00:01,  1.21it/s] 75%|███████▌  | 3/4 [00:02<00:00,  1.19it/s]100%|██████████| 4/4 [00:02<00:00,  1.57it/s]
+[2023-11-13 18:16:15,600] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:02,  1.26it/s] 50%|█████     | 2/4 [00:01<00:01,  1.21it/s] 75%|███████▌  | 3/4 [00:02<00:00,  1.19it/s]100%|██████████| 4/4 [00:02<00:00,  1.57it/s]
+11/13 18:16:18 - OpenCompass - INFO - Start inferencing [hf_llama-7b/ceval-civil_servant]
+  0%|          | 0/47 [00:00<?, ?it/s]100%|██████████| 47/47 [00:00<00:00, 2011553.96it/s]
+Token indices sequence length is longer than the specified maximum sequence length for this model (2091 > 2048). Running this sequence through the model will result in indexing errors
+[2023-11-13 18:16:18,295] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.70s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.77s/it]100%|██████████| 3/3 [00:05<00:00,  1.70s/it]100%|██████████| 3/3 [00:05<00:00,  1.71s/it]
+[2023-11-13 18:16:23,540] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.70s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.77s/it]100%|██████████| 3/3 [00:05<00:00,  1.70s/it]100%|██████████| 3/3 [00:05<00:00,  1.72s/it]
+[2023-11-13 18:16:28,788] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.70s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.77s/it]100%|██████████| 3/3 [00:05<00:00,  1.70s/it]100%|██████████| 3/3 [00:05<00:00,  1.71s/it]
+[2023-11-13 18:16:34,032] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:03,  1.70s/it] 67%|██████▋   | 2/3 [00:03<00:01,  1.77s/it]100%|██████████| 3/3 [00:05<00:00,  1.70s/it]100%|██████████| 3/3 [00:05<00:00,  1.72s/it]
+11/13 18:16:39 - OpenCompass - INFO - Start inferencing [hf_llama-7b/ceval-urban_and_rural_planner]
+  0%|          | 0/46 [00:00<?, ?it/s]100%|██████████| 46/46 [00:00<00:00, 1873184.31it/s]
+[2023-11-13 18:16:39,298] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:02,  1.22s/it] 67%|██████▋   | 2/3 [00:02<00:01,  1.25s/it]100%|██████████| 3/3 [00:03<00:00,  1.18s/it]100%|██████████| 3/3 [00:03<00:00,  1.19s/it]
+[2023-11-13 18:16:42,952] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:02,  1.22s/it] 67%|██████▋   | 2/3 [00:02<00:01,  1.25s/it]100%|██████████| 3/3 [00:03<00:00,  1.18s/it]100%|██████████| 3/3 [00:03<00:00,  1.19s/it]
+[2023-11-13 18:16:46,605] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:02,  1.22s/it] 67%|██████▋   | 2/3 [00:02<00:01,  1.25s/it]100%|██████████| 3/3 [00:03<00:00,  1.18s/it]100%|██████████| 3/3 [00:03<00:00,  1.19s/it]
+[2023-11-13 18:16:50,258] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:02,  1.22s/it] 67%|██████▋   | 2/3 [00:02<00:01,  1.25s/it]100%|██████████| 3/3 [00:03<00:00,  1.17s/it]100%|██████████| 3/3 [00:03<00:00,  1.19s/it]
+11/13 18:16:53 - OpenCompass - INFO - Start inferencing [hf_llama-7b/ceval-teacher_qualification]
+  0%|          | 0/44 [00:00<?, ?it/s]100%|██████████| 44/44 [00:00<00:00, 1902570.89it/s]
+[2023-11-13 18:16:53,934] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:00<00:01,  1.07it/s] 67%|██████▋   | 2/3 [00:01<00:00,  1.06it/s]100%|██████████| 3/3 [00:02<00:00,  1.19it/s]100%|██████████| 3/3 [00:02<00:00,  1.15it/s]
+[2023-11-13 18:16:56,597] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:00<00:01,  1.07it/s] 67%|██████▋   | 2/3 [00:01<00:00,  1.06it/s]100%|██████████| 3/3 [00:02<00:00,  1.19it/s]100%|██████████| 3/3 [00:02<00:00,  1.15it/s]
+[2023-11-13 18:16:59,262] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:00<00:01,  1.07it/s] 67%|██████▋   | 2/3 [00:01<00:00,  1.06it/s]100%|██████████| 3/3 [00:02<00:00,  1.19it/s]100%|██████████| 3/3 [00:02<00:00,  1.15it/s]
+[2023-11-13 18:17:01,929] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:00<00:01,  1.07it/s] 67%|██████▋   | 2/3 [00:01<00:00,  1.06it/s]100%|██████████| 3/3 [00:02<00:00,  1.19it/s]100%|██████████| 3/3 [00:02<00:00,  1.15it/s]
+11/13 18:17:04 - OpenCompass - INFO - Start inferencing [hf_llama-7b/ceval-college_programming]
+  0%|          | 0/37 [00:00<?, ?it/s]100%|██████████| 37/37 [00:00<00:00, 1633571.03it/s]
+[2023-11-13 18:17:04,621] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:00<00:01,  1.14it/s] 67%|██████▋   | 2/3 [00:01<00:00,  1.17it/s]100%|██████████| 3/3 [00:02<00:00,  1.67it/s]100%|██████████| 3/3 [00:02<00:00,  1.49it/s]
+[2023-11-13 18:17:06,688] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:00<00:01,  1.14it/s] 67%|██████▋   | 2/3 [00:01<00:00,  1.17it/s]100%|██████████| 3/3 [00:02<00:00,  1.67it/s]100%|██████████| 3/3 [00:02<00:00,  1.49it/s]
+[2023-11-13 18:17:08,757] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:00<00:01,  1.14it/s] 67%|██████▋   | 2/3 [00:01<00:00,  1.17it/s]100%|██████████| 3/3 [00:02<00:00,  1.67it/s]100%|██████████| 3/3 [00:02<00:00,  1.49it/s]
+[2023-11-13 18:17:10,823] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:00<00:01,  1.14it/s] 67%|██████▋   | 2/3 [00:01<00:00,  1.17it/s]100%|██████████| 3/3 [00:02<00:00,  1.67it/s]100%|██████████| 3/3 [00:02<00:00,  1.49it/s]
+11/13 18:17:12 - OpenCompass - INFO - Start inferencing [hf_llama-7b/ceval-electrical_engineer]
+  0%|          | 0/37 [00:00<?, ?it/s]100%|██████████| 37/37 [00:00<00:00, 1668701.59it/s]
+[2023-11-13 18:17:12,925] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:02,  1.12s/it] 67%|██████▋   | 2/3 [00:02<00:01,  1.11s/it]100%|██████████| 3/3 [00:02<00:00,  1.31it/s]100%|██████████| 3/3 [00:02<00:00,  1.17it/s]
+[2023-11-13 18:17:15,552] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:02,  1.12s/it] 67%|██████▋   | 2/3 [00:02<00:01,  1.11s/it]100%|██████████| 3/3 [00:02<00:00,  1.31it/s]100%|██████████| 3/3 [00:02<00:00,  1.17it/s]
+[2023-11-13 18:17:18,177] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:02,  1.12s/it] 67%|██████▋   | 2/3 [00:02<00:01,  1.11s/it]100%|██████████| 3/3 [00:02<00:00,  1.31it/s]100%|██████████| 3/3 [00:02<00:00,  1.17it/s]
+[2023-11-13 18:17:20,806] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:02,  1.12s/it] 67%|██████▋   | 2/3 [00:02<00:01,  1.11s/it]100%|██████████| 3/3 [00:02<00:00,  1.31it/s]100%|██████████| 3/3 [00:02<00:00,  1.17it/s]
+11/13 18:17:23 - OpenCompass - INFO - Start inferencing [hf_llama-7b/ceval-business_administration]
+  0%|          | 0/33 [00:00<?, ?it/s]100%|██████████| 33/33 [00:00<00:00, 1472468.43it/s]
+[2023-11-13 18:17:23,456] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:02,  1.06s/it] 67%|██████▋   | 2/3 [00:02<00:01,  1.01s/it]100%|██████████| 3/3 [00:02<00:00,  1.44it/s]
+[2023-11-13 18:17:25,591] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:02,  1.06s/it] 67%|██████▋   | 2/3 [00:02<00:01,  1.01s/it]100%|██████████| 3/3 [00:02<00:00,  1.44it/s]
+[2023-11-13 18:17:27,727] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:02,  1.06s/it] 67%|██████▋   | 2/3 [00:02<00:01,  1.01s/it]100%|██████████| 3/3 [00:02<00:00,  1.44it/s]
+[2023-11-13 18:17:29,859] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:01<00:02,  1.06s/it] 67%|██████▋   | 2/3 [00:02<00:01,  1.01s/it]100%|██████████| 3/3 [00:02<00:00,  1.44it/s]
+11/13 18:17:31 - OpenCompass - INFO - Start inferencing [hf_llama-7b/ceval-art_studies]
+  0%|          | 0/33 [00:00<?, ?it/s]100%|██████████| 33/33 [00:00<00:00, 1472468.43it/s]
+[2023-11-13 18:17:32,015] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:00<00:01,  1.45it/s] 67%|██████▋   | 2/3 [00:01<00:00,  1.44it/s]100%|██████████| 3/3 [00:01<00:00,  2.10it/s]
+[2023-11-13 18:17:33,480] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:00<00:01,  1.45it/s] 67%|██████▋   | 2/3 [00:01<00:00,  1.44it/s]100%|██████████| 3/3 [00:01<00:00,  2.10it/s]
+[2023-11-13 18:17:34,946] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:00<00:01,  1.45it/s] 67%|██████▋   | 2/3 [00:01<00:00,  1.45it/s]100%|██████████| 3/3 [00:01<00:00,  2.10it/s]
+[2023-11-13 18:17:36,409] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:00<00:01,  1.45it/s] 67%|██████▋   | 2/3 [00:01<00:00,  1.44it/s]100%|██████████| 3/3 [00:01<00:00,  2.10it/s]
+11/13 18:17:37 - OpenCompass - INFO - Start inferencing [hf_llama-7b/ceval-fire_engineer]
+  0%|          | 0/31 [00:00<?, ?it/s]100%|██████████| 31/31 [00:00<00:00, 1494522.11it/s]
+[2023-11-13 18:17:37,916] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.18s/it]100%|██████████| 2/2 [00:02<00:00,  1.12s/it]100%|██████████| 2/2 [00:02<00:00,  1.13s/it]
+[2023-11-13 18:17:40,222] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.19s/it]100%|██████████| 2/2 [00:02<00:00,  1.12s/it]100%|██████████| 2/2 [00:02<00:00,  1.13s/it]
+[2023-11-13 18:17:42,528] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.19s/it]100%|██████████| 2/2 [00:02<00:00,  1.12s/it]100%|██████████| 2/2 [00:02<00:00,  1.13s/it]
+[2023-11-13 18:17:44,833] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.18s/it]100%|██████████| 2/2 [00:02<00:00,  1.12s/it]100%|██████████| 2/2 [00:02<00:00,  1.13s/it]
+11/13 18:17:47 - OpenCompass - INFO - Start inferencing [hf_llama-7b/ceval-environmental_impact_assessment_engineer]
+  0%|          | 0/31 [00:00<?, ?it/s]100%|██████████| 31/31 [00:00<00:00, 1413298.09it/s]
+[2023-11-13 18:17:47,170] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.22s/it]100%|██████████| 2/2 [00:02<00:00,  1.21s/it]100%|██████████| 2/2 [00:02<00:00,  1.22s/it]
+[2023-11-13 18:17:49,652] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.22s/it]100%|██████████| 2/2 [00:02<00:00,  1.21s/it]100%|██████████| 2/2 [00:02<00:00,  1.22s/it]
+[2023-11-13 18:17:52,136] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.22s/it]100%|██████████| 2/2 [00:02<00:00,  1.22s/it]100%|██████████| 2/2 [00:02<00:00,  1.22s/it]
+[2023-11-13 18:17:54,621] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.22s/it]100%|██████████| 2/2 [00:02<00:00,  1.22s/it]100%|██████████| 2/2 [00:02<00:00,  1.22s/it]
+11/13 18:17:57 - OpenCompass - INFO - Start inferencing [hf_llama-7b/ceval-education_science]
+  0%|          | 0/29 [00:00<?, ?it/s]100%|██████████| 29/29 [00:00<00:00, 1366683.33it/s]
+[2023-11-13 18:17:57,119] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.30it/s]100%|██████████| 2/2 [00:01<00:00,  1.45it/s]100%|██████████| 2/2 [00:01<00:00,  1.43it/s]
+[2023-11-13 18:17:58,558] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.30it/s]100%|██████████| 2/2 [00:01<00:00,  1.45it/s]100%|██████████| 2/2 [00:01<00:00,  1.43it/s]
+[2023-11-13 18:17:59,998] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.30it/s]100%|██████████| 2/2 [00:01<00:00,  1.45it/s]100%|██████████| 2/2 [00:01<00:00,  1.42it/s]
+[2023-11-13 18:18:01,438] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.30it/s]100%|██████████| 2/2 [00:01<00:00,  1.45it/s]100%|██████████| 2/2 [00:01<00:00,  1.42it/s]
+11/13 18:18:02 - OpenCompass - INFO - Start inferencing [hf_llama-7b/ceval-professional_tour_guide]
+  0%|          | 0/29 [00:00<?, ?it/s]100%|██████████| 29/29 [00:00<00:00, 1414358.33it/s]
+[2023-11-13 18:18:02,905] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.38it/s]100%|██████████| 2/2 [00:01<00:00,  1.56it/s]100%|██████████| 2/2 [00:01<00:00,  1.53it/s]
+[2023-11-13 18:18:04,244] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.38it/s]100%|██████████| 2/2 [00:01<00:00,  1.56it/s]100%|██████████| 2/2 [00:01<00:00,  1.53it/s]
+[2023-11-13 18:18:05,587] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.37it/s]100%|██████████| 2/2 [00:01<00:00,  1.56it/s]100%|██████████| 2/2 [00:01<00:00,  1.53it/s]
+[2023-11-13 18:18:06,929] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.38it/s]100%|██████████| 2/2 [00:01<00:00,  1.56it/s]100%|██████████| 2/2 [00:01<00:00,  1.53it/s]
+11/13 18:18:08 - OpenCompass - INFO - Start inferencing [hf_llama-7b/ceval-college_chemistry]
+  0%|          | 0/24 [00:00<?, ?it/s]100%|██████████| 24/24 [00:00<00:00, 1198372.57it/s]
+[2023-11-13 18:18:08,292] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.39it/s]100%|██████████| 2/2 [00:01<00:00,  1.97it/s]100%|██████████| 2/2 [00:01<00:00,  1.85it/s]
+[2023-11-13 18:18:09,401] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.40it/s]100%|██████████| 2/2 [00:01<00:00,  1.97it/s]100%|██████████| 2/2 [00:01<00:00,  1.86it/s]
+[2023-11-13 18:18:10,508] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.39it/s]100%|██████████| 2/2 [00:01<00:00,  1.97it/s]100%|██████████| 2/2 [00:01<00:00,  1.85it/s]
+[2023-11-13 18:18:11,617] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.40it/s]100%|██████████| 2/2 [00:01<00:00,  1.97it/s]100%|██████████| 2/2 [00:01<00:00,  1.86it/s]
+11/13 18:18:12 - OpenCompass - INFO - Start inferencing [hf_llama-7b/ceval-metrology_engineer]
+  0%|          | 0/24 [00:00<?, ?it/s]100%|██████████| 24/24 [00:00<00:00, 1170503.44it/s]
+[2023-11-13 18:18:12,757] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.17s/it]100%|██████████| 2/2 [00:01<00:00,  1.21it/s]100%|██████████| 2/2 [00:01<00:00,  1.14it/s]
+[2023-11-13 18:18:14,549] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.17s/it]100%|██████████| 2/2 [00:01<00:00,  1.21it/s]100%|██████████| 2/2 [00:01<00:00,  1.14it/s]
+[2023-11-13 18:18:16,343] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.17s/it]100%|██████████| 2/2 [00:01<00:00,  1.21it/s]100%|██████████| 2/2 [00:01<00:00,  1.14it/s]
+[2023-11-13 18:18:18,135] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.17s/it]100%|██████████| 2/2 [00:01<00:00,  1.21it/s]100%|██████████| 2/2 [00:01<00:00,  1.14it/s]
+11/13 18:18:19 - OpenCompass - INFO - Start inferencing [hf_llama-7b/ceval-mao_zedong_thought]
+  0%|          | 0/24 [00:00<?, ?it/s]100%|██████████| 24/24 [00:00<00:00, 1212810.80it/s]
+[2023-11-13 18:18:19,947] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.19s/it]100%|██████████| 2/2 [00:01<00:00,  1.21it/s]100%|██████████| 2/2 [00:01<00:00,  1.14it/s]
+[2023-11-13 18:18:21,743] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.19s/it]100%|██████████| 2/2 [00:01<00:00,  1.21it/s]100%|██████████| 2/2 [00:01<00:00,  1.14it/s]
+[2023-11-13 18:18:23,543] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.19s/it]100%|██████████| 2/2 [00:01<00:00,  1.21it/s]100%|██████████| 2/2 [00:01<00:00,  1.14it/s]
+[2023-11-13 18:18:25,343] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.19s/it]100%|██████████| 2/2 [00:01<00:00,  1.21it/s]100%|██████████| 2/2 [00:01<00:00,  1.14it/s]
+11/13 18:18:27 - OpenCompass - INFO - Start inferencing [hf_llama-7b/ceval-law]
+  0%|          | 0/24 [00:00<?, ?it/s]100%|██████████| 24/24 [00:00<00:00, 1184274.07it/s]
+[2023-11-13 18:18:27,172] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.32s/it]100%|██████████| 2/2 [00:01<00:00,  1.08it/s]100%|██████████| 2/2 [00:01<00:00,  1.01it/s]
+[2023-11-13 18:18:29,187] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.32s/it]100%|██████████| 2/2 [00:01<00:00,  1.08it/s]100%|██████████| 2/2 [00:01<00:00,  1.01it/s]
+[2023-11-13 18:18:31,204] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.32s/it]100%|██████████| 2/2 [00:01<00:00,  1.08it/s]100%|██████████| 2/2 [00:01<00:00,  1.01it/s]
+[2023-11-13 18:18:33,220] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.33s/it]100%|██████████| 2/2 [00:01<00:00,  1.08it/s]100%|██████████| 2/2 [00:01<00:00,  1.01it/s]
+11/13 18:18:35 - OpenCompass - INFO - Start inferencing [hf_llama-7b/ceval-veterinary_medicine]
+  0%|          | 0/23 [00:00<?, ?it/s]100%|██████████| 23/23 [00:00<00:00, 1121732.47it/s]
+[2023-11-13 18:18:35,251] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.28it/s]100%|██████████| 2/2 [00:01<00:00,  1.87it/s]100%|██████████| 2/2 [00:01<00:00,  1.75it/s]
+[2023-11-13 18:18:36,423] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.28it/s]100%|██████████| 2/2 [00:01<00:00,  1.88it/s]100%|██████████| 2/2 [00:01<00:00,  1.75it/s]
+[2023-11-13 18:18:37,592] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.28it/s]100%|██████████| 2/2 [00:01<00:00,  1.87it/s]100%|██████████| 2/2 [00:01<00:00,  1.75it/s]
+[2023-11-13 18:18:38,763] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.28it/s]100%|██████████| 2/2 [00:01<00:00,  1.88it/s]100%|██████████| 2/2 [00:01<00:00,  1.75it/s]
+11/13 18:18:39 - OpenCompass - INFO - Start inferencing [hf_llama-7b/ceval-modern_chinese_history]
+  0%|          | 0/23 [00:00<?, ?it/s]100%|██████████| 23/23 [00:00<00:00, 1134929.32it/s]
+[2023-11-13 18:18:39,964] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.17s/it]100%|██████████| 2/2 [00:01<00:00,  1.27it/s]100%|██████████| 2/2 [00:01<00:00,  1.18it/s]
+[2023-11-13 18:18:41,695] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.17s/it]100%|██████████| 2/2 [00:01<00:00,  1.27it/s]100%|██████████| 2/2 [00:01<00:00,  1.18it/s]
+[2023-11-13 18:18:43,424] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.17s/it]100%|██████████| 2/2 [00:01<00:00,  1.27it/s]100%|██████████| 2/2 [00:01<00:00,  1.18it/s]
+[2023-11-13 18:18:45,153] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.17s/it]100%|██████████| 2/2 [00:01<00:00,  1.27it/s]100%|██████████| 2/2 [00:01<00:00,  1.18it/s]
+11/13 18:18:46 - OpenCompass - INFO - Start inferencing [hf_llama-7b/ceval-chinese_language_and_literature]
+  0%|          | 0/23 [00:00<?, ?it/s]100%|██████████| 23/23 [00:00<00:00, 1162277.01it/s]
+[2023-11-13 18:18:46,896] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.43it/s]100%|██████████| 2/2 [00:01<00:00,  2.13it/s]100%|██████████| 2/2 [00:01<00:00,  1.98it/s]
+[2023-11-13 18:18:47,932] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.43it/s]100%|██████████| 2/2 [00:01<00:00,  2.13it/s]100%|██████████| 2/2 [00:01<00:00,  1.99it/s]
+[2023-11-13 18:18:48,966] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.43it/s]100%|██████████| 2/2 [00:01<00:00,  2.13it/s]100%|██████████| 2/2 [00:01<00:00,  1.98it/s]
+[2023-11-13 18:18:50,001] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.42it/s]100%|██████████| 2/2 [00:01<00:00,  2.13it/s]100%|██████████| 2/2 [00:01<00:00,  1.98it/s]
+11/13 18:18:51 - OpenCompass - INFO - Start inferencing [hf_llama-7b/ceval-legal_professional]
+  0%|          | 0/23 [00:00<?, ?it/s]100%|██████████| 23/23 [00:00<00:00, 1162277.01it/s]
+[2023-11-13 18:18:51,109] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.94s/it]100%|██████████| 2/2 [00:02<00:00,  1.29s/it]100%|██████████| 2/2 [00:02<00:00,  1.39s/it]
+[2023-11-13 18:18:53,932] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.90s/it]100%|██████████| 2/2 [00:02<00:00,  1.27s/it]100%|██████████| 2/2 [00:02<00:00,  1.36s/it]
+[2023-11-13 18:18:56,712] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.90s/it]100%|██████████| 2/2 [00:02<00:00,  1.27s/it]100%|██████████| 2/2 [00:02<00:00,  1.36s/it]
+[2023-11-13 18:18:59,492] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.90s/it]100%|██████████| 2/2 [00:02<00:00,  1.27s/it]100%|██████████| 2/2 [00:02<00:00,  1.36s/it]
+11/13 18:19:02 - OpenCompass - INFO - Start inferencing [hf_llama-7b/ceval-logic]
+  0%|          | 0/22 [00:00<?, ?it/s]100%|██████████| 22/22 [00:00<00:00, 1098508.19it/s]
+[2023-11-13 18:19:02,421] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.78s/it]100%|██████████| 2/2 [00:02<00:00,  1.14s/it]100%|██████████| 2/2 [00:02<00:00,  1.24s/it]
+[2023-11-13 18:19:04,943] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.78s/it]100%|██████████| 2/2 [00:02<00:00,  1.14s/it]100%|██████████| 2/2 [00:02<00:00,  1.24s/it]
+[2023-11-13 18:19:07,465] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.78s/it]100%|██████████| 2/2 [00:02<00:00,  1.14s/it]100%|██████████| 2/2 [00:02<00:00,  1.24s/it]
+[2023-11-13 18:19:09,988] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.78s/it]100%|██████████| 2/2 [00:02<00:00,  1.14s/it]100%|██████████| 2/2 [00:02<00:00,  1.24s/it]
+11/13 18:19:12 - OpenCompass - INFO - Start inferencing [hf_llama-7b/ceval-middle_school_history]
+  0%|          | 0/22 [00:00<?, ?it/s]100%|██████████| 22/22 [00:00<00:00, 1153433.60it/s]
+[2023-11-13 18:19:12,514] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.28it/s]100%|██████████| 2/2 [00:01<00:00,  2.05it/s]100%|██████████| 2/2 [00:01<00:00,  1.88it/s]
+[2023-11-13 18:19:13,608] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.28it/s]100%|██████████| 2/2 [00:01<00:00,  2.04it/s]100%|██████████| 2/2 [00:01<00:00,  1.87it/s]
+[2023-11-13 18:19:14,704] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.28it/s]100%|██████████| 2/2 [00:01<00:00,  2.05it/s]100%|██████████| 2/2 [00:01<00:00,  1.88it/s]
+[2023-11-13 18:19:15,798] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.28it/s]100%|██████████| 2/2 [00:01<00:00,  2.05it/s]100%|██████████| 2/2 [00:01<00:00,  1.88it/s]
+11/13 18:19:16 - OpenCompass - INFO - Start inferencing [hf_llama-7b/ceval-plant_protection]
+  0%|          | 0/22 [00:00<?, ?it/s]100%|██████████| 22/22 [00:00<00:00, 1139193.68it/s]
+[2023-11-13 18:19:16,912] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.42it/s]100%|██████████| 2/2 [00:00<00:00,  2.26it/s]100%|██████████| 2/2 [00:00<00:00,  2.08it/s]
+[2023-11-13 18:19:17,901] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.42it/s]100%|██████████| 2/2 [00:00<00:00,  2.26it/s]100%|██████████| 2/2 [00:00<00:00,  2.08it/s]
+[2023-11-13 18:19:18,888] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.42it/s]100%|██████████| 2/2 [00:00<00:00,  2.26it/s]100%|██████████| 2/2 [00:00<00:00,  2.07it/s]
+[2023-11-13 18:19:19,878] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.42it/s]100%|██████████| 2/2 [00:00<00:00,  2.26it/s]100%|██████████| 2/2 [00:00<00:00,  2.08it/s]
+11/13 18:19:20 - OpenCompass - INFO - Start inferencing [hf_llama-7b/ceval-clinical_medicine]
+  0%|          | 0/22 [00:00<?, ?it/s]100%|██████████| 22/22 [00:00<00:00, 1072961.49it/s]
+[2023-11-13 18:19:20,895] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.13s/it]100%|██████████| 2/2 [00:01<00:00,  1.44it/s]100%|██████████| 2/2 [00:01<00:00,  1.31it/s]
+[2023-11-13 18:19:22,451] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.13s/it]100%|██████████| 2/2 [00:01<00:00,  1.43it/s]100%|██████████| 2/2 [00:01<00:00,  1.31it/s]
+[2023-11-13 18:19:24,008] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.13s/it]100%|██████████| 2/2 [00:01<00:00,  1.43it/s]100%|██████████| 2/2 [00:01<00:00,  1.31it/s]
+[2023-11-13 18:19:25,566] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.13s/it]100%|██████████| 2/2 [00:01<00:00,  1.44it/s]100%|██████████| 2/2 [00:01<00:00,  1.32it/s]
+11/13 18:19:27 - OpenCompass - INFO - Start inferencing [hf_llama-7b/ceval-computer_architecture]
+  0%|          | 0/21 [00:00<?, ?it/s]100%|██████████| 21/21 [00:00<00:00, 1048576.00it/s]
+[2023-11-13 18:19:27,140] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.09s/it]100%|██████████| 2/2 [00:01<00:00,  1.54it/s]100%|██████████| 2/2 [00:01<00:00,  1.40it/s]
+[2023-11-13 18:19:28,599] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.09s/it]100%|██████████| 2/2 [00:01<00:00,  1.54it/s]100%|██████████| 2/2 [00:01<00:00,  1.40it/s]
+[2023-11-13 18:19:30,060] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.09s/it]100%|██████████| 2/2 [00:01<00:00,  1.54it/s]100%|██████████| 2/2 [00:01<00:00,  1.40it/s]
+[2023-11-13 18:19:31,519] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.09s/it]100%|██████████| 2/2 [00:01<00:00,  1.54it/s]100%|██████████| 2/2 [00:01<00:00,  1.40it/s]
+11/13 18:19:32 - OpenCompass - INFO - Start inferencing [hf_llama-7b/ceval-middle_school_biology]
+  0%|          | 0/21 [00:00<?, ?it/s]100%|██████████| 21/21 [00:00<00:00, 1036239.81it/s]
+[2023-11-13 18:19:32,998] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.00s/it]100%|██████████| 2/2 [00:01<00:00,  1.63it/s]100%|██████████| 2/2 [00:01<00:00,  1.49it/s]
+[2023-11-13 18:19:34,371] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.01s/it]100%|██████████| 2/2 [00:01<00:00,  1.63it/s]100%|██████████| 2/2 [00:01<00:00,  1.49it/s]
+[2023-11-13 18:19:35,743] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.01s/it]100%|██████████| 2/2 [00:01<00:00,  1.63it/s]100%|██████████| 2/2 [00:01<00:00,  1.49it/s]
+[2023-11-13 18:19:37,115] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.01s/it]100%|██████████| 2/2 [00:01<00:00,  1.63it/s]100%|██████████| 2/2 [00:01<00:00,  1.49it/s]
+11/13 18:19:38 - OpenCompass - INFO - Start inferencing [hf_llama-7b/ceval-middle_school_politics]
+  0%|          | 0/21 [00:00<?, ?it/s]100%|██████████| 21/21 [00:00<00:00, 1074151.02it/s]
+[2023-11-13 18:19:38,521] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.51s/it]100%|██████████| 2/2 [00:01<00:00,  1.12it/s]100%|██████████| 2/2 [00:01<00:00,  1.02it/s]
+[2023-11-13 18:19:40,531] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.51s/it]100%|██████████| 2/2 [00:01<00:00,  1.12it/s]100%|██████████| 2/2 [00:01<00:00,  1.01it/s]
+[2023-11-13 18:19:42,543] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.52s/it]100%|██████████| 2/2 [00:01<00:00,  1.12it/s]100%|██████████| 2/2 [00:01<00:00,  1.01it/s]
+[2023-11-13 18:19:44,555] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.51s/it]100%|██████████| 2/2 [00:01<00:00,  1.12it/s]100%|██████████| 2/2 [00:01<00:00,  1.02it/s]
+11/13 18:19:46 - OpenCompass - INFO - Start inferencing [hf_llama-7b/ceval-middle_school_chemistry]
+  0%|          | 0/20 [00:00<?, ?it/s]100%|██████████| 20/20 [00:00<00:00, 1035630.62it/s]
+[2023-11-13 18:19:46,580] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.21s/it]100%|██████████| 2/2 [00:01<00:00,  1.49it/s]100%|██████████| 2/2 [00:01<00:00,  1.33it/s]
+[2023-11-13 18:19:48,120] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.21s/it]100%|██████████| 2/2 [00:01<00:00,  1.49it/s]100%|██████████| 2/2 [00:01<00:00,  1.33it/s]
+[2023-11-13 18:19:49,660] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.21s/it]100%|██████████| 2/2 [00:01<00:00,  1.49it/s]100%|██████████| 2/2 [00:01<00:00,  1.33it/s]
+[2023-11-13 18:19:51,200] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.21s/it]100%|██████████| 2/2 [00:01<00:00,  1.49it/s]100%|██████████| 2/2 [00:01<00:00,  1.33it/s]
+11/13 18:19:52 - OpenCompass - INFO - Start inferencing [hf_llama-7b/ceval-high_school_history]
+  0%|          | 0/20 [00:00<?, ?it/s]100%|██████████| 20/20 [00:00<00:00, 986895.06it/s]
+[2023-11-13 18:19:52,756] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.17s/it]100%|██████████| 2/2 [00:01<00:00,  1.51it/s]100%|██████████| 2/2 [00:01<00:00,  1.35it/s]
+[2023-11-13 18:19:54,266] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.17s/it]100%|██████████| 2/2 [00:01<00:00,  1.51it/s]100%|██████████| 2/2 [00:01<00:00,  1.35it/s]
+[2023-11-13 18:19:55,775] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.17s/it]100%|██████████| 2/2 [00:01<00:00,  1.51it/s]100%|██████████| 2/2 [00:01<00:00,  1.36it/s]
+[2023-11-13 18:19:57,282] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.17s/it]100%|██████████| 2/2 [00:01<00:00,  1.51it/s]100%|██████████| 2/2 [00:01<00:00,  1.35it/s]
+11/13 18:19:58 - OpenCompass - INFO - Start inferencing [hf_llama-7b/ceval-computer_network]
+  0%|          | 0/19 [00:00<?, ?it/s]100%|██████████| 19/19 [00:00<00:00, 996147.20it/s]
+[2023-11-13 18:19:58,803] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.36it/s]100%|██████████| 2/2 [00:00<00:00,  2.61it/s]100%|██████████| 2/2 [00:00<00:00,  2.29it/s]
+[2023-11-13 18:19:59,699] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.36it/s]100%|██████████| 2/2 [00:00<00:00,  2.61it/s]100%|██████████| 2/2 [00:00<00:00,  2.29it/s]
+[2023-11-13 18:20:00,597] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.36it/s]100%|██████████| 2/2 [00:00<00:00,  2.61it/s]100%|██████████| 2/2 [00:00<00:00,  2.29it/s]
+[2023-11-13 18:20:01,493] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.36it/s]100%|██████████| 2/2 [00:00<00:00,  2.61it/s]100%|██████████| 2/2 [00:00<00:00,  2.29it/s]
+11/13 18:20:02 - OpenCompass - INFO - Start inferencing [hf_llama-7b/ceval-operating_system]
+  0%|          | 0/19 [00:00<?, ?it/s]100%|██████████| 19/19 [00:00<00:00, 948711.62it/s]
+[2023-11-13 18:20:02,407] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.57it/s]100%|██████████| 2/2 [00:00<00:00,  3.05it/s]100%|██████████| 2/2 [00:00<00:00,  2.67it/s]
+[2023-11-13 18:20:03,177] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.58it/s]100%|██████████| 2/2 [00:00<00:00,  3.05it/s]100%|██████████| 2/2 [00:00<00:00,  2.67it/s]
+[2023-11-13 18:20:03,946] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.58it/s]100%|██████████| 2/2 [00:00<00:00,  3.05it/s]100%|██████████| 2/2 [00:00<00:00,  2.68it/s]
+[2023-11-13 18:20:04,714] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.58it/s]100%|██████████| 2/2 [00:00<00:00,  3.05it/s]100%|██████████| 2/2 [00:00<00:00,  2.68it/s]
+11/13 18:20:05 - OpenCompass - INFO - Start inferencing [hf_llama-7b/ceval-college_physics]
+  0%|          | 0/19 [00:00<?, ?it/s]100%|██████████| 19/19 [00:00<00:00, 1008756.66it/s]
+[2023-11-13 18:20:05,514] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.25s/it]100%|██████████| 2/2 [00:01<00:00,  1.55it/s]100%|██████████| 2/2 [00:01<00:00,  1.36it/s]
+[2023-11-13 18:20:07,020] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.25s/it]100%|██████████| 2/2 [00:01<00:00,  1.54it/s]100%|██████████| 2/2 [00:01<00:00,  1.35it/s]
+[2023-11-13 18:20:08,528] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.25s/it]100%|██████████| 2/2 [00:01<00:00,  1.54it/s]100%|██████████| 2/2 [00:01<00:00,  1.36it/s]
+[2023-11-13 18:20:10,036] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.25s/it]100%|██████████| 2/2 [00:01<00:00,  1.54it/s]100%|██████████| 2/2 [00:01<00:00,  1.35it/s]
+11/13 18:20:11 - OpenCompass - INFO - Start inferencing [hf_llama-7b/ceval-advanced_mathematics]
+  0%|          | 0/19 [00:00<?, ?it/s]100%|██████████| 19/19 [00:00<00:00, 971850.93it/s]
+[2023-11-13 18:20:11,567] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.10s/it]100%|██████████| 2/2 [00:01<00:00,  1.73it/s]100%|██████████| 2/2 [00:01<00:00,  1.53it/s]
+[2023-11-13 18:20:12,912] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.10s/it]100%|██████████| 2/2 [00:01<00:00,  1.74it/s]100%|██████████| 2/2 [00:01<00:00,  1.53it/s]
+[2023-11-13 18:20:14,256] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.10s/it]100%|██████████| 2/2 [00:01<00:00,  1.73it/s]100%|██████████| 2/2 [00:01<00:00,  1.53it/s]
+[2023-11-13 18:20:15,601] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.10s/it]100%|██████████| 2/2 [00:01<00:00,  1.74it/s]100%|██████████| 2/2 [00:01<00:00,  1.53it/s]
+11/13 18:20:16 - OpenCompass - INFO - Start inferencing [hf_llama-7b/ceval-high_school_physics]
+  0%|          | 0/19 [00:00<?, ?it/s]100%|██████████| 19/19 [00:00<00:00, 971850.93it/s]
+[2023-11-13 18:20:16,958] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.20it/s]100%|██████████| 2/2 [00:00<00:00,  2.35it/s]100%|██████████| 2/2 [00:00<00:00,  2.05it/s]
+[2023-11-13 18:20:17,958] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.19it/s]100%|██████████| 2/2 [00:00<00:00,  2.34it/s]100%|██████████| 2/2 [00:00<00:00,  2.05it/s]
+[2023-11-13 18:20:18,960] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.19it/s]100%|██████████| 2/2 [00:00<00:00,  2.34it/s]100%|██████████| 2/2 [00:00<00:00,  2.04it/s]
+[2023-11-13 18:20:19,964] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.19it/s]100%|██████████| 2/2 [00:00<00:00,  2.34it/s]100%|██████████| 2/2 [00:00<00:00,  2.05it/s]
+11/13 18:20:20 - OpenCompass - INFO - Start inferencing [hf_llama-7b/ceval-high_school_chemistry]
+  0%|          | 0/19 [00:00<?, ?it/s]100%|██████████| 19/19 [00:00<00:00, 960141.88it/s]
+[2023-11-13 18:20:20,988] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.02it/s]100%|██████████| 2/2 [00:01<00:00,  1.99it/s]100%|██████████| 2/2 [00:01<00:00,  1.74it/s]
+[2023-11-13 18:20:22,165] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.02it/s]100%|██████████| 2/2 [00:01<00:00,  1.99it/s]100%|██████████| 2/2 [00:01<00:00,  1.74it/s]
+[2023-11-13 18:20:23,341] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.02it/s]100%|██████████| 2/2 [00:01<00:00,  1.99it/s]100%|██████████| 2/2 [00:01<00:00,  1.74it/s]
+[2023-11-13 18:20:24,517] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.02it/s]100%|██████████| 2/2 [00:01<00:00,  1.99it/s]100%|██████████| 2/2 [00:01<00:00,  1.74it/s]
+11/13 18:20:25 - OpenCompass - INFO - Start inferencing [hf_llama-7b/ceval-high_school_biology]
+  0%|          | 0/19 [00:00<?, ?it/s]100%|██████████| 19/19 [00:00<00:00, 937550.31it/s]
+[2023-11-13 18:20:25,716] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.08s/it]100%|██████████| 2/2 [00:01<00:00,  1.77it/s]100%|██████████| 2/2 [00:01<00:00,  1.56it/s]
+[2023-11-13 18:20:27,029] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.08s/it]100%|██████████| 2/2 [00:01<00:00,  1.77it/s]100%|██████████| 2/2 [00:01<00:00,  1.56it/s]
+[2023-11-13 18:20:28,343] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.09s/it]100%|██████████| 2/2 [00:01<00:00,  1.77it/s]100%|██████████| 2/2 [00:01<00:00,  1.56it/s]
+[2023-11-13 18:20:29,656] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.08s/it]100%|██████████| 2/2 [00:01<00:00,  1.77it/s]100%|██████████| 2/2 [00:01<00:00,  1.56it/s]
+11/13 18:20:30 - OpenCompass - INFO - Start inferencing [hf_llama-7b/ceval-middle_school_mathematics]
+  0%|          | 0/19 [00:00<?, ?it/s]100%|██████████| 19/19 [00:00<00:00, 960141.88it/s]
+[2023-11-13 18:20:30,989] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.01it/s]100%|██████████| 2/2 [00:01<00:00,  1.98it/s]100%|██████████| 2/2 [00:01<00:00,  1.73it/s]
+[2023-11-13 18:20:32,176] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.01it/s]100%|██████████| 2/2 [00:01<00:00,  1.97it/s]100%|██████████| 2/2 [00:01<00:00,  1.73it/s]
+[2023-11-13 18:20:33,363] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.01it/s]100%|██████████| 2/2 [00:01<00:00,  1.97it/s]100%|██████████| 2/2 [00:01<00:00,  1.73it/s]
+[2023-11-13 18:20:34,551] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.01it/s]100%|██████████| 2/2 [00:01<00:00,  1.98it/s]100%|██████████| 2/2 [00:01<00:00,  1.73it/s]
+11/13 18:20:35 - OpenCompass - INFO - Start inferencing [hf_llama-7b/ceval-middle_school_physics]
+  0%|          | 0/19 [00:00<?, ?it/s]100%|██████████| 19/19 [00:00<00:00, 948711.62it/s]
+[2023-11-13 18:20:35,758] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.12s/it]100%|██████████| 2/2 [00:01<00:00,  1.70it/s]100%|██████████| 2/2 [00:01<00:00,  1.49it/s]
+[2023-11-13 18:20:37,126] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.12s/it]100%|██████████| 2/2 [00:01<00:00,  1.70it/s]100%|██████████| 2/2 [00:01<00:00,  1.49it/s]
+[2023-11-13 18:20:38,495] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.12s/it]100%|██████████| 2/2 [00:01<00:00,  1.70it/s]100%|██████████| 2/2 [00:01<00:00,  1.49it/s]
+[2023-11-13 18:20:39,864] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.12s/it]100%|██████████| 2/2 [00:01<00:00,  1.70it/s]100%|██████████| 2/2 [00:01<00:00,  1.49it/s]
+11/13 18:20:41 - OpenCompass - INFO - Start inferencing [hf_llama-7b/ceval-marxism]
+  0%|          | 0/19 [00:00<?, ?it/s]100%|██████████| 19/19 [00:00<00:00, 983849.09it/s]
+[2023-11-13 18:20:41,248] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.20it/s]100%|██████████| 2/2 [00:00<00:00,  2.35it/s]100%|██████████| 2/2 [00:00<00:00,  2.05it/s]
+[2023-11-13 18:20:42,248] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.20it/s]100%|██████████| 2/2 [00:00<00:00,  2.34it/s]100%|██████████| 2/2 [00:00<00:00,  2.05it/s]
+[2023-11-13 18:20:43,248] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.20it/s]100%|██████████| 2/2 [00:00<00:00,  2.34it/s]100%|██████████| 2/2 [00:00<00:00,  2.05it/s]
+[2023-11-13 18:20:44,249] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.20it/s]100%|██████████| 2/2 [00:00<00:00,  2.35it/s]100%|██████████| 2/2 [00:00<00:00,  2.05it/s]
+11/13 18:20:45 - OpenCompass - INFO - Start inferencing [hf_llama-7b/ceval-high_school_politics]
+  0%|          | 0/19 [00:00<?, ?it/s]100%|██████████| 19/19 [00:00<00:00, 1008756.66it/s]
+[2023-11-13 18:20:45,323] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.84s/it]100%|██████████| 2/2 [00:02<00:00,  1.04it/s]100%|██████████| 2/2 [00:02<00:00,  1.09s/it]
+[2023-11-13 18:20:47,550] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.83s/it]100%|██████████| 2/2 [00:02<00:00,  1.04it/s]100%|██████████| 2/2 [00:02<00:00,  1.09s/it]
+[2023-11-13 18:20:49,776] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.83s/it]100%|██████████| 2/2 [00:02<00:00,  1.04it/s]100%|██████████| 2/2 [00:02<00:00,  1.09s/it]
+[2023-11-13 18:20:52,002] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.84s/it]100%|██████████| 2/2 [00:02<00:00,  1.04it/s]100%|██████████| 2/2 [00:02<00:00,  1.09s/it]
+11/13 18:20:54 - OpenCompass - INFO - Start inferencing [hf_llama-7b/ceval-high_school_geography]
+  0%|          | 0/19 [00:00<?, ?it/s]100%|██████████| 19/19 [00:00<00:00, 948711.62it/s]
+[2023-11-13 18:20:54,232] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.30it/s]100%|██████████| 2/2 [00:00<00:00,  2.51it/s]100%|██████████| 2/2 [00:00<00:00,  2.20it/s]
+[2023-11-13 18:20:55,165] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.30it/s]100%|██████████| 2/2 [00:00<00:00,  2.51it/s]100%|██████████| 2/2 [00:00<00:00,  2.20it/s]
+[2023-11-13 18:20:56,098] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.30it/s]100%|██████████| 2/2 [00:00<00:00,  2.51it/s]100%|██████████| 2/2 [00:00<00:00,  2.20it/s]
+[2023-11-13 18:20:57,030] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.30it/s]100%|██████████| 2/2 [00:00<00:00,  2.50it/s]100%|██████████| 2/2 [00:00<00:00,  2.20it/s]
+11/13 18:20:57 - OpenCompass - INFO - Start inferencing [hf_llama-7b/ceval-ideological_and_moral_cultivation]
+  0%|          | 0/19 [00:00<?, ?it/s]100%|██████████| 19/19 [00:00<00:00, 960141.88it/s]
+[2023-11-13 18:20:57,983] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.44it/s]100%|██████████| 2/2 [00:00<00:00,  2.75it/s]100%|██████████| 2/2 [00:00<00:00,  2.42it/s]
+[2023-11-13 18:20:58,831] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.44it/s]100%|██████████| 2/2 [00:00<00:00,  2.75it/s]100%|██████████| 2/2 [00:00<00:00,  2.42it/s]
+[2023-11-13 18:20:59,679] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.44it/s]100%|██████████| 2/2 [00:00<00:00,  2.74it/s]100%|██████████| 2/2 [00:00<00:00,  2.41it/s]
+[2023-11-13 18:21:00,529] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.44it/s]100%|██████████| 2/2 [00:00<00:00,  2.74it/s]100%|██████████| 2/2 [00:00<00:00,  2.41it/s]
+11/13 18:21:01 - OpenCompass - INFO - Start inferencing [hf_llama-7b/ceval-high_school_chinese]
+  0%|          | 0/19 [00:00<?, ?it/s]100%|██████████| 19/19 [00:00<00:00, 971850.93it/s]
+[2023-11-13 18:21:01,530] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.74s/it]100%|██████████| 2/2 [00:02<00:00,  1.09it/s]100%|██████████| 2/2 [00:02<00:00,  1.04s/it]
+[2023-11-13 18:21:03,648] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.74s/it]100%|██████████| 2/2 [00:02<00:00,  1.09it/s]100%|██████████| 2/2 [00:02<00:00,  1.04s/it]
+[2023-11-13 18:21:05,770] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.74s/it]100%|██████████| 2/2 [00:02<00:00,  1.09it/s]100%|██████████| 2/2 [00:02<00:00,  1.04s/it]
+[2023-11-13 18:21:07,889] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.74s/it]100%|██████████| 2/2 [00:02<00:00,  1.09it/s]100%|██████████| 2/2 [00:02<00:00,  1.04s/it]
+11/13 18:21:09 - OpenCompass - INFO - Start inferencing [hf_llama-7b/ceval-sports_science]
+  0%|          | 0/19 [00:00<?, ?it/s]100%|██████████| 19/19 [00:00<00:00, 948711.62it/s]
+[2023-11-13 18:21:10,010] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.43it/s]100%|██████████| 2/2 [00:00<00:00,  2.75it/s]100%|██████████| 2/2 [00:00<00:00,  2.41it/s]
+[2023-11-13 18:21:10,860] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.43it/s]100%|██████████| 2/2 [00:00<00:00,  2.75it/s]100%|██████████| 2/2 [00:00<00:00,  2.42it/s]
+[2023-11-13 18:21:11,710] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.43it/s]100%|██████████| 2/2 [00:00<00:00,  2.75it/s]100%|██████████| 2/2 [00:00<00:00,  2.42it/s]
+[2023-11-13 18:21:12,559] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.43it/s]100%|██████████| 2/2 [00:00<00:00,  2.75it/s]100%|██████████| 2/2 [00:00<00:00,  2.41it/s]
+11/13 18:21:13 - OpenCompass - INFO - Start inferencing [hf_llama-7b/ceval-basic_medicine]
+  0%|          | 0/19 [00:00<?, ?it/s]100%|██████████| 19/19 [00:00<00:00, 983849.09it/s]
+[2023-11-13 18:21:13,430] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.42it/s]100%|██████████| 2/2 [00:00<00:00,  2.73it/s]100%|██████████| 2/2 [00:00<00:00,  2.39it/s]
+[2023-11-13 18:21:14,287] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.42it/s]100%|██████████| 2/2 [00:00<00:00,  2.73it/s]100%|██████████| 2/2 [00:00<00:00,  2.40it/s]
+[2023-11-13 18:21:15,142] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.42it/s]100%|██████████| 2/2 [00:00<00:00,  2.73it/s]100%|██████████| 2/2 [00:00<00:00,  2.40it/s]
+[2023-11-13 18:21:15,999] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  1.42it/s]100%|██████████| 2/2 [00:00<00:00,  2.73it/s]100%|██████████| 2/2 [00:00<00:00,  2.39it/s]
+11/13 18:21:16 - OpenCompass - INFO - Start inferencing [hf_llama-7b/ceval-probability_and_statistics]
+  0%|          | 0/18 [00:00<?, ?it/s]100%|██████████| 18/18 [00:00<00:00, 943718.40it/s]
+[2023-11-13 18:21:16,894] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.48s/it]100%|██████████| 2/2 [00:01<00:00,  1.34it/s]100%|██████████| 2/2 [00:01<00:00,  1.17it/s]
+[2023-11-13 18:21:18,645] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.48s/it]100%|██████████| 2/2 [00:01<00:00,  1.35it/s]100%|██████████| 2/2 [00:01<00:00,  1.17it/s]
+[2023-11-13 18:21:20,393] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.48s/it]100%|██████████| 2/2 [00:01<00:00,  1.34it/s]100%|██████████| 2/2 [00:01<00:00,  1.17it/s]
+[2023-11-13 18:21:22,142] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.48s/it]100%|██████████| 2/2 [00:01<00:00,  1.34it/s]100%|██████████| 2/2 [00:01<00:00,  1.17it/s]
+11/13 18:21:23 - OpenCompass - INFO - Start inferencing [hf_llama-7b/ceval-high_school_mathematics]
+  0%|          | 0/18 [00:00<?, ?it/s]100%|██████████| 18/18 [00:00<00:00, 909608.10it/s]
+[2023-11-13 18:21:23,908] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.26s/it]100%|██████████| 2/2 [00:01<00:00,  1.64it/s]100%|██████████| 2/2 [00:01<00:00,  1.42it/s]
+[2023-11-13 18:21:25,355] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.26s/it]100%|██████████| 2/2 [00:01<00:00,  1.64it/s]100%|██████████| 2/2 [00:01<00:00,  1.42it/s]
+[2023-11-13 18:21:26,802] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.26s/it]100%|██████████| 2/2 [00:01<00:00,  1.64it/s]100%|██████████| 2/2 [00:01<00:00,  1.42it/s]
+[2023-11-13 18:21:28,250] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.26s/it]100%|██████████| 2/2 [00:01<00:00,  1.64it/s]100%|██████████| 2/2 [00:01<00:00,  1.41it/s]
+11/13 18:21:29 - OpenCompass - INFO - Start inferencing [hf_llama-7b/ceval-discrete_mathematics]
+  0%|          | 0/16 [00:00<?, ?it/s]100%|██████████| 16/16 [00:00<00:00, 838860.80it/s]
+[2023-11-13 18:21:29,702] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  1.50it/s]100%|██████████| 1/1 [00:00<00:00,  1.50it/s]
+[2023-11-13 18:21:30,388] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  1.50it/s]100%|██████████| 1/1 [00:00<00:00,  1.50it/s]
+[2023-11-13 18:21:31,072] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  1.50it/s]100%|██████████| 1/1 [00:00<00:00,  1.50it/s]
+[2023-11-13 18:21:31,758] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  1.50it/s]100%|██████████| 1/1 [00:00<00:00,  1.50it/s]
+11/13 18:21:32 - OpenCompass - INFO - Start inferencing [hf_llama-7b/ceval-middle_school_geography]
+  0%|          | 0/12 [00:00<?, ?it/s]100%|██████████| 12/12 [00:00<00:00, 653657.77it/s]
+[2023-11-13 18:21:32,455] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'A'
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  1.84it/s]100%|██████████| 1/1 [00:00<00:00,  1.84it/s]
+[2023-11-13 18:21:33,014] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'B'
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  1.83it/s]100%|██████████| 1/1 [00:00<00:00,  1.83it/s]
+[2023-11-13 18:21:33,574] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'C'
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  1.83it/s]100%|██████████| 1/1 [00:00<00:00,  1.83it/s]
+[2023-11-13 18:21:34,134] [opencompass.openicl.icl_inferencer.icl_ppl_inferencer] [INFO] Calculating PPL for prompts labeled 'D'
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  1.83it/s]100%|██████████| 1/1 [00:00<00:00,  1.83it/s]
+11/13 18:21:34 - OpenCompass - INFO - time elapsed: 804.88s
