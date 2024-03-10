@@ -1,7 +1,8 @@
 
 output_*/
 outputs/*
-human-eval/*
+human-eval/
+squad_v2/
 data/*
 icl_inference_output/
 .vscode/
