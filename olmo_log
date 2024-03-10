@@ -1,0 +1,78 @@
+nohup: ignoring input
+02/12 01:10:43 - OpenCompass - INFO - Reusing experiements from 20240211_150744
+02/12 01:10:44 - OpenCompass - WARNING - SlurmRunner is not used, so the partition argument is ignored.
+02/12 01:10:44 - OpenCompass - INFO - Partitioned into 16 tasks.
+  0%|          | 0/16 [00:00<?, ?it/s]                                        0%|          | 0/16 [00:00<?, ?it/s]                                        0%|          | 0/16 [00:00<?, ?it/s]                                        0%|          | 0/16 [00:00<?, ?it/s]                                        0%|          | 0/16 [00:00<?, ?it/s]                                        0%|          | 0/16 [00:00<?, ?it/s]                                        0%|          | 0/16 [00:00<?, ?it/s]                                        0%|          | 0/16 [00:00<?, ?it/s]                                        0%|          | 0/16 [00:00<?, ?it/s]  6%|▋         | 1/16 [24:00<6:00:06, 1440.41s/it]                                                    6%|▋         | 1/16 [24:00<6:00:06, 1440.41s/it] 12%|█▎        | 2/16 [24:05<2:19:04, 596.06s/it]                                                   12%|█▎        | 2/16 [24:05<2:19:04, 596.06s/it] 19%|█▉        | 3/16 [24:10<1:10:40, 326.19s/it]                                                  19%|█▉        | 3/16 [24:11<1:10:40, 326.19s/it] 25%|██▌       | 4/16 [24:13<39:43, 198.64s/it]                                                  25%|██▌       | 4/16 [24:14<39:43, 198.64s/it] 31%|███▏      | 5/16 [24:25<24:04, 131.29s/it]                                                31%|███▏      | 5/16 [24:25<24:04, 131.29s/it] 38%|███▊      | 6/16 [24:51<15:55, 95.54s/it]                                                38%|███▊      | 6/16 [24:52<15:55, 95.54s/it] 44%|████▍     | 7/16 [26:21<14:04, 93.83s/it]                                               44%|████▍     | 7/16 [26:22<14:04, 93.83s/it] 50%|█████     | 8/16 [26:26<08:43, 65.49s/it]                                               50%|█████     | 8/16 [26:27<08:43, 65.49s/it] 56%|█████▋    | 9/16 [39:11<33:08, 284.05s/it] 62%|██████▎   | 10/16 [39:15<19:45, 197.63s/it] 69%|██████▉   | 11/16 [42:00<15:38, 187.73s/it] 75%|███████▌  | 12/16 [43:59<11:07, 166.79s/it] 81%|████████▏ | 13/16 [46:50<08:23, 167.93s/it] 88%|████████▊ | 14/16 [48:06<04:40, 140.38s/it] 94%|█████████▍| 15/16 [48:20<01:42, 102.05s/it]100%|██████████| 16/16 [1:15:54<00:00, 569.25s/it]100%|██████████| 16/16 [1:15:54<00:00, 284.65s/it]
+launch OpenICLInfer[allenai/OLMo-7B/math_0] on GPU 0
+launch OpenICLInfer[allenai/OLMo-7B/math_1] on GPU 1
+launch OpenICLInfer[allenai/OLMo-7B/math_2] on GPU 2
+launch OpenICLInfer[allenai/OLMo-7B/math_3] on GPU 3
+launch OpenICLInfer[allenai/OLMo-7B/math_4] on GPU 4
+launch OpenICLInfer[allenai/OLMo-7B/math_5] on GPU 5
+launch OpenICLInfer[allenai/OLMo-7B/math_6] on GPU 6
+launch OpenICLInfer[allenai/OLMo-7B/math_7] on GPU 7
+launch OpenICLInfer[allenai/OLMo-7B/gsm8k_3] on GPU 3
+launch OpenICLInfer[allenai/OLMo-7B/math_12] on GPU 1
+launch OpenICLInfer[allenai/OLMo-7B/gsm8k_1] on GPU 7
+launch OpenICLInfer[allenai/OLMo-7B/math_14] on GPU 4
+launch OpenICLInfer[allenai/OLMo-7B/gsm8k_4] on GPU 6
+launch OpenICLInfer[allenai/OLMo-7B/math_20] on GPU 5
+launch OpenICLInfer[allenai/OLMo-7B/gsm8k_6] on GPU 2
+launch OpenICLInfer[allenai/OLMo-7B/mbpp,allenai/OLMo-7B/cmmlu-professional_law,allenai/OLMo-7B/openai_humaneval,allenai/OLMo-7B/lukaemon_mmlu_miscellaneous,allenai/OLMo-7B/winogrande,allenai/OLMo-7B/lukaemon_mmlu_professional_psychology,allenai/OLMo-7B/ARC-e] on GPU 0
+02/12 02:26:39 - OpenCompass - INFO - Partitioned into 9 tasks.
+  0%|          | 0/9 [00:00<?, ?it/s]                                       0%|          | 0/9 [00:00<?, ?it/s]                                       0%|          | 0/9 [00:00<?, ?it/s]                                       0%|          | 0/9 [00:00<?, ?it/s]                                       0%|          | 0/9 [00:00<?, ?it/s]                                       0%|          | 0/9 [00:00<?, ?it/s]                                       0%|          | 0/9 [00:00<?, ?it/s]                                       0%|          | 0/9 [00:00<?, ?it/s]                                       0%|          | 0/9 [00:00<?, ?it/s]                                       0%|          | 0/9 [00:00<?, ?it/s] 11%|█         | 1/9 [00:11<01:35, 11.98s/it] 22%|██▏       | 2/9 [00:14<00:45,  6.56s/it] 33%|███▎      | 3/9 [00:18<00:33,  5.50s/it] 44%|████▍     | 4/9 [00:21<00:21,  4.23s/it] 56%|█████▌    | 5/9 [00:22<00:12,  3.16s/it] 67%|██████▋   | 6/9 [00:22<00:06,  2.14s/it] 78%|███████▊  | 7/9 [00:23<00:03,  1.57s/it] 89%|████████▉ | 8/9 [00:23<00:01,  1.18s/it]100%|██████████| 9/9 [00:23<00:00,  1.17it/s]100%|██████████| 9/9 [00:23<00:00,  2.62s/it]
+launch OpenICLEval[allenai/OLMo-7B/winogrande] on CPU 
+launch OpenICLEval[allenai/OLMo-7B/ARC-e] on CPU 
+launch OpenICLEval[allenai/OLMo-7B/lukaemon_mmlu_professional_psychology] on CPU 
+launch OpenICLEval[allenai/OLMo-7B/lukaemon_mmlu_miscellaneous] on CPU 
+launch OpenICLEval[allenai/OLMo-7B/openai_humaneval] on CPU 
+launch OpenICLEval[allenai/OLMo-7B/mbpp] on CPU 
+launch OpenICLEval[allenai/OLMo-7B/gsm8k] on CPU 
+launch OpenICLEval[allenai/OLMo-7B/math] on CPU 
+launch OpenICLEval[allenai/OLMo-7B/cmmlu-professional_law] on CPU 
+dataset                       version    metric            mode    allenai/OLMo-7B
+----------------------------  ---------  ----------------  ------  -----------------
+------- MMLU details -------  -          -                 -       -
+mmlu-humanities               -          naive_average     ppl     24.97
+mmlu-stem                     -          naive_average     ppl     28.57
+mmlu-social-science           -          naive_average     ppl     30.01
+mmlu-other                    -          naive_average     ppl     29.95
+mmlu                          -          naive_average     ppl     28.36
+---- Standard Benchmarks ---  -          -                 -       -
+BoolQ                         314797     accuracy          ppl     69.79
+piqa                          0cfff2     accuracy          ppl     79.33
+siqa                          e8d8c5     accuracy          ppl     34.03
+hellaswag                     a6e128     accuracy          ppl     73.76
+winogrande                    55a66e     accuracy          ppl     60.69
+ARC-e                         2ef631     accuracy          ppl     27.69
+ARC-c                         2ef631     accuracy          ppl     25.08
+openbookqa_fact               6aac9e     accuracy          ppl     26.40
+commonsense_qa                5545e2     accuracy          ppl     60.69
+mmlu                          -          naive_average     ppl     28.36
+------ Code Generation -----  -          -                 -       -
+openai_humaneval              a82cae     humaneval_pass@1  gen     14.63
+mbpp                          1e1056     score             gen     21.20
+------ World Knowledge -----  -          -                 -       -
+nq                            2121ce     score             gen     5.04
+triviaqa                      2121ce     score             gen     31.93
+--- Reading Comprehension --  -          -                 -       -
+squad2.0                      1710bc     score             gen     26.99
+---------- Exams -----------  -          -                 -       -
+math                          265cce     accuracy          gen     1.60
+gsm8k                         1d7fe4     accuracy          gen     5.91
+TheoremQA                     ef26ca     accuracy          gen     2.75
+--------- Chinese ----------  -          -                 -       -
+ceval                         -          naive_average     ppl     27.51
+ceval-stem                    -          naive_average     ppl     25.96
+ceval-social-science          -          naive_average     ppl     32.28
+ceval-humanities              -          naive_average     ppl     25.49
+ceval-other                   -          naive_average     ppl     28.00
+ceval-hard                    -          naive_average     ppl     27.12
+cmmlu                         -          naive_average     ppl     25.54
+cmmlu-humanities              -          naive_average     ppl     26.50
+cmmlu-stem                    -          naive_average     ppl     25.30
+cmmlu-social-science          -          naive_average     ppl     25.22
+cmmlu-other                   -          naive_average     ppl     25.43
+cmmlu-china-specific          -          naive_average     ppl     24.97
+02/12 02:27:02 - OpenCompass - INFO - write summary to /workspace/code/opencompass/outputs/default/20240211_150744/summary/summary_20240212_011043.txt
+02/12 02:27:02 - OpenCompass - INFO - write csv to /workspace/code/opencompass/outputs/default/20240211_150744/summary/summary_20240212_011043.csv

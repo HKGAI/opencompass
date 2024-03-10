@@ -1,0 +1,99 @@
+nohup: ignoring input
+02/13 11:10:25 - OpenCompass - INFO - Loading mmlu_ppl: configs/datasets/mmlu/mmlu_ppl.py
+02/13 11:10:31 - OpenCompass - INFO - Loading example: configs/summarizers/example.py
+02/13 11:10:31 - OpenCompass - INFO - Reusing experiements from 20240213_103609
+02/13 11:10:31 - OpenCompass - WARNING - SlurmRunner is not used, so the partition argument is ignored.
+02/13 11:10:31 - OpenCompass - INFO - Partitioned into 3 tasks.
+  0%|          | 0/3 [00:00<?, ?it/s]                                       0%|          | 0/3 [00:00<?, ?it/s]                                       0%|          | 0/3 [00:00<?, ?it/s]                                       0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [07:36<15:12, 456.43s/it] 67%|██████▋   | 2/3 [07:38<03:09, 189.11s/it]100%|██████████| 3/3 [11:38<00:00, 212.49s/it]100%|██████████| 3/3 [11:38<00:00, 232.91s/it]
+launch OpenICLInfer[opencompass.models.huggingface.HuggingFace_LLM360_Amber/lukaemon_mmlu_professional_law_0] on GPU 0
+launch OpenICLInfer[opencompass.models.huggingface.HuggingFace_LLM360_Amber/lukaemon_mmlu_professional_law_1] on GPU 1
+launch OpenICLInfer[opencompass.models.huggingface.HuggingFace_LLM360_Amber/lukaemon_mmlu_high_school_world_history,opencompass.models.huggingface.HuggingFace_LLM360_Amber/lukaemon_mmlu_conceptual_physics,opencompass.models.huggingface.HuggingFace_LLM360_Amber/lukaemon_mmlu_marketing,opencompass.models.huggingface.HuggingFace_LLM360_Amber/lukaemon_mmlu_human_aging,opencompass.models.huggingface.HuggingFace_LLM360_Amber/lukaemon_mmlu_high_school_statistics,opencompass.models.huggingface.HuggingFace_LLM360_Amber/lukaemon_mmlu_high_school_us_history,opencompass.models.huggingface.HuggingFace_LLM360_Amber/lukaemon_mmlu_high_school_chemistry,opencompass.models.huggingface.HuggingFace_LLM360_Amber/lukaemon_mmlu_sociology,opencompass.models.huggingface.HuggingFace_LLM360_Amber/lukaemon_mmlu_high_school_geography,opencompass.models.huggingface.HuggingFace_LLM360_Amber/lukaemon_mmlu_high_school_government_and_politics,opencompass.models.huggingface.HuggingFace_LLM360_Amber/lukaemon_mmlu_college_medicine,opencompass.models.huggingface.HuggingFace_LLM360_Amber/lukaemon_mmlu_world_religions,opencompass.models.huggingface.HuggingFace_LLM360_Amber/lukaemon_mmlu_virology,opencompass.models.huggingface.HuggingFace_LLM360_Amber/lukaemon_mmlu_high_school_european_history,opencompass.models.huggingface.HuggingFace_LLM360_Amber/lukaemon_mmlu_logical_fallacies,opencompass.models.huggingface.HuggingFace_LLM360_Amber/lukaemon_mmlu_astronomy,opencompass.models.huggingface.HuggingFace_LLM360_Amber/lukaemon_mmlu_high_school_computer_science,opencompass.models.huggingface.HuggingFace_LLM360_Amber/lukaemon_mmlu_business_ethics,opencompass.models.huggingface.HuggingFace_LLM360_Amber/lukaemon_mmlu_us_foreign_policy] on GPU 2
+02/13 11:22:10 - OpenCompass - INFO - Partitioned into 20 tasks.
+  0%|          | 0/20 [00:00<?, ?it/s]                                        0%|          | 0/20 [00:00<?, ?it/s]                                        0%|          | 0/20 [00:00<?, ?it/s]                                        0%|          | 0/20 [00:00<?, ?it/s]                                        0%|          | 0/20 [00:00<?, ?it/s]                                        0%|          | 0/20 [00:00<?, ?it/s]                                        0%|          | 0/20 [00:00<?, ?it/s]                                        0%|          | 0/20 [00:00<?, ?it/s]                                        0%|          | 0/20 [00:00<?, ?it/s]                                        0%|          | 0/20 [00:00<?, ?it/s]                                        0%|          | 0/20 [00:00<?, ?it/s]                                        0%|          | 0/20 [00:01<?, ?it/s]                                        0%|          | 0/20 [00:01<?, ?it/s]                                        0%|          | 0/20 [00:02<?, ?it/s]                                        0%|          | 0/20 [00:02<?, ?it/s]                                        0%|          | 0/20 [00:03<?, ?it/s]                                        0%|          | 0/20 [00:03<?, ?it/s]                                        0%|          | 0/20 [00:04<?, ?it/s]                                        0%|          | 0/20 [00:05<?, ?it/s]                                        0%|          | 0/20 [00:05<?, ?it/s]                                        0%|          | 0/20 [00:06<?, ?it/s]  5%|▌         | 1/20 [00:29<09:13, 29.12s/it] 10%|█         | 2/20 [00:35<04:46, 15.91s/it] 15%|█▌        | 3/20 [00:38<02:49,  9.99s/it] 20%|██        | 4/20 [00:42<01:58,  7.39s/it] 25%|██▌       | 5/20 [00:50<01:54,  7.62s/it] 30%|███       | 6/20 [00:50<01:13,  5.23s/it] 35%|███▌      | 7/20 [00:50<00:46,  3.59s/it] 40%|████      | 8/20 [00:51<00:32,  2.69s/it] 55%|█████▌    | 11/20 [00:52<00:10,  1.20s/it] 65%|██████▌   | 13/20 [00:53<00:06,  1.03it/s] 85%|████████▌ | 17/20 [00:53<00:01,  1.91it/s] 95%|█████████▌| 19/20 [00:53<00:00,  2.41it/s]100%|██████████| 20/20 [00:53<00:00,  2.69s/it]
+launch OpenICLEval[opencompass.models.huggingface.HuggingFace_LLM360_Amber/lukaemon_mmlu_astronomy] on CPU 
+launch OpenICLEval[opencompass.models.huggingface.HuggingFace_LLM360_Amber/lukaemon_mmlu_marketing] on CPU 
+launch OpenICLEval[opencompass.models.huggingface.HuggingFace_LLM360_Amber/lukaemon_mmlu_high_school_geography] on CPU 
+launch OpenICLEval[opencompass.models.huggingface.HuggingFace_LLM360_Amber/lukaemon_mmlu_professional_law] on CPU 
+launch OpenICLEval[opencompass.models.huggingface.HuggingFace_LLM360_Amber/lukaemon_mmlu_world_religions] on CPU 
+launch OpenICLEval[opencompass.models.huggingface.HuggingFace_LLM360_Amber/lukaemon_mmlu_virology] on CPU 
+launch OpenICLEval[opencompass.models.huggingface.HuggingFace_LLM360_Amber/lukaemon_mmlu_high_school_chemistry] on CPU 
+launch OpenICLEval[opencompass.models.huggingface.HuggingFace_LLM360_Amber/lukaemon_mmlu_high_school_computer_science] on CPU 
+launch OpenICLEval[opencompass.models.huggingface.HuggingFace_LLM360_Amber/lukaemon_mmlu_high_school_european_history] on CPU 
+launch OpenICLEval[opencompass.models.huggingface.HuggingFace_LLM360_Amber/lukaemon_mmlu_business_ethics] on CPU 
+launch OpenICLEval[opencompass.models.huggingface.HuggingFace_LLM360_Amber/lukaemon_mmlu_high_school_statistics] on CPU 
+launch OpenICLEval[opencompass.models.huggingface.HuggingFace_LLM360_Amber/lukaemon_mmlu_high_school_government_and_politics] on CPU 
+launch OpenICLEval[opencompass.models.huggingface.HuggingFace_LLM360_Amber/lukaemon_mmlu_logical_fallacies] on CPU 
+launch OpenICLEval[opencompass.models.huggingface.HuggingFace_LLM360_Amber/lukaemon_mmlu_high_school_world_history] on CPU 
+launch OpenICLEval[opencompass.models.huggingface.HuggingFace_LLM360_Amber/lukaemon_mmlu_college_medicine] on CPU 
+launch OpenICLEval[opencompass.models.huggingface.HuggingFace_LLM360_Amber/lukaemon_mmlu_high_school_us_history] on CPU 
+launch OpenICLEval[opencompass.models.huggingface.HuggingFace_LLM360_Amber/lukaemon_mmlu_sociology] on CPU 
+launch OpenICLEval[opencompass.models.huggingface.HuggingFace_LLM360_Amber/lukaemon_mmlu_human_aging] on CPU 
+launch OpenICLEval[opencompass.models.huggingface.HuggingFace_LLM360_Amber/lukaemon_mmlu_us_foreign_policy] on CPU 
+launch OpenICLEval[opencompass.models.huggingface.HuggingFace_LLM360_Amber/lukaemon_mmlu_conceptual_physics] on CPU 
+dataset                                            version    metric            mode      opencompass.models.huggingface.HuggingFace_LLM360_Amber
+-------------------------------------------------  ---------  ----------------  ------  ---------------------------------------------------------
+lukaemon_mmlu_college_biology                      0eddf6     accuracy          ppl                                                         33.33
+lukaemon_mmlu_college_chemistry                    9e2300     accuracy          ppl                                                         20
+lukaemon_mmlu_college_computer_science             5a1625     accuracy          ppl                                                         36
+lukaemon_mmlu_college_mathematics                  13e9be     accuracy          ppl                                                         32
+lukaemon_mmlu_college_physics                      f05705     accuracy          ppl                                                         22.55
+lukaemon_mmlu_electrical_engineering               87e5d9     accuracy          ppl                                                         29.66
+lukaemon_mmlu_astronomy                            69352a     accuracy          ppl                                                         29.61
+lukaemon_mmlu_anatomy                              a367fc     accuracy          ppl                                                         33.33
+lukaemon_mmlu_abstract_algebra                     45f14f     accuracy          ppl                                                         25
+lukaemon_mmlu_machine_learning                     16eb9e     accuracy          ppl                                                         21.43
+lukaemon_mmlu_clinical_knowledge                   b9517f     accuracy          ppl                                                         33.96
+lukaemon_mmlu_global_facts                         45ca5d     accuracy          ppl                                                         39
+lukaemon_mmlu_management                           f1f94e     accuracy          ppl                                                         36.89
+lukaemon_mmlu_nutrition                            e8c66b     accuracy          ppl                                                         30.39
+lukaemon_mmlu_marketing                            6b54fd     accuracy          ppl                                                         29.91
+lukaemon_mmlu_professional_accounting              aa502e     accuracy          ppl                                                         26.95
+lukaemon_mmlu_high_school_geography                c5312c     accuracy          ppl                                                         33.84
+lukaemon_mmlu_international_law                    c502b5     accuracy          ppl                                                         32.23
+lukaemon_mmlu_moral_scenarios                      9dab41     accuracy          ppl                                                         26.15
+lukaemon_mmlu_computer_security                    557e7e     accuracy          ppl                                                         40
+lukaemon_mmlu_high_school_microeconomics           9405bf     accuracy          ppl                                                         25.63
+lukaemon_mmlu_professional_law                     f36e47     accuracy          ppl                                                         26.6
+lukaemon_mmlu_medical_genetics                     038ad3     accuracy          ppl                                                         28
+lukaemon_mmlu_professional_psychology              429c8f     accuracy          ppl                                                         27.78
+lukaemon_mmlu_jurisprudence                        ae7f17     accuracy          ppl                                                         30.56
+lukaemon_mmlu_world_religions                      904875     accuracy          ppl                                                         41.52
+lukaemon_mmlu_philosophy                           c9014a     accuracy          ppl                                                         35.69
+lukaemon_mmlu_virology                             611723     accuracy          ppl                                                         23.49
+lukaemon_mmlu_high_school_chemistry                a25dca     accuracy          ppl                                                         26.11
+lukaemon_mmlu_public_relations                     02be4e     accuracy          ppl                                                         29.09
+lukaemon_mmlu_high_school_macroeconomics           267c80     accuracy          ppl                                                         29.74
+lukaemon_mmlu_human_sexuality                      9a9941     accuracy          ppl                                                         27.48
+lukaemon_mmlu_elementary_mathematics               197da6     accuracy          ppl                                                         25.93
+lukaemon_mmlu_high_school_physics                  777e6e     accuracy          ppl                                                         31.13
+lukaemon_mmlu_high_school_computer_science         1bae4a     accuracy          ppl                                                         32
+lukaemon_mmlu_high_school_european_history         ad843a     accuracy          ppl                                                         28.48
+lukaemon_mmlu_business_ethics                      83933d     accuracy          ppl                                                         34
+lukaemon_mmlu_moral_disputes                       2a78ed     accuracy          ppl                                                         29.19
+lukaemon_mmlu_high_school_statistics               c6e690     accuracy          ppl                                                         26.39
+lukaemon_mmlu_miscellaneous                        ab0a88     accuracy          ppl                                                         26.95
+lukaemon_mmlu_formal_logic                         fa56ca     accuracy          ppl                                                         29.37
+lukaemon_mmlu_high_school_government_and_politics  813526     accuracy          ppl                                                         29.02
+lukaemon_mmlu_prehistory                           017963     accuracy          ppl                                                         29.63
+lukaemon_mmlu_security_studies                     d60130     accuracy          ppl                                                         20.82
+lukaemon_mmlu_high_school_biology                  6f158a     accuracy          ppl                                                         28.06
+lukaemon_mmlu_logical_fallacies                    03a488     accuracy          ppl                                                         22.09
+lukaemon_mmlu_high_school_world_history            7d5f06     accuracy          ppl                                                         26.58
+lukaemon_mmlu_professional_medicine                cdcce1     accuracy          ppl                                                         27.57
+lukaemon_mmlu_high_school_mathematics              eef511     accuracy          ppl                                                         22.59
+lukaemon_mmlu_college_medicine                     21a6fb     accuracy          ppl                                                         28.32
+lukaemon_mmlu_high_school_us_history               e73ee8     accuracy          ppl                                                         25.98
+lukaemon_mmlu_sociology                            423c74     accuracy          ppl                                                         23.88
+lukaemon_mmlu_econometrics                         efcf91     accuracy          ppl                                                         20.18
+lukaemon_mmlu_high_school_psychology               971917     accuracy          ppl                                                         35.41
+lukaemon_mmlu_human_aging                          406d1b     accuracy          ppl                                                         17.94
+lukaemon_mmlu_us_foreign_policy                    ac2379     accuracy          ppl                                                         37
+lukaemon_mmlu_conceptual_physics                   7f414f     accuracy          ppl                                                         33.62
+mmlu-humanities                                    -          naive_average     ppl                                                         29.54
+mmlu-stem                                          -          naive_average     ppl                                                         28.88
+mmlu-social-science                                -          naive_average     ppl                                                         28.32
+mmlu-other                                         -          naive_average     ppl                                                         29.49
+mmlu                                               -          naive_average     ppl                                                         29.05
+mmlu-weighted                                      -          weighted_average  ppl                                                         28.46
+02/13 11:23:04 - OpenCompass - INFO - write summary to /workspace/code/opencompass/outputs/default/20240213_103609/summary/summary_20240213_111031.txt
+02/13 11:23:04 - OpenCompass - INFO - write csv to /workspace/code/opencompass/outputs/default/20240213_103609/summary/summary_20240213_111031.csv

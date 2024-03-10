@@ -31,14 +31,56 @@ with read_base():
     from .configs.datasets.ceval.ceval_ppl import ceval_datasets
     from .configs.datasets.cmmlu.cmmlu_ppl import cmmlu_datasets
 
-    #########################MODEL###################
-    from .hf_llama_7b import models
-
     ######################SUMMERIZER#################
     from .summarizer import dataset_abbrs, summary_groups
 
+
+
+# 支持多个模型一起测评
+models = [
+    {
+        'type': 'HuggingFaceCausalLM',
+        'abbr': 'pt1.5/299.95B',
+        'path': '/workspace/code/opencompass_new/checkpoints/hkg_7b_nl_tp1_pp1_mb1_gb1280_gas2/pt1.5/hf_ckpt/299.95B',
+        'tokenizer_path': '/workspace/code/Megatron-LM/hkgai/hf/hkg_baichuan_hf',
+        'tokenizer_kwargs': {
+            'padding_side': 'left',
+            'truncation_side': 'left',
+            'use_fast': False,
+            'trust_remote_code': True,
+        },
+        'max_out_len': 100,
+        'max_seq_len': 4096,
+        'batch_size': 16,
+        'model_kwargs': {
+            'device_map': 'auto', 
+            'trust_remote_code': True,
+        },
+        'batch_padding': False,
+        'run_cfg': {'num_gpus': 1, 'num_procs': 1},
+    },
+    # {
+    #     'type': 'HuggingFaceCausalLM',
+    #     'abbr': 'pt1.5/349.94B',
+    #     'path': '/workspace/code/opencompass_new/checkpoints/hkg_7b_nl_tp1_pp1_mb1_gb1280_gas2/pt1.5/hf_ckpt/349.94B',
+    #     'tokenizer_path': '/workspace/code/Megatron-LM/hkgai/hf/hkg_baichuan_hf',
+    #     'tokenizer_kwargs': {
+    #         'padding_side': 'left',
+    #         'truncation_side': 'left',
+    #         'use_fast': False,
+    #         'trust_remote_code': True,
+    #     },
+    #     'max_out_len': 100,
+    #     'max_seq_len': 4096,
+    #     'batch_size': 16,
+    #     'model_kwargs': {
+    #         'device_map': 'auto', 
+    #         'trust_remote_code': True,
+    #     },
+    #     'batch_padding': False,
+    #     'run_cfg': {'num_gpus': 1, 'num_procs': 1},
+    # },
+]
+
 datasets = sum((v for k, v in locals().items() if k.endswith('_datasets')), [])
-
-models = models
-
 summarizer = dict(dataset_abbrs=dataset_abbrs, summary_groups=summary_groups, )

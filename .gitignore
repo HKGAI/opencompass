@@ -1,6 +1,8 @@
 
 output_*/
-# outputs/
+outputs/*
+human-eval/*
+data/*
 icl_inference_output/
 .vscode/
 tmp/

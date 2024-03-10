@@ -1,0 +1,82 @@
+nohup: ignoring input
+02/20 14:38:50 - OpenCompass - INFO - Reusing experiements from 20240220_025745
+02/20 14:38:51 - OpenCompass - WARNING - SlurmRunner is not used, so the partition argument is ignored.
+02/20 14:38:51 - OpenCompass - INFO - Partitioned into 7 tasks.
+  0%|          | 0/7 [00:00<?, ?it/s]                                       0%|          | 0/7 [00:00<?, ?it/s]                                       0%|          | 0/7 [00:00<?, ?it/s]                                       0%|          | 0/7 [00:00<?, ?it/s]                                       0%|          | 0/7 [00:00<?, ?it/s]                                       0%|          | 0/7 [00:00<?, ?it/s]                                       0%|          | 0/7 [00:00<?, ?it/s]                                       0%|          | 0/7 [00:00<?, ?it/s]launch OpenICLInfer[301.99B/gsm8k_0] on GPU 0
+launch OpenICLInfer[301.99B/gsm8k_1] on GPU 1
+launch OpenICLInfer[301.99B/gsm8k_2] on GPU 2
+launch OpenICLInfer[301.99B/gsm8k_3] on GPU 3
+launch OpenICLInfer[301.99B/gsm8k_4] on GPU 4
+launch OpenICLInfer[301.99B/gsm8k_5] on GPU 5
+launch OpenICLInfer[301.99B/gsm8k_6] on GPU 6
+02/20 14:39:51 - OpenCompass - WARNING - task OpenICLInfer[301.99B/gsm8k_2] fail, see
+./outputs/default/20240220_025745/logs/infer/301.99B/gsm8k_2.out
+ 14%|█▍        | 1/7 [00:59<05:59, 59.97s/it]02/20 14:39:54 - OpenCompass - WARNING - task OpenICLInfer[301.99B/gsm8k_4] fail, see
+./outputs/default/20240220_025745/logs/infer/301.99B/gsm8k_4.out
+ 29%|██▊       | 2/7 [01:02<02:10, 26.11s/it]02/20 14:39:59 - OpenCompass - WARNING - task OpenICLInfer[301.99B/gsm8k_6] fail, see
+./outputs/default/20240220_025745/logs/infer/301.99B/gsm8k_6.out
+ 43%|████▎     | 3/7 [01:07<01:05, 16.48s/it]02/20 14:39:59 - OpenCompass - WARNING - task OpenICLInfer[301.99B/gsm8k_0] fail, see
+./outputs/default/20240220_025745/logs/infer/301.99B/gsm8k_0.out
+02/20 14:39:59 - OpenCompass - WARNING - task OpenICLInfer[301.99B/gsm8k_3] fail, see
+./outputs/default/20240220_025745/logs/infer/301.99B/gsm8k_3.out
+ 71%|███████▏  | 5/7 [01:08<00:14,  7.37s/it]02/20 14:40:01 - OpenCompass - WARNING - task OpenICLInfer[301.99B/gsm8k_1] fail, see
+./outputs/default/20240220_025745/logs/infer/301.99B/gsm8k_1.out
+ 86%|████████▌ | 6/7 [01:09<00:05,  5.68s/it]02/20 14:40:02 - OpenCompass - WARNING - task OpenICLInfer[301.99B/gsm8k_5] fail, see
+./outputs/default/20240220_025745/logs/infer/301.99B/gsm8k_5.out
+100%|██████████| 7/7 [01:10<00:00,  4.23s/it]100%|██████████| 7/7 [01:10<00:00, 10.06s/it]
+02/20 14:40:02 - OpenCompass - ERROR - /workspace/code/opencompass/opencompass/runners/base.py - summarize - 63 - OpenICLInfer[301.99B/gsm8k_0] failed with code 1
+02/20 14:40:02 - OpenCompass - ERROR - /workspace/code/opencompass/opencompass/runners/base.py - summarize - 63 - OpenICLInfer[301.99B/gsm8k_1] failed with code 1
+02/20 14:40:02 - OpenCompass - ERROR - /workspace/code/opencompass/opencompass/runners/base.py - summarize - 63 - OpenICLInfer[301.99B/gsm8k_2] failed with code 1
+02/20 14:40:02 - OpenCompass - ERROR - /workspace/code/opencompass/opencompass/runners/base.py - summarize - 63 - OpenICLInfer[301.99B/gsm8k_3] failed with code 1
+02/20 14:40:02 - OpenCompass - ERROR - /workspace/code/opencompass/opencompass/runners/base.py - summarize - 63 - OpenICLInfer[301.99B/gsm8k_4] failed with code 1
+02/20 14:40:02 - OpenCompass - ERROR - /workspace/code/opencompass/opencompass/runners/base.py - summarize - 63 - OpenICLInfer[301.99B/gsm8k_5] failed with code 1
+02/20 14:40:02 - OpenCompass - ERROR - /workspace/code/opencompass/opencompass/runners/base.py - summarize - 63 - OpenICLInfer[301.99B/gsm8k_6] failed with code 1
+02/20 14:40:02 - OpenCompass - INFO - Partitioned into 1 tasks.
+  0%|          | 0/1 [00:00<?, ?it/s]                                       0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:11<00:00, 11.72s/it]100%|██████████| 1/1 [00:11<00:00, 11.72s/it]
+launch OpenICLEval[301.99B/gsm8k] on CPU 
+dataset                       version    metric         mode    301.99B
+----------------------------  ---------  -------------  ------  ---------
+------- MMLU details -------  -          -              -       -
+mmlu-humanities               -          naive_average  ppl     25.32
+mmlu-stem                     -          naive_average  ppl     23.01
+mmlu-social-science           -          naive_average  ppl     23.92
+mmlu-other                    -          naive_average  ppl     25.00
+mmlu                          -          naive_average  ppl     24.18
+---- Standard Benchmarks ---  -          -              -       -
+BoolQ                         314b96     accuracy       ppl     45.75
+piqa                          1cf9f0     accuracy       ppl     68.88
+siqa                          ced5f6     accuracy       ppl     41.20
+hellaswag                     47bff9     accuracy       ppl     43.77
+winogrande                    55a66e     accuracy       ppl     53.04
+ARC-e                         a450bd     accuracy       ppl     49.21
+ARC-c                         a450bd     accuracy       ppl     29.83
+openbookqa_fact               da3815     accuracy       ppl     25.80
+commonsense_qa                5545e2     accuracy       ppl     42.01
+mmlu                          -          naive_average  ppl     24.18
+------ Code Generation -----  -          -              -       -
+openai_humaneval              -          -              -       -
+mbpp                          -          -              -       -
+------ World Knowledge -----  -          -              -       -
+nq                            -          -              -       -
+triviaqa                      -          -              -       -
+--- Reading Comprehension --  -          -              -       -
+squad2.0                      -          -              -       -
+---------- Exams -----------  -          -              -       -
+math                          -          -              -       -
+gsm8k                         -          -              -       -
+TheoremQA                     -          -              -       -
+--------- Chinese ----------  -          -              -       -
+ceval                         -          naive_average  ppl     22.84
+ceval-stem                    -          naive_average  ppl     21.98
+ceval-social-science          -          naive_average  ppl     25.67
+ceval-humanities              -          naive_average  ppl     24.28
+ceval-other                   -          naive_average  ppl     20.40
+ceval-hard                    -          naive_average  ppl     26.59
+cmmlu                         -          naive_average  ppl     24.41
+cmmlu-humanities              -          naive_average  ppl     24.59
+cmmlu-stem                    -          naive_average  ppl     24.22
+cmmlu-social-science          -          naive_average  ppl     24.35
+cmmlu-other                   -          naive_average  ppl     24.57
+cmmlu-china-specific          -          naive_average  ppl     24.64
+02/20 14:40:13 - OpenCompass - INFO - write summary to /workspace/code/opencompass/outputs/default/20240220_025745/summary/summary_20240220_143850.txt
+02/20 14:40:13 - OpenCompass - INFO - write csv to /workspace/code/opencompass/outputs/default/20240220_025745/summary/summary_20240220_143850.csv
